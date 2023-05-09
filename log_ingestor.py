@@ -4,6 +4,8 @@
 
 import re
 import os
+import log_vectordb
+import log_data 
 
 class LogIngestor:
     def __init__(self, filepath):
@@ -13,25 +15,26 @@ class LogIngestor:
             print(filepath)
             with open(filepath, "r") as f:
                 for line in f:
-                    node_name = self.filename_to_nodename(filepath)
-                    line_tuple = self.parse_line(line, node_name)
-                    self.logs.append(line_tuple)
+                    node_name = self.__filename_to_nodename(filepath)
+                    obj = self.__parse_line(line, node_name)
+                    self.logs.append(obj)
         except:
             print("Error: File " + filepath + " had an error while being processed.")
             return
         
-    # @brief Parses line into a tuple
+    # @brief Parses line into a Data object
     # @input Line formatted as timestamp:log text
     # @input Node name ("Node 1", "Node 2", etc")
-    # @return A tuple that contains (timestamp, node id, log text)
-    def parse_line(self, input, node_name):
+    # @return A Data object that contains (timestamp, node id, log text)
+    def __parse_line(self, input, node_name):
         arr_ts_log = input.split(":") # array of timestamp and log
-        timestamp = arr_ts_log[0]
-        log_text = arr_ts_log[1]
-        return (timestamp, node_name, log_text)
+        data = log_data.Data(arr_ts_log[0], node_name, arr_ts_log[1])
+        return data
         
     # @brief Converts a filename to a node name
-    def filename_to_nodename(self, filename):
+    # @input Filename of the log file. Assumes the filename contains
+    #        "NodeX.txt" where X is the node number
+    def __filename_to_nodename(self, filename):
         # Use regular expressions to find the node number in the filename
         match = re.search(r'Node(\d+)', filename) #TODO: depends on filename format
         if match:
@@ -47,3 +50,11 @@ class LogIngestor:
 # run the script
 a = LogIngestor(os.path.join(os.getcwd(), "Node1.txt"))
 print(a.logs)
+
+db = log_vectordb.LogVectorDB()
+db.append(a.logs[0])
+print(db.get_keys("node"))
+print(db.get_keys("timestamp"))
+
+print(db.get_by("Node 1", "node")[0].text)
+print(db.get_by("1857890", "timestamp")[0].text)
