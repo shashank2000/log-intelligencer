@@ -1,0 +1,670 @@
+[467694:43:13::6] Creating server with id 1
+[467694:43:13::6] Switching to follower
+[467694:43:13::6] opening listener because we are not a client
+[467694:43:13::7] Getting message in NetworkInterface with timeout 212
+[467694:43:13::224] switching to candidate
+[467694:43:13::225] Getting message in NetworkInterface with timeout 257
+[[467694:467694:43:43:13::13234::] error with getaddrinfo: 234] nodename nor servname provided, or not knownerror with getaddrinfo: 
+[467694:43:13::234] Couldn't make connection, existingConnections size is 0
+[467694:43:13::234] nodename nor servname provided, or not known
+[467694:43:13::234] Couldn't make connection, existingConnections size is 0
+[467694:43:13::485] switching to candidate
+[467694:43:13::486] Getting message in NetworkInterface with timeout 278
+[467694:43:13::494] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:13::494] [Couldn't make connection, existingConnections size is 0
+467694:43:13::494] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:13::494] Couldn't make connection, existingConnections size is 0
+[467694:43:13::769] switching to candidate
+[467694:43:13::771] Getting message in NetworkInterface with timeout 165
+[467694:43:13::779] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:13::779] Couldn't make connection, existingConnections size is 0
+[467694:43:13::779] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:13::779] Couldn't make connection, existingConnections size is 0
+[467694:43:13::940] switching to candidate
+[467694:43:13::940] Getting message in NetworkInterface with timeout 174
+[467694:43:13::947] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:13::947] Couldn't make connection, existingConnections size is 0
+[467694:43:13::947] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:13::947] Couldn't make connection, existingConnections size is 0
+[467694:43:14::119] switching to candidate
+[467694:43:14::120] Getting message in NetworkInterface with timeout 243
+[467694:43:14::129] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:14::129] Couldn't make connection, existingConnections size is 0
+[467694:43:14::129] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:14::129] Couldn't make connection, existingConnections size is 0
+[467694:43:14::368] switching to candidate
+[467694:43:14::368] Getting message in NetworkInterface with timeout 191
+[467694:43:14::373] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:14::373] Couldn't make connection, existingConnections size is 0
+[467694:43:14::373] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:14::373] Couldn't make connection, existingConnections size is 0
+[467694:43:14::565] switching to candidate
+[467694:43:14::567] Getting message in NetworkInterface with timeout 234
+[467694:43:14::575] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:14::575] Couldn't make connection, existingConnections size is 0
+[467694:43:14::576] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:14::576] Couldn't make connection, existingConnections size is 0
+[467694:43:14::805] switching to candidate
+[467694:43:14::807] Getting message in NetworkInterface with timeout 269
+[467694:43:14::816] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:14::816] Couldn't make connection, existingConnections size is 0
+[467694:43:14::816] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:14::816] Couldn't make connection, existingConnections size is 0
+[467694:43:15::81] switching to candidate
+[467694:43:15::82] Getting message in NetworkInterface with timeout 260
+[467694:43:15::97] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:15::97] Couldn't make connection, existingConnections size is 0
+[467694:43:15::97] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:15::97] Couldn't make connection, existingConnections size is 0
+[467694:43:15::347] switching to candidate
+[467694:43:15::349] Getting message in NetworkInterface with timeout 300
+[467694:43:15::359] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:15::359] Couldn't make connection, existingConnections size is 0
+[467694:43:15::359] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:15::359] Couldn't make connection, existingConnections size is 0
+[467694:43:15::654] switching to candidate
+[467694:43:15::655] Getting message in NetworkInterface with timeout 181
+[467694:43:15::662] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:15::662] Couldn't make connection, existingConnections size is 0
+[467694:43:15::662] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:15::662] Couldn't make connection, existingConnections size is 0
+[467694:43:15::841] switching to candidate
+[467694:43:15::842] Getting message in NetworkInterface with timeout 161
+[467694:43:15::850] error with getaddrinfo: nodename nor servname provided, or not known
+[[467694:43:46769415:43:::15850] Couldn't make connection, existingConnections size is ::0850
+] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:15::850] Couldn't make connection, existingConnections size is 0
+[467694:43:16::8] switching to candidate
+[467694:43:16::8] Getting message in NetworkInterface with timeout 178
+[467694:43:16::15] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::15] Couldn't make connection, existingConnections size is 0
+[467694:43:16::15] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::15] Couldn't make connection, existingConnections size is 0
+[467694:43:16::191] switching to candidate
+[467694:43:16::192] Getting message in NetworkInterface with timeout 154
+[467694:43:16::200] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::200] Couldn't make connection, existingConnections size is 0
+[467694:43:16::200] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::200] Couldn't make connection, existingConnections size is 0
+[467694:43:16::351] switching to candidate
+[467694:43:16::353] Getting message in NetworkInterface with timeout 198
+[467694:43:16::361] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::361] Couldn't make connection, existingConnections size is 0
+[467694:43:16::362] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::362] Couldn't make connection, existingConnections size is 0
+[467694:43:16::556] switching to candidate
+[467694:43:16::557] Getting message in NetworkInterface with timeout 199
+[467694:43:16::566] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::566] Couldn't make connection, existingConnections size is 0
+[467694:43:16::566] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::566] Couldn't make connection, existingConnections size is 0
+[467694:43:16::760] switching to candidate
+[467694:43:16::760] Getting message in NetworkInterface with timeout 172
+[467694:43:16::766] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::767] Couldn't make connection, existingConnections size is 0
+[467694:43:16::767] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::767] Couldn't make connection, existingConnections size is 0
+[467694:43:16::937] switching to candidate
+[467694:43:16::939] Getting message in NetworkInterface with timeout 247
+[467694:43:16::951] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::951] Couldn't make connection, existingConnections size is 0
+[467694:43:16::952] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:16::952] Couldn't make connection, existingConnections size is 0
+[467694:43:17::191] switching to candidate
+[467694:43:17::193] Getting message in NetworkInterface with timeout 225
+[467694:43:17::202] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:17::202] Couldn't make connection, existingConnections size is 0
+[467694:43:17::203] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:17::203] Couldn't make connection, existingConnections size is 0
+[467694:43:17::422] switching to candidate
+[467694:43:17::423] Getting message in NetworkInterface with timeout 156
+[467694:43:17::437] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:17::437] Couldn't make connection, existingConnections size is 0
+[467694:43:17::438] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:17::438] Couldn't make connection, existingConnections size is 0
+[467694:43:17::580] switching to candidate
+[467694:43:17::584] Getting message in NetworkInterface with timeout 270
+[467694:43:17::592] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:17::592] Couldn't make connection, existingConnections size is 0
+[467694:43:17::592] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:17::592] Couldn't make connection, existingConnections size is 0
+[467694:43:17::856] switching to candidate
+[467694:43:17::857] Getting message in NetworkInterface with timeout 164
+[467694:43:17::865] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:17::865] Couldn't make connection, existingConnections size is 0
+[467694:43:17::865] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:17::865] Couldn't make connection, existingConnections size is 0
+[467694:43:18::24] switching to candidate
+[467694:43:18::24] Getting message in NetworkInterface with timeout 192
+[467694:43:18::31] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:18::31] Couldn't make connection, existingConnections size is 0
+[467694:43:18::31] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:18::31] Couldn't make connection, existingConnections size is 0
+[467694:43:18::222] switching to candidate
+[467694:43:18::223] Getting message in NetworkInterface with timeout 288
+[467694:43:18::232] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:18::232] Couldn't make connection, existingConnections size is 0
+[467694:43:18::232] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:18::232] Couldn't make connection, existingConnections size is 0
+[467694:43:18::520] switching to candidate
+[467694:43:18::521] Getting message in NetworkInterface with timeout 212
+[467694:43:18::528] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:18::528] Couldn't make connection, existingConnections size is 0
+[467694:43:18::528] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:18::528] Couldn't make connection, existingConnections size is 0
+[467694:43:18::738] switching to candidate
+[467694:43:18::740] Getting message in NetworkInterface with timeout 260
+[467694:43:18::750] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:18::750] Couldn't make connection, existingConnections size is 0
+[467694:43:18::750] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:18::750] Couldn't make connection, existingConnections size is 0
+[467694:43:19::5] switching to candidate
+[467694:43:19::6] Getting message in NetworkInterface with timeout 266
+[467694:43:19::15] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::15] Couldn't make connection, existingConnections size is 0
+[467694:43:19::15] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::15] Couldn't make connection, existingConnections size is 0
+[467694:43:19::275] switching to candidate
+[467694:43:19::278] Getting message in NetworkInterface with timeout 255
+[467694:43:19::286] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::286] Couldn't make connection, existingConnections size is 0
+[467694:43:19::286] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::286] Couldn't make connection, existingConnections size is 0
+[467694:43:19::536] switching to candidate
+[467694:43:19::537] Getting message in NetworkInterface with timeout 235
+[467694:43:19::544] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::544] Couldn't make connection, existingConnections size is 0
+[467694:43:19::544] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::544] Couldn't make connection, existingConnections size is 0
+[467694:43:19::777] switching to candidate
+[467694:43:19::779] Getting message in NetworkInterface with timeout 171
+[467694:43:19::793] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::793] Couldn't make connection, existingConnections size is 0
+[467694:43:19::793] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::793] Couldn't make connection, existingConnections size is 0
+[467694:43:19::951] switching to candidate
+[467694:43:19::952] Getting message in NetworkInterface with timeout 240
+[467694:43:19::958] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::958] Couldn't make connection, existingConnections size is 0
+[467694:43:19::958] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:19::958] Couldn't make connection, existingConnections size is 0
+[467694:43:20::194] switching to candidate
+[467694:43:20::195] Getting message in NetworkInterface with timeout 215
+[467694:43:20::203] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:20::203] Couldn't make connection, existingConnections size is 0
+[467694:43:20::204] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:20::204] Couldn't make connection, existingConnections size is 0
+[467694:43:20::413] switching to candidate
+[467694:43:20::420] Getting message in NetworkInterface with timeout 152
+[467694:43:20::427] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:20::427] Couldn't make connection, existingConnections size is 0
+[467694:43:20::427] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:20::427] Couldn't make connection, existingConnections size is 0
+[467694:43:20::576] switching to candidate
+[467694:43:20::578] Getting message in NetworkInterface with timeout 251
+[[467694467694:43::20::43:589] error with getaddrinfo: 20::589] nodename nor servname provided, or not knownerror with getaddrinfo: 
+[[467694:43:20::589] Couldn't make connection, existingConnections size is 0
+467694:43:20::589] nodename nor servname provided, or not known
+[467694:43:20::589] Couldn't make connection, existingConnections size is 0
+[467694:43:20::833] switching to candidate
+[467694:43:20::836] Getting message in NetworkInterface with timeout 245
+[467694:43:20::844] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:20::844] Couldn't make connection, existingConnections size is 0
+[467694:43:20::844] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:20::844] Couldn't make connection, existingConnections size is 0
+[467694:43:21::85] switching to candidate
+[467694:43:21::85] Getting message in NetworkInterface with timeout 199
+[467694:43:21::94] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::94] Couldn't make connection, existingConnections size is 0
+[467694:43:21::94] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::94] Couldn't make connection, existingConnections size is 0
+[467694:43:21::289] switching to candidate
+[467694:43:21::291] Getting message in NetworkInterface with timeout 178
+[467694:43:21::300] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::300] Couldn't make connection, existingConnections size is 0
+[467694:43:21::300] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::300] Couldn't make connection, existingConnections size is 0
+[467694:43:21::474] switching to candidate
+[467694:43:21::474] Getting message in NetworkInterface with timeout 193
+[467694:43:21::482] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::482] Couldn't make connection, existingConnections size is 0
+[467694:43:21::482] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::482] Couldn't make connection, existingConnections size is 0
+[467694:43:21::668] switching to candidate
+[467694:43:21::669] Getting message in NetworkInterface with timeout 251
+[467694:43:21::677] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::677] Couldn't make connection, existingConnections size is 0
+[467694:43:21::678] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::678] Couldn't make connection, existingConnections size is 0
+[467694:43:21::924] switching to candidate
+[467694:43:21::926] Getting message in NetworkInterface with timeout 160
+[467694:43:21::935] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::935] Couldn't make connection, existingConnections size is 0
+[467694:43:21::935] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:21::935] Couldn't make connection, existingConnections size is 0
+[467694:43:22::89] switching to candidate
+[467694:43:22::90] Getting message in NetworkInterface with timeout 220
+[467694:43:22::97] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:22::97] Couldn't make connection, existingConnections size is 0
+[467694:43:22::97] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:22::97] Couldn't make connection, existingConnections size is 0
+[467694:43:22::315] switching to candidate
+[467694:43:22::316] Getting message in NetworkInterface with timeout 277
+[467694:43:22::325] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:22::325] Couldn't make connection, existingConnections size is 0
+[467694:43:22::325] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:22::325] Couldn't make connection, existingConnections size is 0
+[467694:43:22::597] switching to candidate
+[467694:43:22::599] Getting message in NetworkInterface with timeout 278
+[467694:43:22::608] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:22::608] Couldn't make connection, existingConnections size is 0
+[467694:43:22::608] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:22::608] Couldn't make connection, existingConnections size is 0
+[467694:43:22::879] switching to candidate
+[467694:43:22::881] Getting message in NetworkInterface with timeout 256
+[467694:43:22::890] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:22::890] Couldn't make connection, existingConnections size is 0
+[467694:43:22::890] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:22::890] Couldn't make connection, existingConnections size is 0
+[467694:43:23::141] switching to candidate
+[467694:43:23::142] Getting message in NetworkInterface with timeout 194
+[467694:43:23::150] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:23::150] Couldn't make connection, existingConnections size is 0
+[467694:43:23::150] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:23::150] Couldn't make connection, existingConnections size is 0
+[467694:43:23::339] switching to candidate
+[467694:43:23::341] Getting message in NetworkInterface with timeout 231
+[467694:43:23::350] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:23::350] Couldn't make connection, existingConnections size is 0
+[467694:43:23::350] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:23::350] Couldn't make connection, existingConnections size is 0
+[467694:43:23::577] switching to candidate
+[467694:43:23::578] Getting message in NetworkInterface with timeout 176
+[467694:43:23::586] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:23::586] Couldn't make connection, existingConnections size is 0
+[467694:43:23::586] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:23::586] Couldn't make connection, existingConnections size is 0
+[467694:43:23::758] switching to candidate
+[467694:43:23::760] Getting message in NetworkInterface with timeout 242
+[467694:43:23::769] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:23::769] Couldn't make connection, existingConnections size is 0
+[467694:43:23::769] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:23::769] Couldn't make connection, existingConnections size is 0
+[467694:43:24::7] switching to candidate
+[467694:43:24::8] Getting message in NetworkInterface with timeout 260
+[467694:43:24::11] error with getaddrinfo: error with getaddrinfo: nodename nor servname provided, or not knownnodename nor servname provided, or not known
+
+[467694:43:24::11] Couldn't make connection, existingConnections size is 0
+[467694:43:24::11] Couldn't make connection, existingConnections size is 0
+[467694:43:24::268] switching to candidate
+[467694:43:24::269] Getting message in NetworkInterface with timeout 206
+[467694:43:24::276] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:24::276] Couldn't make connection, existingConnections size is 0
+[467694:43:24::276] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:24::276] Couldn't make connection, existingConnections size is 0
+[467694:43:24::480] switching to candidate
+[467694:43:24::480] Getting message in NetworkInterface with timeout 200
+[467694:43:24::486] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:24::486] Couldn't make connection, existingConnections size is 0
+[467694:43:24::487] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:24::487] Couldn't make connection, existingConnections size is 0
+[467694:43:24::686] switching to candidate
+[467694:43:24::687] Getting message in NetworkInterface with timeout 289
+[467694:43:24::695] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:24::695] Couldn't make connection, existingConnections size is 0
+[467694:43:24::695] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:24::695] Couldn't make connection, existingConnections size is 0
+[467694:43:24::981] switching to candidate
+[467694:43:24::981] Getting message in NetworkInterface with timeout 174
+[467694:43:24::985] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:24::985] Couldn't make connection, existingConnections size is 0
+[467694:43:24::985] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:24::985] Couldn't make connection, existingConnections size is 0
+[467694:43:25::160] switching to candidate
+[467694:43:25::162] Getting message in NetworkInterface with timeout 256
+[467694:43:25::170] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:25::170] Couldn't make connection, existingConnections size is 0
+[467694:43:25::170] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:25::170] Couldn't make connection, existingConnections size is 0
+[467694:43:25::420] switching to candidate
+[467694:43:25::421] Getting message in NetworkInterface with timeout 275
+[[467694:43467694:25::427] error with getaddrinfo: nodename nor servname provided, or not known:
+43:[467694:43:25::25427] Couldn't make connection, existingConnections size is ::0427
+] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:25::427] Couldn't make connection, existingConnections size is 0
+[467694:43:25::700] switching to candidate
+[467694:43:25::701] Getting message in NetworkInterface with timeout 162
+[467694:43:25::710] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:25::710] Couldn't make connection, existingConnections size is 0
+[467694:43:25::710] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:25::710] Couldn't make connection, existingConnections size is 0
+[467694:43:25::867] switching to candidate
+[467694:43:25::868] Getting message in NetworkInterface with timeout 191
+[467694:43:25::876] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:25::876] Couldn't make connection, existingConnections size is 0
+[467694:43:25::877] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:25::877] Couldn't make connection, existingConnections size is 0
+[467694:43:26::64] switching to candidate
+[467694:43:26::65] Getting message in NetworkInterface with timeout 293
+[467694:43:26::71] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:26::71] Couldn't make connection, existingConnections size is 0
+[467694:43:26::72] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:26::72] Couldn't make connection, existingConnections size is 0
+[467694:43:26::359] switching to candidate
+[467694:43:26::360] Getting message in NetworkInterface with timeout 177
+[467694:43:26::368] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:26::368] Couldn't make connection, existingConnections size is 0
+[467694:43:26::368] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:26::369] Couldn't make connection, existingConnections size is 0
+[467694:43:26::542] switching to candidate
+[467694:43:26::545] Getting message in NetworkInterface with timeout 294
+[467694:43:26::554] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:26::554] Couldn't make connection, existingConnections size is 0
+[467694:43:26::555] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:26::555] Couldn't make connection, existingConnections size is 0
+[467694:43:26::843] switching to candidate
+[467694:43:26::844] Getting message in NetworkInterface with timeout 153
+[467694:43:26::851] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:26::851] Couldn't make connection, existingConnections size is 0
+[467694:43:26::851] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:26::851] Couldn't make connection, existingConnections size is 0
+[467694:43:27::2] switching to candidate
+[467694:43:27::4] Getting message in NetworkInterface with timeout 226
+[467694:43:27::12] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:27::12] Couldn't make connection, existingConnections size is 0
+[467694:43:27::12] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:27::12] Couldn't make connection, existingConnections size is 0
+[467694:43:27::232] switching to candidate
+[467694:43:27::235] Getting message in NetworkInterface with timeout 219
+[467694:43:27::243] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:27::243] Couldn't make connection, existingConnections size is 0
+[467694:43:27::243] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:27::243] Couldn't make connection, existingConnections size is 0
+[467694:43:27::456] switching to candidate
+[467694:43:27::457] Getting message in NetworkInterface with timeout 290
+[467694:43:27::466] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:27::466] Couldn't make connection, existingConnections size is 0
+[467694:43:27::466] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:27::466] Couldn't make connection, existingConnections size is 0
+[467694:43:27::753] switching to candidate
+[467694:43:27::755] Getting message in NetworkInterface with timeout 249
+[467694:43:27::764] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:27::765] Couldn't make connection, existingConnections size is 0
+[467694:43:27::765] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:27::765] Couldn't make connection, existingConnections size is 0
+[467694:43:28::6] switching to candidate
+[467694:43:28::7] Getting message in NetworkInterface with timeout 270
+[467694:43:28::16] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::16] Couldn't make connection, existingConnections size is 0
+[467694:43:28::16] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::16] Couldn't make connection, existingConnections size is 0
+[467694:43:28::287] switching to candidate
+[467694:43:28::289] Getting message in NetworkInterface with timeout 172
+[467694:43:28::296] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::296] Couldn't make connection, existingConnections size is 0
+[467694:43:28::296] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::296] Couldn't make connection, existingConnections size is 0
+[467694:43:28::466] switching to candidate
+[467694:43:28::469] Getting message in NetworkInterface with timeout 286
+[467694:43:28::478] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::478] Couldn't make connection, existingConnections size is 0
+[467694:43:28::478] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::478] Couldn't make connection, existingConnections size is 0
+[467694:43:28::758] switching to candidate
+[467694:43:28::759] Getting message in NetworkInterface with timeout 177
+[467694:43:28::768] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::768] Couldn't make connection, existingConnections size is 0
+[467694:43:28::768] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::768] Couldn't make connection, existingConnections size is 0
+[467694:43:28::941] switching to candidate
+[467694:43:28::942] Getting message in NetworkInterface with timeout 211
+[467694:43:28::952] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::952] Couldn't make connection, existingConnections size is 0
+[467694:43:28::952] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:28::952] Couldn't make connection, existingConnections size is 0
+[467694:43:29::158] switching to candidate
+[467694:43:29::158] Getting message in NetworkInterface with timeout 222
+[467694:43:29::165] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:29::165] Couldn't make connection, existingConnections size is 0
+[467694:43:29::165] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:29::165] Couldn't make connection, existingConnections size is 0
+[467694:43:29::385] switching to candidate
+[467694:43:29::386] Getting message in NetworkInterface with timeout 287
+[467694:43:29::396] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:29::396] Couldn't make connection, existingConnections size is 0
+[467694:43:29::397] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:29::397] Couldn't make connection, existingConnections size is 0
+[467694:43:29::678] switching to candidate
+[467694:43:29::680] Getting message in NetworkInterface with timeout 205
+[467694:43:29::688] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:29::688] Couldn't make connection, existingConnections size is 0
+[467694:43:29::688] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:29::688] Couldn't make connection, existingConnections size is 0
+[467694:43:29::889] switching to candidate
+[467694:43:29::891] Getting message in NetworkInterface with timeout 168
+[467694:43:29::899] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:29::899] Couldn't make connection, existingConnections size is 0
+[467694:43:29::899] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:29::899] Couldn't make connection, existingConnections size is 0
+[467694:43:30::64] switching to candidate
+[467694:43:30::66] Getting message in NetworkInterface with timeout 201
+[467694:43:30::74] error with getaddrinfo: nodename nor servname provided, or not known[
+[467694:43:30::74] Couldn't make connection, existingConnections size is 0
+467694:43:30::74] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::74] Couldn't make connection, existingConnections size is 0
+[467694:43:30::271] switching to candidate
+[467694:43:30::273] Getting message in NetworkInterface with timeout 249
+[467694:43:30::282] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::282] Couldn't make connection, existingConnections size is 0
+[467694:43:30::282] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::282] Couldn't make connection, existingConnections size is 0
+[467694:43:30::527] switching to candidate
+[467694:43:30::528] Getting message in NetworkInterface with timeout 192
+[467694:43:30::538] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::538] Couldn't make connection, existingConnections size is 0
+[467694:43:30::538] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::538] Couldn't make connection, existingConnections size is 0
+[467694:43:30::722] switching to candidate
+[467694:43:30::724] Getting message in NetworkInterface with timeout 155
+[467694:43:30::733] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::733] Couldn't make connection, existingConnections size is 0
+[467694:43:30::734] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::734] Couldn't make connection, existingConnections size is 0
+[467694:43:30::881] switching to candidate
+[467694:43:30::882] Getting message in NetworkInterface with timeout 205
+[467694:43:30::887] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::887] Couldn't make connection, existingConnections size is 0
+[467694:43:30::888] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:30::888] Couldn't make connection, existingConnections size is 0
+[467694:43:31::89] switching to candidate
+[467694:43:31::89] Getting message in NetworkInterface with timeout 209
+[467694:43:31::96] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::96] Couldn't make connection, existingConnections size is 0
+[467694:43:31::96] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::96] Couldn't make connection, existingConnections size is 0
+[467694:43:31::302] switching to candidate
+[467694:43:31::303] Getting message in NetworkInterface with timeout 290
+[467694:43:31::311] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::311] Couldn't make connection, existingConnections size is 0
+[467694:43:31::311] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::311] Couldn't make connection, existingConnections size is 0
+[467694:43:31::594] switching to candidate
+[467694:43:31::594] Getting message in NetworkInterface with timeout 167
+[467694:43:31::603] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::603] Couldn't make connection, existingConnections size is 0
+[467694:43:31::603] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::603] Couldn't make connection, existingConnections size is 0
+[467694:43:31::766] switching to candidate
+[467694:43:31::768] Getting message in NetworkInterface with timeout 152
+[467694:43:31::776] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::776] Couldn't make connection, existingConnections size is 0
+[467694:43:31::777] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::777] Couldn't make connection, existingConnections size is 0
+[467694:43:31::924] switching to candidate
+[467694:43:31::924] Getting message in NetworkInterface with timeout 262
+[467694:43:31::928] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::928] Couldn't make connection, existingConnections size is 0
+[467694:43:31::928] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:31::928] Couldn't make connection, existingConnections size is 0
+[467694:43:32::191] switching to candidate
+[467694:43:32::195] Getting message in NetworkInterface with timeout 232
+[467694:43:32::203] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:32::203] Couldn't make connection, existingConnections size is 0
+[467694:43:32::203] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:32::203] Couldn't make connection, existingConnections size is 0
+[467694:43:32::431] switching to candidate
+[467694:43:32::432] Getting message in NetworkInterface with timeout 237
+[467694:43:32::439] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:32::439] Couldn't make connection, existingConnections size is 0
+[467694:43:32::439] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:32::439] Couldn't make connection, existingConnections size is 0
+[467694:43:32::674] switching to candidate
+[467694:43:32::675] Getting message in NetworkInterface with timeout 264
+[467694:43:32::684] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:32::684] Couldn't make connection, existingConnections size is 0
+[467694:43:32::684] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:32::684] Couldn't make connection, existingConnections size is 0
+[467694:43:32::941] switching to candidate
+[467694:43:32::943] Getting message in NetworkInterface with timeout 233
+[467694:43:32::959] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:32::959] Couldn't make connection, existingConnections size is 0
+[467694:43:32::960] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:32::960] Couldn't make connection, existingConnections size is 0
+[467694:43:33::178] switching to candidate
+[467694:43:33::179] Getting message in NetworkInterface with timeout 226
+[467694:43:33::185] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::185] Couldn't make connection, existingConnections size is 0
+[467694:43:33::186] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::186] Couldn't make connection, existingConnections size is 0
+[467694:43:33::410] switching to candidate
+[467694:43:33::411] Getting message in NetworkInterface with timeout 207
+[467694:43:33::423] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::423] Couldn't make connection, existingConnections size is 0
+[467694:43:33::423] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::423] Couldn't make connection, existingConnections size is 0
+[467694:43:33::623] switching to candidate
+[467694:43:33::623] Getting message in NetworkInterface with timeout 181
+[467694:43:33::634] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::634] Couldn't make connection, existingConnections size is 0
+[467694:43:33::634] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::634] Couldn't make connection, existingConnections size is 0
+[467694:43:33::809] switching to candidate
+[467694:43:33::810] Getting message in NetworkInterface with timeout 161
+[467694:43:33::818] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::818] Couldn't make connection, existingConnections size is 0
+[467694:43:33::818] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::818] Couldn't make connection, existingConnections size is 0
+[467694:43:33::976] switching to candidate
+[467694:43:33::976] Getting message in NetworkInterface with timeout 190
+[467694:43:33::983] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::983] Couldn't make connection, existingConnections size is 0
+[467694:43:33::984] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:33::984] Couldn't make connection, existingConnections size is 0
+[467694:43:34::169] switching to candidate
+[467694:43:34::169] Getting message in NetworkInterface with timeout 201
+[467694:43:34::175] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::175] Couldn't make connection, existingConnections size is 0
+[467694:43:34::175] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::175] Couldn't make connection, existingConnections size is 0
+[467694:43:34::375] switching to candidate
+[467694:43:34::377] Getting message in NetworkInterface with timeout 176
+[467694:43:34::384] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::384] Couldn't make connection, existingConnections size is 0
+[467694:43:34::384] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::384] Couldn't make connection, existingConnections size is 0
+[467694:43:34::553] switching to candidate
+[467694:43:34::554] Getting message in NetworkInterface with timeout 226
+[467694:43:34::561] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::561] Couldn't make connection, existingConnections size is 0
+[467694:43:34::562] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::562] Couldn't make connection, existingConnections size is 0
+[467694:43:34::785] switching to candidate
+[467694:43:34::785] Getting message in NetworkInterface with timeout 181
+[467694:43:34::790] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::790] Couldn't make connection, existingConnections size is 0
+[467694:43:34::790] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::790] Couldn't make connection, existingConnections size is 0
+[467694:43:34::967] switching to candidate
+[467694:43:34::968] Getting message in NetworkInterface with timeout 287
+[467694:43:34::977] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::977] Couldn't make connection, existingConnections size is 0
+[467694:43:34::977] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:34::977] Couldn't make connection, existingConnections size is 0
+[467694:43:35::260] switching to candidate
+[467694:43:35::261] Getting message in NetworkInterface with timeout 216
+[467694:43:35::271] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:35::271] Couldn't make connection, existingConnections size is 0
+[467694:43:35::272] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:35::272] Couldn't make connection, existingConnections size is 0
+[467694:43:35::478] switching to candidate
+[467694:43:35::479] Getting message in NetworkInterface with timeout 152
+[467694:43:35::485] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:35::485] Couldn't make connection, existingConnections size is 0
+[467694:43:35::485] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:35::485] Couldn't make connection, existingConnections size is 0
+[467694:43:35::636] switching to candidate
+[467694:43:35::637] Getting message in NetworkInterface with timeout 226
+[467694:43:35::645] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:35::645] Couldn't make connection, existingConnections size is 0
+[467694:43:35::645] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:35::645] Couldn't make connection, existingConnections size is 0
+[467694:43:35::868] switching to candidate
+[467694:43:35::869] Getting message in NetworkInterface with timeout 275
+[467694:43:35::877] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:35::877] Couldn't make connection, existingConnections size is 0
+[467694:43:35::877] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:35::877] Couldn't make connection, existingConnections size is 0
+[467694:43:36::144] switching to candidate
+[467694:43:36::147] Getting message in NetworkInterface with timeout 153
+[467694:43:36::155] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::155] Couldn't make connection, existingConnections size is 0
+[467694:43:36::155] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::155] Couldn't make connection, existingConnections size is 0
+[467694:43:36::305] switching to candidate
+[467694:43:36::306] Getting message in NetworkInterface with timeout 180
+[467694:43:36::312] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::312] Couldn't make connection, existingConnections size is 0
+[467694:43:36::312] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::312] Couldn't make connection, existingConnections size is 0
+[467694:43:36::486] switching to candidate
+[467694:43:36::487] Getting message in NetworkInterface with timeout 161
+[467694:43:36::492] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::492] Couldn't make connection, existingConnections size is 0
+[467694:43:36::492] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::492] Couldn't make connection, existingConnections size is 0
+[467694:43:36::651] switching to candidate
+[467694:43:36::652] Getting message in NetworkInterface with timeout 296
+[467694:43:36::662] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::662] Couldn't make connection, existingConnections size is 0
+[467694:43:36::662] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::662] Couldn't make connection, existingConnections size is 0
+[467694:43:36::951] switching to candidate
+[467694:43:36::951] Getting message in NetworkInterface with timeout 237
+[467694:43:36::957] error with getaddrinfo: [nodename nor servname provided, or not known
+[467694:43:467694:43:36::957] Couldn't make connection, existingConnections size is 0
+36::957] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:36::957] Couldn't make connection, existingConnections size is 0
+[467694:43:37::191] switching to candidate
+[467694:43:37::191] Getting message in NetworkInterface with timeout 194
+[467694:43:37::195] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:37::195] Couldn't make connection, existingConnections size is 0
+[467694:43:37::195] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:37::195] Couldn't make connection, existingConnections size is 0
+[467694:43:37::390] switching to candidate
+[467694:43:37::391] Getting message in NetworkInterface with timeout 209
+[467694:43:37::398] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:37::398] Couldn't make connection, existingConnections size is 0
+[467694:43:37::398] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:37::398] Couldn't make connection, existingConnections size is 0
+[467694:43:37::602] switching to candidate
+[467694:43:37::603] Getting message in NetworkInterface with timeout 186
+[467694:43:37::612] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:37::612] Couldn't make connection, existingConnections size is 0
+[467694:43:37::612] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:37::612] Couldn't make connection, existingConnections size is 0
+[467694:43:37::794] switching to candidate
+[467694:43:37::795] Getting message in NetworkInterface with timeout 176
+[467694:43:37::802] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:37::802] Couldn't make connection, existingConnections size is 0
+[467694:43:37::803] error with getaddrinfo: nodename nor servname provided, or not known
+[467694:43:37::803] Couldn't make connection, existingConnections size is 0
