@@ -12,18 +12,23 @@ import random
 import json
 import re
 import openai
-
+from sentence_transformers import SentenceTransformer
+from typing import List
 # make an Embedder that uses huggingface transformers to make quick embeddings 
 # of logs/queries/traces
 
+
 class Embedder:
-    def __init__(self, ckpt_path, model_name, model_type, model_params):
-        self.model = load_from_checkpoint(model_name, model_type, model_params, ckpt_path)
+    def __init__(self, ckpt_path='distilbert-base-nli-stsb-mean-tokens', use_openai=False):
+        # Load a pre-trained SBERT model
+        # TODO: GPU inference and batched inference and caching and on a serverless GPU?
+        self.model = SentenceTransformer(ckpt_path)
+        self.use_openai = use_openai
 
-    def get_embedding(text: str, engine="text-similarity-davinci-001") -> List[float]:
+    def embed(self, text: str, engine="text-similarity-davinci-001") -> List[float]:
         # replace newlines, which can negatively affect performance.
-        text = text.replace("\n", " ")
-        return openai.Embedding.create(input=[text], engine=engine)["data"][0]["embedding"]
-
-    def embed(item):
-        return self.model(item)
+        # text = text.replace("\n", " ")
+        if self.use_openai:
+            return openai.Embedding.create(input=[text], engine=engine)["data"][0]["embedding"]
+        else:
+            return self.model.encode(text)

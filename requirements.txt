@@ -1,0 +1,4 @@
+openai
+sentence-transformers
+pandas
+numpy
