@@ -2,12 +2,14 @@
 # @brief: This class is responsible for storing the log data in an easy-to-query
 # format
 import log_data 
+import redis
 
 class LogVectorDB:
-    def __init__(self):
+    def __init__(self, use_redis=False):
         self.ts_to_data = {}
         self.node_to_data = {} # Append only, sorted automatically due to how we ingest data
-        
+        self.redisdb = redis.Redis(host='localhost', port=6379, db=0) if use_redis else None
+
     # @brief Appends data to the database according to both timestamp and node name
     # @input Data object can contain timestamp, node, and log text
     # @return None
@@ -29,6 +31,8 @@ class LogVectorDB:
     # @input Type of key ("timestamp" or "node")
     # @return List of Data objects
     def get_by(self, key, type):
+        if self.redisdb:
+            return self.redisdb.get(key) 
         if type == "timestamp":
             return self.ts_to_data[key]
         elif type == "node":

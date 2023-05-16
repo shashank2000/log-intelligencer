@@ -2,3 +2,4 @@ openai
 sentence-transformers
 pandas
 numpy
+redis

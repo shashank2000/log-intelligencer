@@ -26,8 +26,6 @@ class Embedder:
         self.use_openai = use_openai
 
     def embed(self, text: str, engine="text-similarity-davinci-001") -> List[float]:
-        # replace newlines, which can negatively affect performance.
-        # text = text.replace("\n", " ")
         if self.use_openai:
             return openai.Embedding.create(input=[text], engine=engine)["data"][0]["embedding"]
         else:
