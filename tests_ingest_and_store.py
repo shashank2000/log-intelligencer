@@ -28,7 +28,7 @@ class TestIngestorAndStore(TestCase):
             total_timestamp_values += len(db.get_by(key, "timestamp"))
         self.assertEqual(total_timestamp_values, 181+662+504)
 
-        self.assertEqual(db.get_by("Node 1", "node")[0].text, "Creating server with id 1")
+        self.assertEqual(db.get_by("1", "node")[0].text, "Creating server with id 1")
         self.assertEqual(db.get_by("467694:43:13::6", "timestamp")[0].text, "Creating server with id 1")
         
 c = TestIngestorAndStore()
