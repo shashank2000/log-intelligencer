@@ -3,8 +3,6 @@
 # and storing the representation in VectorDB
 
 import re
-import os
-import log_vectordb
 import log_data 
 
 class LogIngestor:
@@ -17,7 +15,8 @@ class LogIngestor:
                 for line in f:
                     node_name = self.__filename_to_nodename(filepath)
                     obj = self.__parse_line(line, node_name)
-                    self.logs.append(obj)
+                    if obj is not None:
+                        self.logs.append(obj)    
         except:
             print("Error: File " + filepath + " had an error while being processed.")
             return
@@ -25,18 +24,34 @@ class LogIngestor:
     # @brief Parses line into a Data object
     # @input Line formatted as timestamp:log text
     # @input Node name ("Node 1", "Node 2", etc")
-    # @return A Data object that contains (timestamp, node id, log text)
-    def __parse_line(self, input, node_name):
-        arr_ts_log = input.split(":") # array of timestamp and log
-        data = log_data.Data(arr_ts_log[0], node_name, arr_ts_log[1])
-        return data
-        
+    # @input Delimiter (default is "]")
+    # @return A Data object that contains (timestamp, node id, log text).
+    #         Returns None if the line is not formatted correctly
+    def __parse_line(self, input, node_name, delimiter="] "):
+        if input[0] == "[":
+            arr_ts_log = input.split(delimiter) # array of timestamp and log
+            timestamp = arr_ts_log[0]
+            
+            # Remove [[ or [ from start of timestamp
+            if timestamp[0] == "[":
+                timestamp = timestamp[1:]
+                if timestamp[0] == "[": # Race condition in logs?
+                    timestamp = timestamp[1:]
+                                
+            # Strip out newlines in log_text
+            log_text = arr_ts_log[1]
+            log_text = log_text.replace("\n", "")
+            
+            data = log_data.Data(timestamp, node_name, log_text)
+            return data
+        return None #TODO: problem. Logs go on multiple lines ): This ignores any part on other lines
+            
     # @brief Converts a filename to a node name
     # @input Filename of the log file. Assumes the filename contains
     #        "NodeX.txt" where X is the node number
     def __filename_to_nodename(self, filename):
         # Use regular expressions to find the node number in the filename
-        match = re.search(r'Node(\d+)', filename) #TODO: depends on filename format
+        match = re.search(r'node_(\d+)', filename) #TODO: depends on filename format
         if match:
             node_number = match.group(1)
             # Convert the node number to the desired format
@@ -46,15 +61,3 @@ class LogIngestor:
             # if the filename doesn't match the expected format, return None
             return None
             
-
-# run the script
-a = LogIngestor(os.path.join(os.getcwd(), "Node1.txt"))
-print(a.logs)
-
-db = log_vectordb.LogVectorDB()
-db.append(a.logs[0])
-print(db.get_keys("node"))
-print(db.get_keys("timestamp"))
-
-print(db.get_by("Node 1", "node")[0].text)
-print(db.get_by("1857890", "timestamp")[0].text)
