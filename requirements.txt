@@ -3,3 +3,5 @@ sentence-transformers
 pandas
 numpy
 redis
+gradio
+pytest
