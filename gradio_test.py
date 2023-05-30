@@ -2,6 +2,8 @@ import gradio as gr
 
 queries = []
 
+# first ingest and store the logs 
+
 def make_query(query):
     queries.append(query)
     return "Actual query response", ["matched logs"], queries[-4:]

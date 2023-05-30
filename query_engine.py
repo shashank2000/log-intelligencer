@@ -32,9 +32,12 @@ class QueryEngine:
     
     
     def __chat_with_gpt3(self, prompt):
-        response = openai.Completion.create(
-            engine='gpt-3.5-turbo',
-            prompt=prompt,
+        response = openai.ChatCompletion.create(
+            model='gpt-3.5-turbo',
+            messages=[
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": prompt}
+            ],
             max_tokens=100,
             temperature=0.6,
             n=1,
@@ -43,7 +46,8 @@ class QueryEngine:
         )
 
         if response.choices:
-            return response.choices[0].text.strip()
+            print(response)
+            return response["choices"][0].message.content
         else:
             return '' 
             
