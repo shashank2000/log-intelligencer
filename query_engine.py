@@ -17,19 +17,21 @@ class QueryEngine:
     # @input Timestamp (optional)
     def query(self, text, node="", timestamp=""):
         list_of_log_data = self.__populate_relevant_logs(node, timestamp)
-        
+
         # Get embeddings for the query text and logs
         query_embedding = self.embedder.embed(text)
         logs_embeddings = [log.embedding for log in list_of_log_data]
         
-        top_matches_logs = self.__get_top_k_logs(logs_embeddings, query_embedding, list_of_log_data, 3)
-            
-        user_prompt = "You are a log query engine. You are given a query and a list of logs. You must return an answer to the query. \n\nQuery: " + text + "\n\nLogs: " + "\n\n".join(top_matches_logs)
+        top_matches_logs = self.__get_top_k_logs(logs_embeddings, query_embedding, list_of_log_data, 10)
+
+        user_prompt = "You are a log query engine. You are given a query and a list of logs. You must return an answer to the query. \nQuery: " + text + "\nLogs: \n" + "\n".join(top_matches_logs)
+        print(user_prompt)
+
         response = self.__chat_with_gpt3(user_prompt)
         return response
-        
-            
-    def __chat_with_gpt3(prompt):
+    
+    
+    def __chat_with_gpt3(self, prompt):
         response = openai.Completion.create(
             engine='gpt-3.5-turbo',
             prompt=prompt,
@@ -54,10 +56,11 @@ class QueryEngine:
                 top_matches.append((index, similarity, log_embedding))
             else:
                 # Add the new similarity to the list of top matches if it is greater than the smallest similarity in the list
-                top_matches.sort(key=lambda x: x[0], reverse=True)
-                if (similarity > top_matches[len(top_matches)-1][0]):
-                    top_matches[len(top_matches)-1] = (index, similarity, log_embedding)
-                    
+                min_similarity = min(top_matches, key=lambda x: x[1])
+                if (similarity > min_similarity[1]):
+                    top_matches.remove(min_similarity)
+                    top_matches.append((index, similarity, log_embedding))
+                                        
         # Give the query and the top matches to GPT-3 to generate a response
         top_matches_logs = [list_of_log_data[index].text for index, similarity, log_embedding in top_matches]
         return top_matches_logs
@@ -67,22 +70,25 @@ class QueryEngine:
         return np.dot(query_embedding, log_embedding) / (np.linalg.norm(query_embedding) * np.linalg.norm(log_embedding))
         
                     
-    def __populate_relevant_logs(node="", timestamp=""):
+    def __populate_relevant_logs(self, node="", timestamp=""):
         list_of_log_data = []
         if (node != ""):
             # Filter based on node questions
             if (node == "all"):
                 # Get all logs
-                for key in db.get_keys("node"):
-                    list_of_log_data.append(db.get_by(key, "node"))
+                for key in self.db.get_keys("node"):
+                    node_logs = self.db.get_by(key, "node")
+                    list_of_log_data.extend(node_logs)
             else:       
-                list_of_log_data.append(db.get_by(node, "node"))
+                list_of_log_data.extend(self.db.get_by(node, "node"))
         if (timestamp != ""):
             # Filter based on timestamp questions. Get any logs before and including timestamp
-            ts_keys = db.get_keys("timestamp")
+            ts_keys = self.db.get_keys("timestamp")
             for key in ts_keys:
                 if key <= timestamp:
-                    list_of_log_data.append(db.get_by(timestamp, "timestamp"))
+                    list_of_log_data.extend(self.db.get_by(timestamp, "timestamp"))
+                    
+        return list_of_log_data
               
             
                 
