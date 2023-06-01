@@ -1,12 +1,19 @@
 import gradio as gr
+from main import ingest_data
+import query_engine
 
 queries = []
 
 # first ingest and store the logs 
+db = ingest_data()
+qe = query_engine.QueryEngine(db)
+
+# TODO: cache the embeddings 
 
 def make_query(query):
     queries.append(query)
-    return "Actual query response", ["matched logs"], queries[-4:]
+    resp = qe.query(query, "all", "")
+    return resp, ["matched logs"], queries[-4:]
 
 demo = gr.Interface(
     fn=make_query, 
