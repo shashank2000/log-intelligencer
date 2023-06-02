@@ -28,7 +28,7 @@ class QueryEngine:
         print(user_prompt)
 
         response = self.__chat_with_gpt3(user_prompt)
-        return response
+        return response, top_matches_logs
     
     
     def __chat_with_gpt3(self, prompt):
