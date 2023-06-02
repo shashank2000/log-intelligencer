@@ -8,11 +8,11 @@ import time
 # time each ingestion step
 
 print(time.time())
-a = log_ingestor.LogIngestor(os.path.join(os.getcwd() + "/log_examples", "node_0"))
+a = log_ingestor.LogIngestor(os.path.join(os.getcwd() + "/log_examples", "node_127.0.0.1:1025"))
 print(time.time())
-b = log_ingestor.LogIngestor(os.path.join(os.getcwd() + "/log_examples", "node_1"))
+b = log_ingestor.LogIngestor(os.path.join(os.getcwd() + "/log_examples", "node_127.0.0.1:1026"))
 print(time.time())
-c = log_ingestor.LogIngestor(os.path.join(os.getcwd() + "/log_examples", "node_2"))
+c = log_ingestor.LogIngestor(os.path.join(os.getcwd() + "/log_examples", "node_127.0.0.1:1027"))
 
 print("here")
 db = log_vectordb.LogVectorDB()
@@ -22,7 +22,3 @@ for a in [a, b, c]:
 
 qe = query_engine.QueryEngine(db)
 print(qe.query("What servers were created?", "all", ""))
-        
-
-
-
