@@ -10,7 +10,7 @@ class QueryEngine:
     def __init__(self, db):
         self.db = db
         self.embedder = embedder.Embedder()
-    
+
     # @brief Queries the database for logs that match the given text according to node or timestamp
     # @input Question to query by
     # @input Node id (optional). If set to "all", will query all nodes
@@ -21,16 +21,16 @@ class QueryEngine:
         # Get embeddings for the query text and logs
         query_embedding = self.embedder.embed(text)
         logs_embeddings = [log.embedding for log in list_of_log_data]
-        
+
         top_matches_logs = self.__get_top_k_logs(logs_embeddings, query_embedding, list_of_log_data, 10)
 
         user_prompt = "You are a log query engine. You are given a query and a list of logs. You must return an answer to the query. \nQuery: " + text + "\nLogs: \n" + "\n".join(top_matches_logs)
         print(user_prompt)
+        return "check the above bri"
+        # response = self.__chat_with_gpt3(user_prompt)
+        # return response, top_matches_logs
 
-        response = self.__chat_with_gpt3(user_prompt)
-        return response, top_matches_logs
-    
-    
+
     def __chat_with_gpt3(self, prompt):
         response = openai.ChatCompletion.create(
             model='gpt-3.5-turbo',
@@ -49,8 +49,8 @@ class QueryEngine:
             print(response)
             return response["choices"][0].message.content
         else:
-            return '' 
-            
+            return ''
+
     def __get_top_k_logs(self, logs_embeddings, query_embedding, list_of_log_data, k):
         # Compare the query embedding to each log embedding. Return the top-k matches.
         top_matches = []
@@ -64,16 +64,16 @@ class QueryEngine:
                 if (similarity > min_similarity[1]):
                     top_matches.remove(min_similarity)
                     top_matches.append((index, similarity, log_embedding))
-                                        
+
         # Give the query and the top matches to GPT-3 to generate a response
         top_matches_logs = [list_of_log_data[index].text for index, similarity, log_embedding in top_matches]
         return top_matches_logs
-        
-        
+
+
     def __cosine_similarity(self, query_embedding, log_embedding):
         return np.dot(query_embedding, log_embedding) / (np.linalg.norm(query_embedding) * np.linalg.norm(log_embedding))
-        
-                    
+
+
     def __populate_relevant_logs(self, node="", timestamp=""):
         list_of_log_data = []
         if (node != ""):
@@ -83,7 +83,7 @@ class QueryEngine:
                 for key in self.db.get_keys("node"):
                     node_logs = self.db.get_by(key, "node")
                     list_of_log_data.extend(node_logs)
-            else:       
+            else:
                 list_of_log_data.extend(self.db.get_by(node, "node"))
         if (timestamp != ""):
             # Filter based on timestamp questions. Get any logs before and including timestamp
@@ -91,11 +91,5 @@ class QueryEngine:
             for key in ts_keys:
                 if key <= timestamp:
                     list_of_log_data.extend(self.db.get_by(timestamp, "timestamp"))
-                    
+
         return list_of_log_data
-              
-            
-                
-    
-        
-    

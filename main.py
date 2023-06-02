@@ -22,5 +22,7 @@ def ingest_data():
     return db
 
 db = ingest_data()
+
+print("done populating db. going to query")
 qe = query_engine.QueryEngine(db)
-print(qe.query("What servers were created?", "all", ""))
+print(qe.query("What servers were initialized?", "all", ""))
