@@ -1,1725 +1,1710 @@
-[1685686740787] Initialized server with id 127.0.0.1:1025
-[1685686740788] ---------------------
-[1685686740788] Committing changes to persistent storage. State is now:
-[1685686740788] Term: 0
-[1685686740788] Commit: -1
-[1685686740788] Last applied log: -1
-[1685686740788] Error: Key "voted_for" not found in 1025.raft
-[1685686740788] Last voted for: NULL
-[1685686740788] ---------------------
-[1685686740788] Became follower
-[1685686742600] Heartbeat timed out, became candidate
-[1685686742603] ---------------------
-[1685686742603] Committing changes to persistent storage. State is now:
-[1685686742603] Term: 1
-[1685686742603] Commit: -1
-[1685686742603] Last applied log: -1
-[1685686742604] Last voted for: self
-[1685686742604] ---------------------
-[1685686742604] Sending Request Vote to 127.0.0.1:1026
-[1685686742604] Sending Request Vote to 127.0.0.1:1027
-[1685686743858] Request Vote get_result failed.
-[1685686743858] Won election, became leader in term 1
-[1685686743914] Sending heartbeat to 127.0.0.1:1026
-[1685686743914] Sending heartbeat to 127.0.0.1:1027
-[1685686743914] Sending Append Entries to 127.0.0.1:1026
-[1685686743915] Sending Append Entries to 127.0.0.1:1027
-[1685686743967] Sending heartbeat to 127.0.0.1:1026
-[1685686743967] Sending heartbeat to 127.0.0.1:1027
-[1685686743968] Sending Append Entries to 127.0.0.1:1026
-[1685686743968] Sending Append Entries to 127.0.0.1:1027
-[1685686744020] Sending heartbeat to 127.0.0.1:1026
-[1685686744020] Sending heartbeat to 127.0.0.1:1027
-[1685686744021] Sending Append Entries to 127.0.0.1:1026
-[1685686744021] Sending Append Entries to 127.0.0.1:1027
-[1685686744073] Sending heartbeat to 127.0.0.1:1026
-[1685686744073] Sending heartbeat to 127.0.0.1:1027
-[1685686744073] Sending Append Entries to 127.0.0.1:1027
-[1685686744074] Sending Append Entries to 127.0.0.1:1026
-[1685686744127] Sending heartbeat to 127.0.0.1:1026
-[1685686744127] Sending heartbeat to 127.0.0.1:1027
-[1685686744127] Sending Append Entries to 127.0.0.1:1026
-[1685686744127] Sending Append Entries to 127.0.0.1:1027
-[1685686744183] Sending heartbeat to 127.0.0.1:1026
-[1685686744184] Sending heartbeat to 127.0.0.1:1027
-[1685686744184] Sending Append Entries to 127.0.0.1:1026
-[1685686744185] Sending Append Entries to 127.0.0.1:1027
-[1685686744239] Sending heartbeat to 127.0.0.1:1026
-[1685686744240] Sending heartbeat to 127.0.0.1:1027
-[1685686744240] Sending Append Entries to 127.0.0.1:1026
-[1685686744241] Sending Append Entries to 127.0.0.1:1027
-[1685686744298] Sending heartbeat to 127.0.0.1:1026
-[1685686744298] Sending heartbeat to 127.0.0.1:1027
-[1685686744298] Sending Append Entries to 127.0.0.1:1026
-[1685686744299] Sending Append Entries to 127.0.0.1:1027
-[1685686744351] Sending heartbeat to 127.0.0.1:1026
-[1685686744351] Sending heartbeat to 127.0.0.1:1027
-[1685686744351] Sending Append Entries to 127.0.0.1:1026
-[1685686744351] Sending Append Entries to 127.0.0.1:1027
-[1685686744404] Sending heartbeat to 127.0.0.1:1026
-[1685686744404] Sending heartbeat to 127.0.0.1:1027
-[1685686744404] Sending Append Entries to 127.0.0.1:1026
-[1685686744405] Sending Append Entries to 127.0.0.1:1027
-[1685686744461] Sending heartbeat to 127.0.0.1:1026
-[1685686744461] Sending heartbeat to 127.0.0.1:1027
-[1685686744461] Sending Append Entries to 127.0.0.1:1026
-[1685686744462] Sending Append Entries to 127.0.0.1:1027
-[1685686744517] Sending heartbeat to 127.0.0.1:1026
-[1685686744517] Sending heartbeat to 127.0.0.1:1027
-[1685686744518] Sending Append Entries to 127.0.0.1:1026
-[1685686744518] Sending Append Entries to 127.0.0.1:1027
-[1685686744575] Sending heartbeat to 127.0.0.1:1026
-[1685686744575] Sending heartbeat to 127.0.0.1:1027
-[1685686744575] Sending Append Entries to 127.0.0.1:1026
-[1685686744576] Sending Append Entries to 127.0.0.1:1027
-[1685686744631] Sending heartbeat to 127.0.0.1:1026
-[1685686744631] Sending heartbeat to 127.0.0.1:1027
-[1685686744632] Sending Append Entries to 127.0.0.1:1026
-[1685686744632] Sending Append Entries to 127.0.0.1:1027
-[1685686744684] Sending heartbeat to 127.0.0.1:1026
-[1685686744684] Sending heartbeat to 127.0.0.1:1027
-[1685686744685] Sending Append Entries to 127.0.0.1:1026
-[1685686744686] Sending Append Entries to 127.0.0.1:1027
-[1685686744741] Sending heartbeat to 127.0.0.1:1026
-[1685686744741] Sending heartbeat to 127.0.0.1:1027
-[1685686744742] Sending Append Entries to 127.0.0.1:1026
-[1685686744743] Sending Append Entries to 127.0.0.1:1027
-[1685686744795] Sending heartbeat to 127.0.0.1:1026
-[1685686744795] Sending heartbeat to 127.0.0.1:1027
-[1685686744795] Sending Append Entries to 127.0.0.1:1027
-[1685686744796] Sending Append Entries to 127.0.0.1:1026
-[1685686744851] Sending heartbeat to 127.0.0.1:1026
-[1685686744851] Sending heartbeat to 127.0.0.1:1027
-[1685686744851] Sending Append Entries to 127.0.0.1:1027
-[1685686744852] Sending Append Entries to 127.0.0.1:1026
-[1685686744905] Sending heartbeat to 127.0.0.1:1026
-[1685686744906] Sending heartbeat to 127.0.0.1:1027
-[1685686744906] Sending Append Entries to 127.0.0.1:1026
-[1685686744907] Sending Append Entries to 127.0.0.1:1027
-[1685686744962] Sending heartbeat to 127.0.0.1:1026
-[1685686744962] Sending heartbeat to 127.0.0.1:1027
-[1685686744963] Sending Append Entries to 127.0.0.1:1026
-[1685686744963] Sending Append Entries to 127.0.0.1:1027
-[1685686745019] Sending heartbeat to 127.0.0.1:1026
-[1685686745019] Sending heartbeat to 127.0.0.1:1027
-[1685686745020] Sending Append Entries to 127.0.0.1:1026
-[1685686745020] Sending Append Entries to 127.0.0.1:1027
-[1685686745076] Sending heartbeat to 127.0.0.1:1026
-[1685686745076] Sending heartbeat to 127.0.0.1:1027
-[1685686745077] Sending Append Entries to 127.0.0.1:1026
-[1685686745077] Sending Append Entries to 127.0.0.1:1027
-[1685686745132] Sending heartbeat to 127.0.0.1:1026
-[1685686745132] Sending heartbeat to 127.0.0.1:1027
-[1685686745133] Sending Append Entries to 127.0.0.1:1026
-[1685686745134] Sending Append Entries to 127.0.0.1:1027
-[1685686745190] Sending heartbeat to 127.0.0.1:1026
-[1685686745190] Sending heartbeat to 127.0.0.1:1027
-[1685686745191] Sending Append Entries to 127.0.0.1:1026
-[1685686745191] Sending Append Entries to 127.0.0.1:1027
-[1685686745248] Sending heartbeat to 127.0.0.1:1026
-[1685686745248] Sending heartbeat to 127.0.0.1:1027
-[1685686745249] Sending Append Entries to 127.0.0.1:1026
-[1685686745249] Sending Append Entries to 127.0.0.1:1027
-[1685686745301] Sending heartbeat to 127.0.0.1:1026
-[1685686745301] Sending heartbeat to 127.0.0.1:1027
-[1685686745302] Sending Append Entries to 127.0.0.1:1027
-[1685686745302] Sending Append Entries to 127.0.0.1:1026
-[1685686745356] Sending heartbeat to 127.0.0.1:1026
-[1685686745356] Sending heartbeat to 127.0.0.1:1027
-[1685686745357] Sending Append Entries to 127.0.0.1:1026
-[1685686745357] Sending Append Entries to 127.0.0.1:1027
-[1685686745413] Sending heartbeat to 127.0.0.1:1026
-[1685686745413] Sending heartbeat to 127.0.0.1:1027
-[1685686745413] Sending Append Entries to 127.0.0.1:1026
-[1685686745414] Sending Append Entries to 127.0.0.1:1027
-[1685686745466] Sending heartbeat to 127.0.0.1:1026
-[1685686745466] Sending heartbeat to 127.0.0.1:1027
-[1685686745466] Sending Append Entries to 127.0.0.1:1027
-[1685686745466] Sending Append Entries to 127.0.0.1:1026
-[1685686745518] Sending heartbeat to 127.0.0.1:1026
-[1685686745518] Sending heartbeat to 127.0.0.1:1027
-[1685686745519] Sending Append Entries to 127.0.0.1:1026
-[1685686745519] Sending Append Entries to 127.0.0.1:1027
-[1685686745571] Sending heartbeat to 127.0.0.1:1026
-[1685686745571] Sending heartbeat to 127.0.0.1:1027
-[1685686745572] Sending Append Entries to 127.0.0.1:1026
-[1685686745572] Sending Append Entries to 127.0.0.1:1027
-[1685686745628] Sending heartbeat to 127.0.0.1:1026
-[1685686745629] Sending heartbeat to 127.0.0.1:1027
-[1685686745629] Sending Append Entries to 127.0.0.1:1026
-[1685686745629] Sending Append Entries to 127.0.0.1:1027
-[1685686745684] Sending heartbeat to 127.0.0.1:1026
-[1685686745684] Sending heartbeat to 127.0.0.1:1027
-[1685686745685] Sending Append Entries to 127.0.0.1:1026
-[1685686745686] Sending Append Entries to 127.0.0.1:1027
-[1685686745740] Sending heartbeat to 127.0.0.1:1026
-[1685686745740] Sending heartbeat to 127.0.0.1:1027
-[1685686745740] Sending Append Entries to 127.0.0.1:1026
-[1685686745741] Sending Append Entries to 127.0.0.1:1027
-[1685686745795] Sending heartbeat to 127.0.0.1:1026
-[1685686745795] Sending heartbeat to 127.0.0.1:1027
-[1685686745796] Sending Append Entries to 127.0.0.1:1026
-[1685686745796] Sending Append Entries to 127.0.0.1:1027
-[1685686745853] Sending heartbeat to 127.0.0.1:1026
-[1685686745853] Sending heartbeat to 127.0.0.1:1027
-[1685686745854] Sending Append Entries to 127.0.0.1:1026
-[1685686745854] Sending Append Entries to 127.0.0.1:1027
-[1685686745910] Sending heartbeat to 127.0.0.1:1026
-[1685686745910] Sending heartbeat to 127.0.0.1:1027
-[1685686745910] Sending Append Entries to 127.0.0.1:1027
-[1685686745911] Sending Append Entries to 127.0.0.1:1026
-[1685686745964] Sending heartbeat to 127.0.0.1:1026
-[1685686745964] Sending heartbeat to 127.0.0.1:1027
-[1685686745965] Sending Append Entries to 127.0.0.1:1026
-[1685686745965] Sending Append Entries to 127.0.0.1:1027
-[1685686746020] Sending heartbeat to 127.0.0.1:1026
-[1685686746020] Sending heartbeat to 127.0.0.1:1027
-[1685686746021] Sending Append Entries to 127.0.0.1:1026
-[1685686746021] Sending Append Entries to 127.0.0.1:1027
-[1685686746078] Sending heartbeat to 127.0.0.1:1026
-[1685686746078] Sending heartbeat to 127.0.0.1:1027
-[1685686746079] Sending Append Entries to 127.0.0.1:1026
-[1685686746079] Sending Append Entries to 127.0.0.1:1027
-[1685686746132] Sending heartbeat to 127.0.0.1:1026
-[1685686746132] Sending heartbeat to 127.0.0.1:1027
-[1685686746133] Sending Append Entries to 127.0.0.1:1026
-[1685686746133] Sending Append Entries to 127.0.0.1:1027
-[1685686746185] Sending heartbeat to 127.0.0.1:1026
-[1685686746185] Sending heartbeat to 127.0.0.1:1027
-[1685686746185] Sending Append Entries to 127.0.0.1:1027
-[1685686746186] Sending Append Entries to 127.0.0.1:1026
-[1685686746236] Sending heartbeat to 127.0.0.1:1026
-[1685686746236] Sending heartbeat to 127.0.0.1:1027
-[1685686746236] Sending Append Entries to 127.0.0.1:1026
-[1685686746237] Sending Append Entries to 127.0.0.1:1027
-[1685686746292] Sending heartbeat to 127.0.0.1:1026
-[1685686746293] Sending heartbeat to 127.0.0.1:1027
-[1685686746293] Sending Append Entries to 127.0.0.1:1026
-[1685686746294] Sending Append Entries to 127.0.0.1:1027
-[1685686746348] Sending heartbeat to 127.0.0.1:1026
-[1685686746349] Sending heartbeat to 127.0.0.1:1027
-[1685686746349] Sending Append Entries to 127.0.0.1:1026
-[1685686746350] Sending Append Entries to 127.0.0.1:1027
-[1685686746405] Sending heartbeat to 127.0.0.1:1026
-[1685686746405] Sending heartbeat to 127.0.0.1:1027
-[1685686746406] Sending Append Entries to 127.0.0.1:1026
-[1685686746406] Sending Append Entries to 127.0.0.1:1027
-[1685686746463] Sending heartbeat to 127.0.0.1:1026
-[1685686746463] Sending heartbeat to 127.0.0.1:1027
-[1685686746464] Sending Append Entries to 127.0.0.1:1026
-[1685686746464] Sending Append Entries to 127.0.0.1:1027
-[1685686746521] Sending heartbeat to 127.0.0.1:1026
-[1685686746521] Sending heartbeat to 127.0.0.1:1027
-[1685686746522] Sending Append Entries to 127.0.0.1:1026
-[1685686746522] Sending Append Entries to 127.0.0.1:1027
-[1685686746579] Sending heartbeat to 127.0.0.1:1026
-[1685686746579] Sending heartbeat to 127.0.0.1:1027
-[1685686746579] Sending Append Entries to 127.0.0.1:1026
-[1685686746580] Sending Append Entries to 127.0.0.1:1027
-[1685686746634] Sending heartbeat to 127.0.0.1:1026
-[1685686746634] Sending heartbeat to 127.0.0.1:1027
-[1685686746635] Sending Append Entries to 127.0.0.1:1026
-[1685686746636] Sending Append Entries to 127.0.0.1:1027
-[1685686746688] Sending heartbeat to 127.0.0.1:1026
-[1685686746688] Sending heartbeat to 127.0.0.1:1027
-[1685686746689] Sending Append Entries to 127.0.0.1:1026
-[1685686746689] Sending Append Entries to 127.0.0.1:1027
-[1685686746742] Sending heartbeat to 127.0.0.1:1026
-[1685686746743] Sending heartbeat to 127.0.0.1:1027
-[1685686746743] Sending Append Entries to 127.0.0.1:1026
-[1685686746743] Sending Append Entries to 127.0.0.1:1027
-[1685686746795] Sending heartbeat to 127.0.0.1:1026
-[1685686746795] Sending heartbeat to 127.0.0.1:1027
-[1685686746796] Sending Append Entries to 127.0.0.1:1026
-[1685686746796] Sending Append Entries to 127.0.0.1:1027
-[1685686746852] Sending heartbeat to 127.0.0.1:1026
-[1685686746852] Sending heartbeat to 127.0.0.1:1027
-[1685686746853] Sending Append Entries to 127.0.0.1:1026
-[1685686746853] Sending Append Entries to 127.0.0.1:1027
-[1685686746910] Sending heartbeat to 127.0.0.1:1026
-[1685686746910] Sending heartbeat to 127.0.0.1:1027
-[1685686746912] Sending Append Entries to 127.0.0.1:1027
-[1685686746912] Sending Append Entries to 127.0.0.1:1026
-[1685686746966] Sending heartbeat to 127.0.0.1:1026
-[1685686746966] Sending heartbeat to 127.0.0.1:1027
-[1685686746967] Sending Append Entries to 127.0.0.1:1026
-[1685686746967] Sending Append Entries to 127.0.0.1:1027
-[1685686747020] Sending heartbeat to 127.0.0.1:1026
-[1685686747020] Sending heartbeat to 127.0.0.1:1027
-[1685686747020] Sending Append Entries to 127.0.0.1:1026
-[1685686747021] Sending Append Entries to 127.0.0.1:1027
-[1685686747074] Sending heartbeat to 127.0.0.1:1026
-[1685686747074] Sending heartbeat to 127.0.0.1:1027
-[1685686747075] Sending Append Entries to 127.0.0.1:1026
-[1685686747075] Sending Append Entries to 127.0.0.1:1027
-[1685686747131] Sending heartbeat to 127.0.0.1:1026
-[1685686747131] Sending heartbeat to 127.0.0.1:1027
-[1685686747131] Sending Append Entries to 127.0.0.1:1026
-[1685686747132] Sending Append Entries to 127.0.0.1:1027
-[1685686747187] Sending heartbeat to 127.0.0.1:1026
-[1685686747188] Sending heartbeat to 127.0.0.1:1027
-[1685686747188] Sending Append Entries to 127.0.0.1:1026
-[1685686747189] Sending Append Entries to 127.0.0.1:1027
-[1685686747244] Sending heartbeat to 127.0.0.1:1026
-[1685686747244] Sending heartbeat to 127.0.0.1:1027
-[1685686747245] Sending Append Entries to 127.0.0.1:1026
-[1685686747245] Sending Append Entries to 127.0.0.1:1027
-[1685686747299] Sending heartbeat to 127.0.0.1:1026
-[1685686747299] Sending heartbeat to 127.0.0.1:1027
-[1685686747299] Sending Append Entries to 127.0.0.1:1026
-[1685686747300] Sending Append Entries to 127.0.0.1:1027
-[1685686747353] Sending heartbeat to 127.0.0.1:1026
-[1685686747353] Sending heartbeat to 127.0.0.1:1027
-[1685686747353] Sending Append Entries to 127.0.0.1:1026
-[1685686747353] Sending Append Entries to 127.0.0.1:1027
-[1685686747406] Sending heartbeat to 127.0.0.1:1026
-[1685686747406] Sending heartbeat to 127.0.0.1:1027
-[1685686747406] Sending Append Entries to 127.0.0.1:1026
-[1685686747407] Sending Append Entries to 127.0.0.1:1027
-[1685686747463] Sending heartbeat to 127.0.0.1:1026
-[1685686747463] Sending heartbeat to 127.0.0.1:1027
-[1685686747463] Sending Append Entries to 127.0.0.1:1026
-[1685686747464] Sending Append Entries to 127.0.0.1:1027
-[1685686747519] Sending heartbeat to 127.0.0.1:1026
-[1685686747519] Sending heartbeat to 127.0.0.1:1027
-[1685686747520] Sending Append Entries to 127.0.0.1:1026
-[1685686747520] Sending Append Entries to 127.0.0.1:1027
-[1685686747573] Sending heartbeat to 127.0.0.1:1026
-[1685686747573] Sending heartbeat to 127.0.0.1:1027
-[1685686747574] Sending Append Entries to 127.0.0.1:1026
-[1685686747593] Sending Append Entries to 127.0.0.1:1027
-[1685686747647] Sending heartbeat to 127.0.0.1:1026
-[1685686747647] Sending heartbeat to 127.0.0.1:1027
-[1685686747648] Sending Append Entries to 127.0.0.1:1026
-[1685686747648] Sending Append Entries to 127.0.0.1:1027
-[1685686747700] Sending heartbeat to 127.0.0.1:1026
-[1685686747701] Sending heartbeat to 127.0.0.1:1027
-[1685686747701] Sending Append Entries to 127.0.0.1:1026
-[1685686747702] Sending Append Entries to 127.0.0.1:1027
-[1685686747755] Sending heartbeat to 127.0.0.1:1026
-[1685686747755] Sending heartbeat to 127.0.0.1:1027
-[1685686747756] Sending Append Entries to 127.0.0.1:1026
-[1685686747756] Sending Append Entries to 127.0.0.1:1027
-[1685686747812] Sending heartbeat to 127.0.0.1:1026
-[1685686747813] Sending heartbeat to 127.0.0.1:1027
-[1685686747813] Sending Append Entries to 127.0.0.1:1026
-[1685686747813] Sending Append Entries to 127.0.0.1:1027
-[1685686747869] Sending heartbeat to 127.0.0.1:1026
-[1685686747869] Sending heartbeat to 127.0.0.1:1027
-[1685686747869] Sending Append Entries to 127.0.0.1:1026
-[1685686747870] Sending Append Entries to 127.0.0.1:1027
-[1685686747924] Sending heartbeat to 127.0.0.1:1026
-[1685686747925] Sending heartbeat to 127.0.0.1:1027
-[1685686747926] Sending Append Entries to 127.0.0.1:1026
-[1685686747926] Sending Append Entries to 127.0.0.1:1027
-[1685686747981] Sending heartbeat to 127.0.0.1:1026
-[1685686747982] Sending heartbeat to 127.0.0.1:1027
-[1685686747982] Sending Append Entries to 127.0.0.1:1026
-[1685686747983] Sending Append Entries to 127.0.0.1:1027
-[1685686748036] Sending heartbeat to 127.0.0.1:1026
-[1685686748036] Sending heartbeat to 127.0.0.1:1027
-[1685686748037] Sending Append Entries to 127.0.0.1:1026
-[1685686748038] Sending Append Entries to 127.0.0.1:1027
-[1685686748094] Sending heartbeat to 127.0.0.1:1026
-[1685686748094] Sending heartbeat to 127.0.0.1:1027
-[1685686748094] Sending Append Entries to 127.0.0.1:1026
-[1685686748095] Sending Append Entries to 127.0.0.1:1027
-[1685686748149] Sending heartbeat to 127.0.0.1:1026
-[1685686748150] Sending heartbeat to 127.0.0.1:1027
-[1685686748150] Sending Append Entries to 127.0.0.1:1026
-[1685686748151] Sending Append Entries to 127.0.0.1:1027
-[1685686748207] Sending heartbeat to 127.0.0.1:1026
-[1685686748207] Sending heartbeat to 127.0.0.1:1027
-[1685686748208] Sending Append Entries to 127.0.0.1:1026
-[1685686748208] Sending Append Entries to 127.0.0.1:1027
-[1685686748265] Sending heartbeat to 127.0.0.1:1026
-[1685686748266] Sending heartbeat to 127.0.0.1:1027
-[1685686748267] Sending Append Entries to 127.0.0.1:1026
-[1685686748267] Sending Append Entries to 127.0.0.1:1027
-[1685686748319] Sending heartbeat to 127.0.0.1:1026
-[1685686748319] Sending heartbeat to 127.0.0.1:1027
-[1685686748320] Sending Append Entries to 127.0.0.1:1026
-[1685686748320] Sending Append Entries to 127.0.0.1:1027
-[1685686748372] Sending heartbeat to 127.0.0.1:1026
-[1685686748372] Sending heartbeat to 127.0.0.1:1027
-[1685686748373] Sending Append Entries to 127.0.0.1:1026
-[1685686748373] Sending Append Entries to 127.0.0.1:1027
-[1685686748426] Sending heartbeat to 127.0.0.1:1026
-[1685686748426] Sending heartbeat to 127.0.0.1:1027
-[1685686748427] Sending Append Entries to 127.0.0.1:1026
-[1685686748427] Sending Append Entries to 127.0.0.1:1027
-[1685686748483] Sending heartbeat to 127.0.0.1:1026
-[1685686748483] Sending heartbeat to 127.0.0.1:1027
-[1685686748484] Sending Append Entries to 127.0.0.1:1026
-[1685686748484] Sending Append Entries to 127.0.0.1:1027
-[1685686748541] Sending heartbeat to 127.0.0.1:1026
-[1685686748541] Sending heartbeat to 127.0.0.1:1027
-[1685686748541] Sending Append Entries to 127.0.0.1:1026
-[1685686748542] Sending Append Entries to 127.0.0.1:1027
-[1685686748596] Sending heartbeat to 127.0.0.1:1026
-[1685686748596] Sending heartbeat to 127.0.0.1:1027
-[1685686748597] Sending Append Entries to 127.0.0.1:1026
-[1685686748597] Sending Append Entries to 127.0.0.1:1027
-[1685686748653] Sending heartbeat to 127.0.0.1:1026
-[1685686748653] Sending heartbeat to 127.0.0.1:1027
-[1685686748654] Sending Append Entries to 127.0.0.1:1026
-[1685686748654] Sending Append Entries to 127.0.0.1:1027
-[1685686748708] Sending heartbeat to 127.0.0.1:1026
-[1685686748708] Sending heartbeat to 127.0.0.1:1027
-[1685686748708] Sending Append Entries to 127.0.0.1:1026
-[1685686748709] Sending Append Entries to 127.0.0.1:1027
-[1685686748762] Sending heartbeat to 127.0.0.1:1026
-[1685686748762] Sending heartbeat to 127.0.0.1:1027
-[1685686748763] Sending Append Entries to 127.0.0.1:1027
-[1685686748763] Sending Append Entries to 127.0.0.1:1026
-[1685686748815] Sending heartbeat to 127.0.0.1:1026
-[1685686748815] Sending heartbeat to 127.0.0.1:1027
-[1685686748816] Sending Append Entries to 127.0.0.1:1026
-[1685686748816] Sending Append Entries to 127.0.0.1:1027
-[1685686748869] Sending heartbeat to 127.0.0.1:1026
-[1685686748870] Sending heartbeat to 127.0.0.1:1027
-[1685686748870] Sending Append Entries to 127.0.0.1:1026
-[1685686748871] Sending Append Entries to 127.0.0.1:1027
-[1685686748927] Sending heartbeat to 127.0.0.1:1026
-[1685686748927] Sending heartbeat to 127.0.0.1:1027
-[1685686748928] Sending Append Entries to 127.0.0.1:1026
-[1685686748928] Sending Append Entries to 127.0.0.1:1027
-[1685686748985] Sending heartbeat to 127.0.0.1:1026
-[1685686748985] Sending heartbeat to 127.0.0.1:1027
-[1685686748986] Sending Append Entries to 127.0.0.1:1026
-[1685686748987] Sending Append Entries to 127.0.0.1:1027
-[1685686749043] Sending heartbeat to 127.0.0.1:1026
-[1685686749043] Sending heartbeat to 127.0.0.1:1027
-[1685686749043] Sending Append Entries to 127.0.0.1:1027
-[1685686749043] Sending Append Entries to 127.0.0.1:1026
-[1685686749098] Sending heartbeat to 127.0.0.1:1026
-[1685686749098] Sending heartbeat to 127.0.0.1:1027
-[1685686749099] Sending Append Entries to 127.0.0.1:1026
-[1685686749099] Sending Append Entries to 127.0.0.1:1027
-[1685686749153] Sending heartbeat to 127.0.0.1:1026
-[1685686749153] Sending heartbeat to 127.0.0.1:1027
-[1685686749153] Sending Append Entries to 127.0.0.1:1026
-[1685686749154] Sending Append Entries to 127.0.0.1:1027
-[1685686749206] Sending heartbeat to 127.0.0.1:1026
-[1685686749206] Sending heartbeat to 127.0.0.1:1027
-[1685686749207] Sending Append Entries to 127.0.0.1:1026
-[1685686749208] Sending Append Entries to 127.0.0.1:1027
-[1685686749263] Sending heartbeat to 127.0.0.1:1026
-[1685686749263] Sending heartbeat to 127.0.0.1:1027
-[1685686749263] Sending Append Entries to 127.0.0.1:1026
-[1685686749264] Sending Append Entries to 127.0.0.1:1027
-[1685686749319] Sending heartbeat to 127.0.0.1:1026
-[1685686749319] Sending heartbeat to 127.0.0.1:1027
-[1685686749320] Sending Append Entries to 127.0.0.1:1027
-[1685686749320] Sending Append Entries to 127.0.0.1:1026
-[1685686749375] Sending heartbeat to 127.0.0.1:1026
-[1685686749375] Sending heartbeat to 127.0.0.1:1027
-[1685686749376] Sending Append Entries to 127.0.0.1:1026
-[1685686749376] Sending Append Entries to 127.0.0.1:1027
-[1685686749432] Sending heartbeat to 127.0.0.1:1026
-[1685686749433] Sending heartbeat to 127.0.0.1:1027
-[1685686749433] Sending Append Entries to 127.0.0.1:1026
-[1685686749434] Sending Append Entries to 127.0.0.1:1027
-[1685686749487] Sending heartbeat to 127.0.0.1:1026
-[1685686749487] Sending heartbeat to 127.0.0.1:1027
-[1685686749487] Sending Append Entries to 127.0.0.1:1026
-[1685686749488] Sending Append Entries to 127.0.0.1:1027
-[1685686749546] Sending heartbeat to 127.0.0.1:1026
-[1685686749546] Sending heartbeat to 127.0.0.1:1027
-[1685686749546] Sending Append Entries to 127.0.0.1:1026
-[1685686749547] Sending Append Entries to 127.0.0.1:1027
-[1685686749599] Sending heartbeat to 127.0.0.1:1026
-[1685686749599] Sending heartbeat to 127.0.0.1:1027
-[1685686749600] Sending Append Entries to 127.0.0.1:1026
-[1685686749600] Sending Append Entries to 127.0.0.1:1027
-[1685686749652] Sending heartbeat to 127.0.0.1:1026
-[1685686749652] Sending heartbeat to 127.0.0.1:1027
-[1685686749653] Sending Append Entries to 127.0.0.1:1026
-[1685686749653] Sending Append Entries to 127.0.0.1:1027
-[1685686749709] Sending heartbeat to 127.0.0.1:1026
-[1685686749709] Sending heartbeat to 127.0.0.1:1027
-[1685686749710] Sending Append Entries to 127.0.0.1:1026
-[1685686749710] Sending Append Entries to 127.0.0.1:1027
-[1685686749762] Sending heartbeat to 127.0.0.1:1026
-[1685686749762] Sending heartbeat to 127.0.0.1:1027
-[1685686749762] Sending Append Entries to 127.0.0.1:1027
-[1685686749763] Sending Append Entries to 127.0.0.1:1026
-[1685686749815] Sending heartbeat to 127.0.0.1:1026
-[1685686749815] Sending heartbeat to 127.0.0.1:1027
-[1685686749816] Sending Append Entries to 127.0.0.1:1026
-[1685686749816] Sending Append Entries to 127.0.0.1:1027
-[1685686749869] Sending heartbeat to 127.0.0.1:1026
-[1685686749870] Sending heartbeat to 127.0.0.1:1027
-[1685686749870] Sending Append Entries to 127.0.0.1:1026
-[1685686749870] Sending Append Entries to 127.0.0.1:1027
-[1685686749923] Sending heartbeat to 127.0.0.1:1026
-[1685686749923] Sending heartbeat to 127.0.0.1:1027
-[1685686749924] Sending Append Entries to 127.0.0.1:1026
-[1685686749924] Sending Append Entries to 127.0.0.1:1027
-[1685686749979] Sending heartbeat to 127.0.0.1:1026
-[1685686749979] Sending heartbeat to 127.0.0.1:1027
-[1685686749979] Sending Append Entries to 127.0.0.1:1026
-[1685686749980] Sending Append Entries to 127.0.0.1:1027
-[1685686750036] Sending heartbeat to 127.0.0.1:1026
-[1685686750036] Sending heartbeat to 127.0.0.1:1027
-[1685686750037] Sending Append Entries to 127.0.0.1:1026
-[1685686750038] Sending Append Entries to 127.0.0.1:1027
-[1685686750090] Sending heartbeat to 127.0.0.1:1026
-[1685686750090] Sending heartbeat to 127.0.0.1:1027
-[1685686750091] Sending Append Entries to 127.0.0.1:1026
-[1685686750091] Sending Append Entries to 127.0.0.1:1027
-[1685686750102] Received a client request
-[1685686750103] Appended log entry echo "cs349d rocks!!!"
-[1685686750103] Sending append entries to 127.0.0.1:1026 with entries [1685686750103] echo "cs349d rocks!!!" [1685686750103]
-[1685686750104] Sending append entries to 127.0.0.1:1027 with entries [1685686750104] echo "cs349d rocks!!!" [1685686750104]
-[1685686750104] Sending Append Entries to 127.0.0.1:1026
-[1685686750104] Sending Append Entries to 127.0.0.1:1027
-[1685686750107] ---------------------
-[1685686750107] Committing changes to persistent storage. State is now:
-[1685686750107] Term: 1
-[1685686750107] Commit: 0
-[1685686750107] Last applied log: -1
-[1685686750107] Last voted for: self
-[1685686750107] ---------------------
-[1685686750107] Majority have this entry. Updated commit index to 0
-[1685686750115] Command applied to state machine: echo "cs349d rocks!!!" Output: "cs349d rocks!!!"
-[1685686750116] ---------------------
-[1685686750116] Committing changes to persistent storage. State is now:
-[1685686750116] Term: 1
-[1685686750116] Commit: 0
-[1685686750116] Last applied log: 0
-[1685686750117] Last voted for: self
-[1685686750117] ---------------------
-[1685686750117] Applied log entry to state machine 0
-[1685686750144] Sending heartbeat to 127.0.0.1:1026
-[1685686750145] Sending heartbeat to 127.0.0.1:1027
-[1685686750145] Sending Append Entries to 127.0.0.1:1026
-[1685686750145] Sending Append Entries to 127.0.0.1:1027
-[1685686750196] Sending heartbeat to 127.0.0.1:1026
-[1685686750197] Sending heartbeat to 127.0.0.1:1027
-[1685686750197] Sending Append Entries to 127.0.0.1:1026
-[1685686750197] Sending Append Entries to 127.0.0.1:1027
-[1685686750250] Sending heartbeat to 127.0.0.1:1026
-[1685686750250] Sending heartbeat to 127.0.0.1:1027
-[1685686750250] Sending Append Entries to 127.0.0.1:1026
-[1685686750251] Sending Append Entries to 127.0.0.1:1027
-[1685686750304] Sending heartbeat to 127.0.0.1:1026
-[1685686750304] Sending heartbeat to 127.0.0.1:1027
-[1685686750304] Sending Append Entries to 127.0.0.1:1026
-[1685686750305] Sending Append Entries to 127.0.0.1:1027
-[1685686750361] Sending heartbeat to 127.0.0.1:1026
-[1685686750361] Sending heartbeat to 127.0.0.1:1027
-[1685686750362] Sending Append Entries to 127.0.0.1:1026
-[1685686750363] Sending Append Entries to 127.0.0.1:1027
-[1685686750417] Sending heartbeat to 127.0.0.1:1026
-[1685686750417] Sending heartbeat to 127.0.0.1:1027
-[1685686750417] Sending Append Entries to 127.0.0.1:1026
-[1685686750418] Sending Append Entries to 127.0.0.1:1027
-[1685686750473] Sending heartbeat to 127.0.0.1:1026
-[1685686750473] Sending heartbeat to 127.0.0.1:1027
-[1685686750473] Sending Append Entries to 127.0.0.1:1026
-[1685686750474] Sending Append Entries to 127.0.0.1:1027
-[1685686750527] Sending heartbeat to 127.0.0.1:1026
-[1685686750527] Sending heartbeat to 127.0.0.1:1027
-[1685686750528] Sending Append Entries to 127.0.0.1:1026
-[1685686750528] Sending Append Entries to 127.0.0.1:1027
-[1685686750583] Sending heartbeat to 127.0.0.1:1026
-[1685686750583] Sending heartbeat to 127.0.0.1:1027
-[1685686750584] Sending Append Entries to 127.0.0.1:1026
-[1685686750584] Sending Append Entries to 127.0.0.1:1027
-[1685686750638] Sending heartbeat to 127.0.0.1:1026
-[1685686750638] Sending heartbeat to 127.0.0.1:1027
-[1685686750639] Sending Append Entries to 127.0.0.1:1026
-[1685686750639] Sending Append Entries to 127.0.0.1:1027
-[1685686750691] Sending heartbeat to 127.0.0.1:1026
-[1685686750691] Sending heartbeat to 127.0.0.1:1027
-[1685686750692] Sending Append Entries to 127.0.0.1:1026
-[1685686750692] Sending Append Entries to 127.0.0.1:1027
-[1685686750749] Sending heartbeat to 127.0.0.1:1026
-[1685686750749] Sending heartbeat to 127.0.0.1:1027
-[1685686750750] Sending Append Entries to 127.0.0.1:1026
-[1685686750750] Sending Append Entries to 127.0.0.1:1027
-[1685686750804] Sending heartbeat to 127.0.0.1:1026
-[1685686750804] Sending heartbeat to 127.0.0.1:1027
-[1685686750804] Sending Append Entries to 127.0.0.1:1026
-[1685686750805] Sending Append Entries to 127.0.0.1:1027
-[1685686750857] Sending heartbeat to 127.0.0.1:1026
-[1685686750858] Sending heartbeat to 127.0.0.1:1027
-[1685686750858] Sending Append Entries to 127.0.0.1:1026
-[1685686750858] Sending Append Entries to 127.0.0.1:1027
-[1685686750911] Sending heartbeat to 127.0.0.1:1026
-[1685686750911] Sending heartbeat to 127.0.0.1:1027
-[1685686750912] Sending Append Entries to 127.0.0.1:1026
-[1685686750913] Sending Append Entries to 127.0.0.1:1027
-[1685686750967] Sending heartbeat to 127.0.0.1:1026
-[1685686750967] Sending heartbeat to 127.0.0.1:1027
-[1685686750967] Sending Append Entries to 127.0.0.1:1026
-[1685686750968] Sending Append Entries to 127.0.0.1:1027
-[1685686751019] Sending heartbeat to 127.0.0.1:1026
-[1685686751019] Sending heartbeat to 127.0.0.1:1027
-[1685686751020] Sending Append Entries to 127.0.0.1:1026
-[1685686751020] Sending Append Entries to 127.0.0.1:1027
-[1685686751052] Received a client request
-[1685686751053] Appended log entry ls
-[1685686751053] Sending append entries to 127.0.0.1:1026 with entries [1685686751053] ls [1685686751053]
-[1685686751053] Sending append entries to 127.0.0.1:1027 with entries [1685686751053] ls [1685686751053]
-[1685686751054] Sending Append Entries to 127.0.0.1:1026
-[1685686751054] Sending Append Entries to 127.0.0.1:1027
-[1685686751055] ---------------------
-[1685686751055] Committing changes to persistent storage. State is now:
-[1685686751055] Term: 1
-[1685686751055] Commit: 1
-[1685686751055] Last applied log: 0
-[1685686751055] Last voted for: self
-[1685686751055] ---------------------
-[1685686751055] Majority have this entry. Updated commit index to 1
-[1685686751062] Command applied to state machine: ls Output: 1025.log 1025.raft 1026.log 1026.raft 1027.log 1027.raft Makefile README.md bin changes include node_127.0.0.1:1025 node_127.0.0.1:1026 node_127.0.0.1:1027 obj protos src
-[1685686751063] ---------------------
-[1685686751063] Committing changes to persistent storage. State is now:
-[1685686751063] Term: 1
-[1685686751063] Commit: 1
-[1685686751063] Last applied log: 1
-[1685686751063] Last voted for: self
-[1685686751063] ---------------------
-[1685686751063] Applied log entry to state machine 1
-[1685686751074] Sending heartbeat to 127.0.0.1:1026
-[1685686751074] Sending heartbeat to 127.0.0.1:1027
-[1685686751074] Sending Append Entries to 127.0.0.1:1026
-[1685686751075] Sending Append Entries to 127.0.0.1:1027
-[1685686751130] Sending heartbeat to 127.0.0.1:1026
-[1685686751130] Sending heartbeat to 127.0.0.1:1027
-[1685686751130] Sending Append Entries to 127.0.0.1:1027
-[1685686751131] Sending Append Entries to 127.0.0.1:1026
-[1685686751183] Sending heartbeat to 127.0.0.1:1026
-[1685686751183] Sending heartbeat to 127.0.0.1:1027
-[1685686751184] Sending Append Entries to 127.0.0.1:1026
-[1685686751184] Sending Append Entries to 127.0.0.1:1027
-[1685686751241] Sending heartbeat to 127.0.0.1:1026
-[1685686751241] Sending heartbeat to 127.0.0.1:1027
-[1685686751242] Sending Append Entries to 127.0.0.1:1027
-[1685686751242] Sending Append Entries to 127.0.0.1:1026
-[1685686751299] Sending heartbeat to 127.0.0.1:1026
-[1685686751299] Sending heartbeat to 127.0.0.1:1027
-[1685686751300] Sending Append Entries to 127.0.0.1:1026
-[1685686751300] Sending Append Entries to 127.0.0.1:1027
-[1685686751353] Sending heartbeat to 127.0.0.1:1026
-[1685686751353] Sending heartbeat to 127.0.0.1:1027
-[1685686751353] Sending Append Entries to 127.0.0.1:1026
-[1685686751354] Sending Append Entries to 127.0.0.1:1027
-[1685686751406] Sending heartbeat to 127.0.0.1:1026
-[1685686751406] Sending heartbeat to 127.0.0.1:1027
-[1685686751406] Sending Append Entries to 127.0.0.1:1027
-[1685686751407] Sending Append Entries to 127.0.0.1:1026
-[1685686751462] Sending heartbeat to 127.0.0.1:1026
-[1685686751462] Sending heartbeat to 127.0.0.1:1027
-[1685686751462] Sending Append Entries to 127.0.0.1:1027
-[1685686751463] Sending Append Entries to 127.0.0.1:1026
-[1685686751519] Sending heartbeat to 127.0.0.1:1026
-[1685686751519] Sending heartbeat to 127.0.0.1:1027
-[1685686751519] Sending Append Entries to 127.0.0.1:1026
-[1685686751519] Sending Append Entries to 127.0.0.1:1027
-[1685686751572] Sending heartbeat to 127.0.0.1:1026
-[1685686751572] Sending heartbeat to 127.0.0.1:1027
-[1685686751573] Sending Append Entries to 127.0.0.1:1026
-[1685686751573] Sending Append Entries to 127.0.0.1:1027
-[1685686751630] Sending heartbeat to 127.0.0.1:1026
-[1685686751631] Sending heartbeat to 127.0.0.1:1027
-[1685686751631] Sending Append Entries to 127.0.0.1:1026
-[1685686751632] Sending Append Entries to 127.0.0.1:1027
-[1685686751685] Sending heartbeat to 127.0.0.1:1026
-[1685686751685] Sending heartbeat to 127.0.0.1:1027
-[1685686751686] Sending Append Entries to 127.0.0.1:1026
-[1685686751686] Sending Append Entries to 127.0.0.1:1027
-[1685686751740] Sending heartbeat to 127.0.0.1:1026
-[1685686751740] Sending heartbeat to 127.0.0.1:1027
-[1685686751740] Sending Append Entries to 127.0.0.1:1026
-[1685686751740] Sending Append Entries to 127.0.0.1:1027
-[1685686751791] Sending heartbeat to 127.0.0.1:1026
-[1685686751791] Sending heartbeat to 127.0.0.1:1027
-[1685686751792] Sending Append Entries to 127.0.0.1:1026
-[1685686751792] Sending Append Entries to 127.0.0.1:1027
-[1685686751844] Sending heartbeat to 127.0.0.1:1026
-[1685686751844] Sending heartbeat to 127.0.0.1:1027
-[1685686751845] Sending Append Entries to 127.0.0.1:1026
-[1685686751845] Sending Append Entries to 127.0.0.1:1027
-[1685686751901] Sending heartbeat to 127.0.0.1:1026
-[1685686751901] Sending heartbeat to 127.0.0.1:1027
-[1685686751902] Sending Append Entries to 127.0.0.1:1026
-[1685686751903] Sending Append Entries to 127.0.0.1:1027
-[1685686751956] Sending heartbeat to 127.0.0.1:1026
-[1685686751957] Sending heartbeat to 127.0.0.1:1027
-[1685686751957] Sending Append Entries to 127.0.0.1:1026
-[1685686751958] Sending Append Entries to 127.0.0.1:1027
-[1685686752012] Sending heartbeat to 127.0.0.1:1026
-[1685686752012] Sending heartbeat to 127.0.0.1:1027
-[1685686752013] Sending Append Entries to 127.0.0.1:1026
-[1685686752013] Sending Append Entries to 127.0.0.1:1027
-[1685686752066] Sending heartbeat to 127.0.0.1:1026
-[1685686752066] Sending heartbeat to 127.0.0.1:1027
-[1685686752066] Sending Append Entries to 127.0.0.1:1026
-[1685686752066] Sending Append Entries to 127.0.0.1:1027
-[1685686752122] Sending heartbeat to 127.0.0.1:1026
-[1685686752122] Sending heartbeat to 127.0.0.1:1027
-[1685686752122] Sending Append Entries to 127.0.0.1:1026
-[1685686752123] Sending Append Entries to 127.0.0.1:1027
-[1685686752178] Sending heartbeat to 127.0.0.1:1026
-[1685686752178] Sending heartbeat to 127.0.0.1:1027
-[1685686752179] Sending Append Entries to 127.0.0.1:1026
-[1685686752180] Sending Append Entries to 127.0.0.1:1027
-[1685686752232] Sending heartbeat to 127.0.0.1:1026
-[1685686752232] Sending heartbeat to 127.0.0.1:1027
-[1685686752233] Sending Append Entries to 127.0.0.1:1026
-[1685686752233] Sending Append Entries to 127.0.0.1:1027
-[1685686752287] Sending heartbeat to 127.0.0.1:1026
-[1685686752287] Sending heartbeat to 127.0.0.1:1027
-[1685686752288] Sending Append Entries to 127.0.0.1:1026
-[1685686752288] Sending Append Entries to 127.0.0.1:1027
-[1685686752340] Sending heartbeat to 127.0.0.1:1026
-[1685686752340] Sending heartbeat to 127.0.0.1:1027
-[1685686752341] Sending Append Entries to 127.0.0.1:1026
-[1685686752341] Sending Append Entries to 127.0.0.1:1027
-[1685686752394] Sending heartbeat to 127.0.0.1:1026
-[1685686752394] Sending heartbeat to 127.0.0.1:1027
-[1685686752395] Sending Append Entries to 127.0.0.1:1026
-[1685686752395] Sending Append Entries to 127.0.0.1:1027
-[1685686752452] Sending heartbeat to 127.0.0.1:1026
-[1685686752452] Sending heartbeat to 127.0.0.1:1027
-[1685686752453] Sending Append Entries to 127.0.0.1:1026
-[1685686752453] Sending Append Entries to 127.0.0.1:1027
-[1685686752510] Sending heartbeat to 127.0.0.1:1026
-[1685686752510] Sending heartbeat to 127.0.0.1:1027
-[1685686752511] Sending Append Entries to 127.0.0.1:1026
-[1685686752511] Sending Append Entries to 127.0.0.1:1027
-[1685686752564] Sending heartbeat to 127.0.0.1:1026
-[1685686752564] Sending heartbeat to 127.0.0.1:1027
-[1685686752565] Sending Append Entries to 127.0.0.1:1026
-[1685686752565] Sending Append Entries to 127.0.0.1:1027
-[1685686752619] Sending heartbeat to 127.0.0.1:1026
-[1685686752619] Sending heartbeat to 127.0.0.1:1027
-[1685686752620] Sending Append Entries to 127.0.0.1:1026
-[1685686752620] Sending Append Entries to 127.0.0.1:1027
-[1685686752675] Sending heartbeat to 127.0.0.1:1026
-[1685686752675] Sending heartbeat to 127.0.0.1:1027
-[1685686752677] Sending Append Entries to 127.0.0.1:1026
-[1685686752677] Sending Append Entries to 127.0.0.1:1027
-[1685686752729] Sending heartbeat to 127.0.0.1:1026
-[1685686752729] Sending heartbeat to 127.0.0.1:1027
-[1685686752730] Sending Append Entries to 127.0.0.1:1026
-[1685686752730] Sending Append Entries to 127.0.0.1:1027
-[1685686752785] Sending heartbeat to 127.0.0.1:1026
-[1685686752785] Sending heartbeat to 127.0.0.1:1027
-[1685686752785] Sending Append Entries to 127.0.0.1:1026
-[1685686752785] Sending Append Entries to 127.0.0.1:1027
-[1685686752837] Sending heartbeat to 127.0.0.1:1026
-[1685686752838] Sending heartbeat to 127.0.0.1:1027
-[1685686752838] Sending Append Entries to 127.0.0.1:1026
-[1685686752839] Sending Append Entries to 127.0.0.1:1027
-[1685686752895] Sending heartbeat to 127.0.0.1:1026
-[1685686752895] Sending heartbeat to 127.0.0.1:1027
-[1685686752896] Sending Append Entries to 127.0.0.1:1026
-[1685686752896] Sending Append Entries to 127.0.0.1:1027
-[1685686752952] Sending heartbeat to 127.0.0.1:1026
-[1685686752952] Sending heartbeat to 127.0.0.1:1027
-[1685686752953] Sending Append Entries to 127.0.0.1:1027
-[1685686752953] Sending Append Entries to 127.0.0.1:1026
-[1685686753006] Sending heartbeat to 127.0.0.1:1026
-[1685686753006] Sending heartbeat to 127.0.0.1:1027
-[1685686753007] Sending Append Entries to 127.0.0.1:1026
-[1685686753007] Sending Append Entries to 127.0.0.1:1027
-[1685686753064] Sending heartbeat to 127.0.0.1:1026
-[1685686753064] Sending heartbeat to 127.0.0.1:1027
-[1685686753064] Sending Append Entries to 127.0.0.1:1026
-[1685686753065] Sending Append Entries to 127.0.0.1:1027
-[1685686753122] Sending heartbeat to 127.0.0.1:1026
-[1685686753122] Sending heartbeat to 127.0.0.1:1027
-[1685686753123] Sending Append Entries to 127.0.0.1:1026
-[1685686753123] Sending Append Entries to 127.0.0.1:1027
-[1685686753178] Sending heartbeat to 127.0.0.1:1026
-[1685686753178] Sending heartbeat to 127.0.0.1:1027
-[1685686753178] Sending Append Entries to 127.0.0.1:1026
-[1685686753179] Sending Append Entries to 127.0.0.1:1027
-[1685686753234] Sending heartbeat to 127.0.0.1:1026
-[1685686753234] Sending heartbeat to 127.0.0.1:1027
-[1685686753235] Sending Append Entries to 127.0.0.1:1026
-[1685686753235] Sending Append Entries to 127.0.0.1:1027
-[1685686753292] Sending heartbeat to 127.0.0.1:1026
-[1685686753292] Sending heartbeat to 127.0.0.1:1027
-[1685686753293] Sending Append Entries to 127.0.0.1:1027
-[1685686753293] Sending Append Entries to 127.0.0.1:1026
-[1685686753345] Sending heartbeat to 127.0.0.1:1026
-[1685686753345] Sending heartbeat to 127.0.0.1:1027
-[1685686753346] Sending Append Entries to 127.0.0.1:1027
-[1685686753346] Sending Append Entries to 127.0.0.1:1026
-[1685686753398] Sending heartbeat to 127.0.0.1:1026
-[1685686753398] Sending heartbeat to 127.0.0.1:1027
-[1685686753398] Sending Append Entries to 127.0.0.1:1026
-[1685686753399] Sending Append Entries to 127.0.0.1:1027
-[1685686753455] Sending heartbeat to 127.0.0.1:1026
-[1685686753455] Sending heartbeat to 127.0.0.1:1027
-[1685686753456] Sending Append Entries to 127.0.0.1:1026
-[1685686753456] Sending Append Entries to 127.0.0.1:1027
-[1685686753512] Sending heartbeat to 127.0.0.1:1026
-[1685686753512] Sending heartbeat to 127.0.0.1:1027
-[1685686753513] Sending Append Entries to 127.0.0.1:1026
-[1685686753513] Sending Append Entries to 127.0.0.1:1027
-[1685686753569] Sending heartbeat to 127.0.0.1:1026
-[1685686753569] Sending heartbeat to 127.0.0.1:1027
-[1685686753570] Sending Append Entries to 127.0.0.1:1026
-[1685686753571] Sending Append Entries to 127.0.0.1:1027
-[1685686753623] Sending heartbeat to 127.0.0.1:1026
-[1685686753623] Sending heartbeat to 127.0.0.1:1027
-[1685686753623] Sending Append Entries to 127.0.0.1:1026
-[1685686753624] Sending Append Entries to 127.0.0.1:1027
-[1685686753677] Sending heartbeat to 127.0.0.1:1026
-[1685686753677] Sending heartbeat to 127.0.0.1:1027
-[1685686753678] Sending Append Entries to 127.0.0.1:1026
-[1685686753678] Sending Append Entries to 127.0.0.1:1027
-[1685686753731] Sending heartbeat to 127.0.0.1:1026
-[1685686753731] Sending heartbeat to 127.0.0.1:1027
-[1685686753731] Sending Append Entries to 127.0.0.1:1026
-[1685686753732] Sending Append Entries to 127.0.0.1:1027
-[1685686753785] Sending heartbeat to 127.0.0.1:1026
-[1685686753785] Sending heartbeat to 127.0.0.1:1027
-[1685686753786] Sending Append Entries to 127.0.0.1:1026
-[1685686753786] Sending Append Entries to 127.0.0.1:1027
-[1685686753838] Sending heartbeat to 127.0.0.1:1026
-[1685686753838] Sending heartbeat to 127.0.0.1:1027
-[1685686753839] Sending Append Entries to 127.0.0.1:1026
-[1685686753839] Sending Append Entries to 127.0.0.1:1027
-[1685686753892] Sending heartbeat to 127.0.0.1:1026
-[1685686753892] Sending heartbeat to 127.0.0.1:1027
-[1685686753893] Sending Append Entries to 127.0.0.1:1026
-[1685686753893] Sending Append Entries to 127.0.0.1:1027
-[1685686753949] Sending heartbeat to 127.0.0.1:1026
-[1685686753950] Sending heartbeat to 127.0.0.1:1027
-[1685686753950] Sending Append Entries to 127.0.0.1:1026
-[1685686753951] Sending Append Entries to 127.0.0.1:1027
-[1685686754006] Sending heartbeat to 127.0.0.1:1026
-[1685686754006] Sending heartbeat to 127.0.0.1:1027
-[1685686754007] Sending Append Entries to 127.0.0.1:1026
-[1685686754007] Sending Append Entries to 127.0.0.1:1027
-[1685686754063] Sending heartbeat to 127.0.0.1:1026
-[1685686754063] Sending heartbeat to 127.0.0.1:1027
-[1685686754064] Sending Append Entries to 127.0.0.1:1026
-[1685686754064] Sending Append Entries to 127.0.0.1:1027
-[1685686754120] Sending heartbeat to 127.0.0.1:1026
-[1685686754120] Sending heartbeat to 127.0.0.1:1027
-[1685686754121] Sending Append Entries to 127.0.0.1:1026
-[1685686754121] Sending Append Entries to 127.0.0.1:1027
-[1685686754178] Sending heartbeat to 127.0.0.1:1026
-[1685686754178] Sending heartbeat to 127.0.0.1:1027
-[1685686754178] Sending Append Entries to 127.0.0.1:1026
-[1685686754179] Sending Append Entries to 127.0.0.1:1027
-[1685686754232] Sending heartbeat to 127.0.0.1:1026
-[1685686754232] Sending heartbeat to 127.0.0.1:1027
-[1685686754232] Sending Append Entries to 127.0.0.1:1026
-[1685686754233] Sending Append Entries to 127.0.0.1:1027
-[1685686754288] Sending heartbeat to 127.0.0.1:1026
-[1685686754288] Sending heartbeat to 127.0.0.1:1027
-[1685686754289] Sending Append Entries to 127.0.0.1:1026
-[1685686754289] Sending Append Entries to 127.0.0.1:1027
-[1685686754345] Sending heartbeat to 127.0.0.1:1026
-[1685686754345] Sending heartbeat to 127.0.0.1:1027
-[1685686754346] Sending Append Entries to 127.0.0.1:1026
-[1685686754346] Sending Append Entries to 127.0.0.1:1027
-[1685686754400] Sending heartbeat to 127.0.0.1:1026
-[1685686754400] Sending heartbeat to 127.0.0.1:1027
-[1685686754401] Sending Append Entries to 127.0.0.1:1026
-[1685686754401] Sending Append Entries to 127.0.0.1:1027
-[1685686754458] Sending heartbeat to 127.0.0.1:1026
-[1685686754458] Sending heartbeat to 127.0.0.1:1027
-[1685686754459] Sending Append Entries to 127.0.0.1:1026
-[1685686754459] Sending Append Entries to 127.0.0.1:1027
-[1685686754511] Sending heartbeat to 127.0.0.1:1026
-[1685686754511] Sending heartbeat to 127.0.0.1:1027
-[1685686754511] Sending Append Entries to 127.0.0.1:1027
-[1685686754512] Sending Append Entries to 127.0.0.1:1026
-[1685686754567] Sending heartbeat to 127.0.0.1:1026
-[1685686754567] Sending heartbeat to 127.0.0.1:1027
-[1685686754568] Sending Append Entries to 127.0.0.1:1026
-[1685686754569] Sending Append Entries to 127.0.0.1:1027
-[1685686754623] Sending heartbeat to 127.0.0.1:1026
-[1685686754623] Sending heartbeat to 127.0.0.1:1027
-[1685686754623] Sending Append Entries to 127.0.0.1:1026
-[1685686754624] Sending Append Entries to 127.0.0.1:1027
-[1685686754676] Sending heartbeat to 127.0.0.1:1026
-[1685686754677] Sending heartbeat to 127.0.0.1:1027
-[1685686754678] Sending Append Entries to 127.0.0.1:1026
-[1685686754678] Sending Append Entries to 127.0.0.1:1027
-[1685686754734] Sending heartbeat to 127.0.0.1:1026
-[1685686754734] Sending heartbeat to 127.0.0.1:1027
-[1685686754735] Sending Append Entries to 127.0.0.1:1026
-[1685686754736] Sending Append Entries to 127.0.0.1:1027
-[1685686754790] Sending heartbeat to 127.0.0.1:1026
-[1685686754790] Sending heartbeat to 127.0.0.1:1027
-[1685686754790] Sending Append Entries to 127.0.0.1:1027
-[1685686754791] Sending Append Entries to 127.0.0.1:1026
-[1685686754847] Sending heartbeat to 127.0.0.1:1026
-[1685686754847] Sending heartbeat to 127.0.0.1:1027
-[1685686754848] Sending Append Entries to 127.0.0.1:1026
-[1685686754848] Sending Append Entries to 127.0.0.1:1027
-[1685686754900] Sending heartbeat to 127.0.0.1:1026
-[1685686754900] Sending heartbeat to 127.0.0.1:1027
-[1685686754901] Sending Append Entries to 127.0.0.1:1026
-[1685686754902] Sending Append Entries to 127.0.0.1:1027
-[1685686754954] Sending heartbeat to 127.0.0.1:1026
-[1685686754954] Sending heartbeat to 127.0.0.1:1027
-[1685686754954] Sending Append Entries to 127.0.0.1:1026
-[1685686754955] Sending Append Entries to 127.0.0.1:1027
-[1685686755011] Sending heartbeat to 127.0.0.1:1026
-[1685686755011] Sending heartbeat to 127.0.0.1:1027
-[1685686755012] Sending Append Entries to 127.0.0.1:1026
-[1685686755012] Sending Append Entries to 127.0.0.1:1027
-[1685686755066] Sending heartbeat to 127.0.0.1:1026
-[1685686755066] Sending heartbeat to 127.0.0.1:1027
-[1685686755067] Sending Append Entries to 127.0.0.1:1026
-[1685686755067] Sending Append Entries to 127.0.0.1:1027
-[1685686755124] Sending heartbeat to 127.0.0.1:1026
-[1685686755124] Sending heartbeat to 127.0.0.1:1027
-[1685686755125] Sending Append Entries to 127.0.0.1:1026
-[1685686755125] Sending Append Entries to 127.0.0.1:1027
-[1685686755178] Sending heartbeat to 127.0.0.1:1026
-[1685686755178] Sending heartbeat to 127.0.0.1:1027
-[1685686755178] Sending Append Entries to 127.0.0.1:1026
-[1685686755179] Sending Append Entries to 127.0.0.1:1027
-[1685686755231] Sending heartbeat to 127.0.0.1:1026
-[1685686755231] Sending heartbeat to 127.0.0.1:1027
-[1685686755232] Sending Append Entries to 127.0.0.1:1026
-[1685686755232] Sending Append Entries to 127.0.0.1:1027
-[1685686755286] Sending heartbeat to 127.0.0.1:1026
-[1685686755286] Sending heartbeat to 127.0.0.1:1027
-[1685686755286] Sending Append Entries to 127.0.0.1:1026
-[1685686755287] Sending Append Entries to 127.0.0.1:1027
-[1685686755342] Sending heartbeat to 127.0.0.1:1026
-[1685686755342] Sending heartbeat to 127.0.0.1:1027
-[1685686755342] Sending Append Entries to 127.0.0.1:1026
-[1685686755342] Sending Append Entries to 127.0.0.1:1027
-[1685686755399] Sending heartbeat to 127.0.0.1:1026
-[1685686755399] Sending heartbeat to 127.0.0.1:1027
-[1685686755399] Sending Append Entries to 127.0.0.1:1026
-[1685686755400] Sending Append Entries to 127.0.0.1:1027
-[1685686755455] Sending heartbeat to 127.0.0.1:1026
-[1685686755455] Sending heartbeat to 127.0.0.1:1027
-[1685686755456] Sending Append Entries to 127.0.0.1:1027
-[1685686755456] Sending Append Entries to 127.0.0.1:1026
-[1685686755513] Sending heartbeat to 127.0.0.1:1026
-[1685686755513] Sending heartbeat to 127.0.0.1:1027
-[1685686755513] Sending Append Entries to 127.0.0.1:1027
-[1685686755514] Sending Append Entries to 127.0.0.1:1026
-[1685686755569] Sending heartbeat to 127.0.0.1:1026
-[1685686755570] Sending heartbeat to 127.0.0.1:1027
-[1685686755570] Sending Append Entries to 127.0.0.1:1026
-[1685686755571] Sending Append Entries to 127.0.0.1:1027
-[1685686755626] Sending heartbeat to 127.0.0.1:1026
-[1685686755626] Sending heartbeat to 127.0.0.1:1027
-[1685686755627] Sending Append Entries to 127.0.0.1:1026
-[1685686755627] Sending Append Entries to 127.0.0.1:1027
-[1685686755684] Sending heartbeat to 127.0.0.1:1026
-[1685686755684] Sending heartbeat to 127.0.0.1:1027
-[1685686755685] Sending Append Entries to 127.0.0.1:1026
-[1685686755685] Sending Append Entries to 127.0.0.1:1027
-[1685686755739] Sending heartbeat to 127.0.0.1:1026
-[1685686755739] Sending heartbeat to 127.0.0.1:1027
-[1685686755740] Sending Append Entries to 127.0.0.1:1026
-[1685686755740] Sending Append Entries to 127.0.0.1:1027
-[1685686755796] Sending heartbeat to 127.0.0.1:1026
-[1685686755796] Sending heartbeat to 127.0.0.1:1027
-[1685686755797] Sending Append Entries to 127.0.0.1:1026
-[1685686755797] Sending Append Entries to 127.0.0.1:1027
-[1685686755849] Sending heartbeat to 127.0.0.1:1026
-[1685686755850] Sending heartbeat to 127.0.0.1:1027
-[1685686755850] Sending Append Entries to 127.0.0.1:1026
-[1685686755850] Sending Append Entries to 127.0.0.1:1027
-[1685686755903] Sending heartbeat to 127.0.0.1:1026
-[1685686755903] Sending heartbeat to 127.0.0.1:1027
-[1685686755904] Sending Append Entries to 127.0.0.1:1026
-[1685686755904] Sending Append Entries to 127.0.0.1:1027
-[1685686755960] Sending heartbeat to 127.0.0.1:1026
-[1685686755960] Sending heartbeat to 127.0.0.1:1027
-[1685686755960] Sending Append Entries to 127.0.0.1:1026
-[1685686755961] Sending Append Entries to 127.0.0.1:1027
-[1685686756013] Sending heartbeat to 127.0.0.1:1026
-[1685686756013] Sending heartbeat to 127.0.0.1:1027
-[1685686756014] Sending Append Entries to 127.0.0.1:1026
-[1685686756014] Sending Append Entries to 127.0.0.1:1027
-[1685686756071] Sending heartbeat to 127.0.0.1:1026
-[1685686756071] Sending heartbeat to 127.0.0.1:1027
-[1685686756071] Sending Append Entries to 127.0.0.1:1026
-[1685686756072] Sending Append Entries to 127.0.0.1:1027
-[1685686756127] Sending heartbeat to 127.0.0.1:1026
-[1685686756127] Sending heartbeat to 127.0.0.1:1027
-[1685686756127] Sending Append Entries to 127.0.0.1:1026
-[1685686756128] Sending Append Entries to 127.0.0.1:1027
-[1685686756184] Sending heartbeat to 127.0.0.1:1026
-[1685686756184] Sending heartbeat to 127.0.0.1:1027
-[1685686756185] Sending Append Entries to 127.0.0.1:1026
-[1685686756185] Sending Append Entries to 127.0.0.1:1027
-[1685686756242] Sending heartbeat to 127.0.0.1:1026
-[1685686756242] Sending heartbeat to 127.0.0.1:1027
-[1685686756242] Sending Append Entries to 127.0.0.1:1026
-[1685686756242] Sending Append Entries to 127.0.0.1:1027
-[1685686756297] Sending heartbeat to 127.0.0.1:1026
-[1685686756297] Sending heartbeat to 127.0.0.1:1027
-[1685686756298] Sending Append Entries to 127.0.0.1:1026
-[1685686756298] Sending Append Entries to 127.0.0.1:1027
-[1685686756351] Sending heartbeat to 127.0.0.1:1026
-[1685686756351] Sending heartbeat to 127.0.0.1:1027
-[1685686756351] Sending Append Entries to 127.0.0.1:1026
-[1685686756351] Sending Append Entries to 127.0.0.1:1027
-[1685686756404] Sending heartbeat to 127.0.0.1:1026
-[1685686756404] Sending heartbeat to 127.0.0.1:1027
-[1685686756404] Sending Append Entries to 127.0.0.1:1027
-[1685686756405] Sending Append Entries to 127.0.0.1:1026
-[1685686756457] Sending heartbeat to 127.0.0.1:1026
-[1685686756458] Sending heartbeat to 127.0.0.1:1027
-[1685686756458] Sending Append Entries to 127.0.0.1:1026
-[1685686756459] Sending Append Entries to 127.0.0.1:1027
-[1685686756512] Sending heartbeat to 127.0.0.1:1026
-[1685686756512] Sending heartbeat to 127.0.0.1:1027
-[1685686756513] Sending Append Entries to 127.0.0.1:1026
-[1685686756513] Sending Append Entries to 127.0.0.1:1027
-[1685686756567] Sending heartbeat to 127.0.0.1:1026
-[1685686756567] Sending heartbeat to 127.0.0.1:1027
-[1685686756568] Sending Append Entries to 127.0.0.1:1026
-[1685686756568] Sending Append Entries to 127.0.0.1:1027
-[1685686756622] Sending heartbeat to 127.0.0.1:1026
-[1685686756622] Sending heartbeat to 127.0.0.1:1027
-[1685686756623] Sending Append Entries to 127.0.0.1:1026
-[1685686756623] Sending Append Entries to 127.0.0.1:1027
-[1685686756679] Sending heartbeat to 127.0.0.1:1026
-[1685686756679] Sending heartbeat to 127.0.0.1:1027
-[1685686756680] Sending Append Entries to 127.0.0.1:1026
-[1685686756680] Sending Append Entries to 127.0.0.1:1027
-[1685686756735] Sending heartbeat to 127.0.0.1:1026
-[1685686756735] Sending heartbeat to 127.0.0.1:1027
-[1685686756736] Sending Append Entries to 127.0.0.1:1026
-[1685686756736] Sending Append Entries to 127.0.0.1:1027
-[1685686756788] Sending heartbeat to 127.0.0.1:1026
-[1685686756789] Sending heartbeat to 127.0.0.1:1027
-[1685686756789] Sending Append Entries to 127.0.0.1:1026
-[1685686756790] Sending Append Entries to 127.0.0.1:1027
-[1685686756841] Sending heartbeat to 127.0.0.1:1026
-[1685686756842] Sending heartbeat to 127.0.0.1:1027
-[1685686756842] Sending Append Entries to 127.0.0.1:1026
-[1685686756842] Sending Append Entries to 127.0.0.1:1027
-[1685686756897] Sending heartbeat to 127.0.0.1:1026
-[1685686756897] Sending heartbeat to 127.0.0.1:1027
-[1685686756898] Sending Append Entries to 127.0.0.1:1027
-[1685686756898] Sending Append Entries to 127.0.0.1:1026
-[1685686756950] Sending heartbeat to 127.0.0.1:1026
-[1685686756950] Sending heartbeat to 127.0.0.1:1027
-[1685686756951] Sending Append Entries to 127.0.0.1:1026
-[1685686756951] Sending Append Entries to 127.0.0.1:1027
-[1685686757006] Sending heartbeat to 127.0.0.1:1026
-[1685686757006] Sending heartbeat to 127.0.0.1:1027
-[1685686757006] Sending Append Entries to 127.0.0.1:1026
-[1685686757007] Sending Append Entries to 127.0.0.1:1027
-[1685686757062] Sending heartbeat to 127.0.0.1:1026
-[1685686757062] Sending heartbeat to 127.0.0.1:1027
-[1685686757062] Sending Append Entries to 127.0.0.1:1026
-[1685686757063] Sending Append Entries to 127.0.0.1:1027
-[1685686757119] Sending heartbeat to 127.0.0.1:1026
-[1685686757119] Sending heartbeat to 127.0.0.1:1027
-[1685686757119] Sending Append Entries to 127.0.0.1:1027
-[1685686757120] Sending Append Entries to 127.0.0.1:1026
-[1685686757172] Sending heartbeat to 127.0.0.1:1026
-[1685686757173] Sending heartbeat to 127.0.0.1:1027
-[1685686757173] Sending Append Entries to 127.0.0.1:1026
-[1685686757174] Sending Append Entries to 127.0.0.1:1027
-[1685686757226] Sending heartbeat to 127.0.0.1:1026
-[1685686757226] Sending heartbeat to 127.0.0.1:1027
-[1685686757227] Sending Append Entries to 127.0.0.1:1026
-[1685686757227] Sending Append Entries to 127.0.0.1:1027
-[1685686757279] Sending heartbeat to 127.0.0.1:1026
-[1685686757279] Sending heartbeat to 127.0.0.1:1027
-[1685686757280] Sending Append Entries to 127.0.0.1:1026
-[1685686757280] Sending Append Entries to 127.0.0.1:1027
-[1685686757336] Sending heartbeat to 127.0.0.1:1026
-[1685686757336] Sending heartbeat to 127.0.0.1:1027
-[1685686757336] Sending Append Entries to 127.0.0.1:1026
-[1685686757336] Sending Append Entries to 127.0.0.1:1027
-[1685686757394] Sending heartbeat to 127.0.0.1:1026
-[1685686757394] Sending heartbeat to 127.0.0.1:1027
-[1685686757395] Sending Append Entries to 127.0.0.1:1026
-[1685686757395] Sending Append Entries to 127.0.0.1:1027
-[1685686757451] Sending heartbeat to 127.0.0.1:1026
-[1685686757451] Sending heartbeat to 127.0.0.1:1027
-[1685686757452] Sending Append Entries to 127.0.0.1:1026
-[1685686757452] Sending Append Entries to 127.0.0.1:1027
-[1685686757505] Sending heartbeat to 127.0.0.1:1026
-[1685686757505] Sending heartbeat to 127.0.0.1:1027
-[1685686757506] Sending Append Entries to 127.0.0.1:1026
-[1685686757506] Sending Append Entries to 127.0.0.1:1027
-[1685686757562] Sending heartbeat to 127.0.0.1:1026
-[1685686757562] Sending heartbeat to 127.0.0.1:1027
-[1685686757563] Sending Append Entries to 127.0.0.1:1026
-[1685686757563] Sending Append Entries to 127.0.0.1:1027
-[1685686757619] Sending heartbeat to 127.0.0.1:1026
-[1685686757619] Sending heartbeat to 127.0.0.1:1027
-[1685686757619] Sending Append Entries to 127.0.0.1:1027
-[1685686757619] Sending Append Entries to 127.0.0.1:1026
-[1685686757674] Sending heartbeat to 127.0.0.1:1026
-[1685686757674] Sending heartbeat to 127.0.0.1:1027
-[1685686757675] Sending Append Entries to 127.0.0.1:1026
-[1685686757675] Sending Append Entries to 127.0.0.1:1027
-[1685686757731] Sending heartbeat to 127.0.0.1:1026
-[1685686757731] Sending heartbeat to 127.0.0.1:1027
-[1685686757732] Sending Append Entries to 127.0.0.1:1026
-[1685686757732] Sending Append Entries to 127.0.0.1:1027
-[1685686757789] Sending heartbeat to 127.0.0.1:1026
-[1685686757790] Sending heartbeat to 127.0.0.1:1027
-[1685686757790] Sending Append Entries to 127.0.0.1:1026
-[1685686757791] Sending Append Entries to 127.0.0.1:1027
-[1685686757847] Sending heartbeat to 127.0.0.1:1026
-[1685686757847] Sending heartbeat to 127.0.0.1:1027
-[1685686757848] Sending Append Entries to 127.0.0.1:1027
-[1685686757848] Sending Append Entries to 127.0.0.1:1026
-[1685686757904] Sending heartbeat to 127.0.0.1:1026
-[1685686757904] Sending heartbeat to 127.0.0.1:1027
-[1685686757905] Sending Append Entries to 127.0.0.1:1026
-[1685686757906] Sending Append Entries to 127.0.0.1:1027
-[1685686757962] Sending heartbeat to 127.0.0.1:1026
-[1685686757962] Sending heartbeat to 127.0.0.1:1027
-[1685686757963] Sending Append Entries to 127.0.0.1:1026
-[1685686757963] Sending Append Entries to 127.0.0.1:1027
-[1685686758019] Sending heartbeat to 127.0.0.1:1026
-[1685686758019] Sending heartbeat to 127.0.0.1:1027
-[1685686758020] Sending Append Entries to 127.0.0.1:1026
-[1685686758020] Sending Append Entries to 127.0.0.1:1027
-[1685686758078] Sending heartbeat to 127.0.0.1:1026
-[1685686758078] Sending heartbeat to 127.0.0.1:1027
-[1685686758078] Sending Append Entries to 127.0.0.1:1026
-[1685686758079] Sending Append Entries to 127.0.0.1:1027
-[1685686758135] Sending heartbeat to 127.0.0.1:1026
-[1685686758135] Sending heartbeat to 127.0.0.1:1027
-[1685686758136] Sending Append Entries to 127.0.0.1:1026
-[1685686758136] Sending Append Entries to 127.0.0.1:1027
-[1685686758193] Sending heartbeat to 127.0.0.1:1026
-[1685686758194] Sending heartbeat to 127.0.0.1:1027
-[1685686758194] Sending Append Entries to 127.0.0.1:1026
-[1685686758195] Sending Append Entries to 127.0.0.1:1027
-[1685686758250] Sending heartbeat to 127.0.0.1:1026
-[1685686758250] Sending heartbeat to 127.0.0.1:1027
-[1685686758250] Sending Append Entries to 127.0.0.1:1026
-[1685686758251] Sending Append Entries to 127.0.0.1:1027
-[1685686758298] Received a client request
-[1685686758299] Appended log entry echo "graduating! see ya <3"
-[1685686758299] Sending append entries to 127.0.0.1:1026 with entries [1685686758299] echo "graduating! see ya <3" [1685686758299]
-[1685686758299] Sending append entries to 127.0.0.1:1027 with entries [1685686758299] echo "graduating! see ya <3" [1685686758299]
-[1685686758300] Sending Append Entries to 127.0.0.1:1026
-[1685686758300] Sending Append Entries to 127.0.0.1:1027
-[1685686758303] ---------------------
-[1685686758303] Committing changes to persistent storage. State is now:
-[1685686758303] Term: 1
-[1685686758303] Commit: 2
-[1685686758303] Last applied log: 1
-[1685686758304] Last voted for: self
-[1685686758304] ---------------------
-[1685686758304] Majority have this entry. Updated commit index to 2
-[1685686758309] Command applied to state machine: echo "graduating! see ya <3" Output: "graduating! see ya <3"
-[1685686758311] ---------------------
-[1685686758311] Committing changes to persistent storage. State is now:
-[1685686758311] Term: 1
-[1685686758311] Commit: 2
-[1685686758311] Last applied log: 2
-[1685686758311] Last voted for: self
-[1685686758311] ---------------------
-[1685686758311] Applied log entry to state machine 2
-[1685686758311] Sending heartbeat to 127.0.0.1:1026
-[1685686758312] Sending heartbeat to 127.0.0.1:1027
-[1685686758312] Sending Append Entries to 127.0.0.1:1027
-[1685686758312] Sending Append Entries to 127.0.0.1:1026
-[1685686758367] Sending heartbeat to 127.0.0.1:1026
-[1685686758367] Sending heartbeat to 127.0.0.1:1027
-[1685686758368] Sending Append Entries to 127.0.0.1:1026
-[1685686758368] Sending Append Entries to 127.0.0.1:1027
-[1685686758420] Sending heartbeat to 127.0.0.1:1026
-[1685686758421] Sending heartbeat to 127.0.0.1:1027
-[1685686758421] Sending Append Entries to 127.0.0.1:1026
-[1685686758422] Sending Append Entries to 127.0.0.1:1027
-[1685686758473] Sending heartbeat to 127.0.0.1:1026
-[1685686758474] Sending heartbeat to 127.0.0.1:1027
-[1685686758474] Sending Append Entries to 127.0.0.1:1026
-[1685686758475] Sending Append Entries to 127.0.0.1:1027
-[1685686758528] Sending heartbeat to 127.0.0.1:1026
-[1685686758528] Sending heartbeat to 127.0.0.1:1027
-[1685686758529] Sending Append Entries to 127.0.0.1:1026
-[1685686758529] Sending Append Entries to 127.0.0.1:1027
-[1685686758585] Sending heartbeat to 127.0.0.1:1026
-[1685686758586] Sending heartbeat to 127.0.0.1:1027
-[1685686758586] Sending Append Entries to 127.0.0.1:1026
-[1685686758587] Sending Append Entries to 127.0.0.1:1027
-[1685686758638] Sending heartbeat to 127.0.0.1:1026
-[1685686758639] Sending heartbeat to 127.0.0.1:1027
-[1685686758639] Sending Append Entries to 127.0.0.1:1026
-[1685686758640] Sending Append Entries to 127.0.0.1:1027
-[1685686758691] Sending heartbeat to 127.0.0.1:1026
-[1685686758691] Sending heartbeat to 127.0.0.1:1027
-[1685686758691] Sending Append Entries to 127.0.0.1:1026
-[1685686758691] Sending Append Entries to 127.0.0.1:1027
-[1685686758744] Sending heartbeat to 127.0.0.1:1026
-[1685686758744] Sending heartbeat to 127.0.0.1:1027
-[1685686758745] Sending Append Entries to 127.0.0.1:1026
-[1685686758745] Sending Append Entries to 127.0.0.1:1027
-[1685686758798] Sending heartbeat to 127.0.0.1:1026
-[1685686758798] Sending heartbeat to 127.0.0.1:1027
-[1685686758798] Sending Append Entries to 127.0.0.1:1027
-[1685686758798] Sending Append Entries to 127.0.0.1:1026
-[1685686758851] Sending heartbeat to 127.0.0.1:1026
-[1685686758852] Sending heartbeat to 127.0.0.1:1027
-[1685686758852] Sending Append Entries to 127.0.0.1:1027
-[1685686758852] Sending Append Entries to 127.0.0.1:1026
-[1685686758906] Sending heartbeat to 127.0.0.1:1026
-[1685686758906] Sending heartbeat to 127.0.0.1:1027
-[1685686758906] Sending Append Entries to 127.0.0.1:1026
-[1685686758907] Sending Append Entries to 127.0.0.1:1027
-[1685686758962] Sending heartbeat to 127.0.0.1:1026
-[1685686758962] Sending heartbeat to 127.0.0.1:1027
-[1685686758963] Sending Append Entries to 127.0.0.1:1026
-[1685686758963] Sending Append Entries to 127.0.0.1:1027
-[1685686759017] Sending heartbeat to 127.0.0.1:1026
-[1685686759018] Sending heartbeat to 127.0.0.1:1027
-[1685686759018] Sending Append Entries to 127.0.0.1:1026
-[1685686759018] Sending Append Entries to 127.0.0.1:1027
-[1685686759071] Sending heartbeat to 127.0.0.1:1026
-[1685686759071] Sending heartbeat to 127.0.0.1:1027
-[1685686759072] Sending Append Entries to 127.0.0.1:1027
-[1685686759072] Sending Append Entries to 127.0.0.1:1026
-[1685686759124] Sending heartbeat to 127.0.0.1:1026
-[1685686759124] Sending heartbeat to 127.0.0.1:1027
-[1685686759124] Sending Append Entries to 127.0.0.1:1026
-[1685686759125] Sending Append Entries to 127.0.0.1:1027
-[1685686759178] Sending heartbeat to 127.0.0.1:1026
-[1685686759178] Sending heartbeat to 127.0.0.1:1027
-[1685686759178] Sending Append Entries to 127.0.0.1:1026
-[1685686759179] Sending Append Entries to 127.0.0.1:1027
-[1685686759231] Sending heartbeat to 127.0.0.1:1026
-[1685686759231] Sending heartbeat to 127.0.0.1:1027
-[1685686759232] Sending Append Entries to 127.0.0.1:1026
-[1685686759233] Sending Append Entries to 127.0.0.1:1027
-[1685686759288] Sending heartbeat to 127.0.0.1:1026
-[1685686759288] Sending heartbeat to 127.0.0.1:1027
-[1685686759288] Sending Append Entries to 127.0.0.1:1026
-[1685686759288] Sending Append Entries to 127.0.0.1:1027
-[1685686759345] Sending heartbeat to 127.0.0.1:1026
-[1685686759345] Sending heartbeat to 127.0.0.1:1027
-[1685686759346] Sending Append Entries to 127.0.0.1:1026
-[1685686759346] Sending Append Entries to 127.0.0.1:1027
-[1685686759402] Sending heartbeat to 127.0.0.1:1026
-[1685686759402] Sending heartbeat to 127.0.0.1:1027
-[1685686759402] Sending Append Entries to 127.0.0.1:1026
-[1685686759403] Sending Append Entries to 127.0.0.1:1027
-[1685686759455] Sending heartbeat to 127.0.0.1:1026
-[1685686759455] Sending heartbeat to 127.0.0.1:1027
-[1685686759456] Sending Append Entries to 127.0.0.1:1026
-[1685686759456] Sending Append Entries to 127.0.0.1:1027
-[1685686759512] Sending heartbeat to 127.0.0.1:1026
-[1685686759513] Sending heartbeat to 127.0.0.1:1027
-[1685686759513] Sending Append Entries to 127.0.0.1:1026
-[1685686759514] Sending Append Entries to 127.0.0.1:1027
-[1685686759571] Sending heartbeat to 127.0.0.1:1026
-[1685686759571] Sending heartbeat to 127.0.0.1:1027
-[1685686759571] Sending Append Entries to 127.0.0.1:1026
-[1685686759572] Sending Append Entries to 127.0.0.1:1027
-[1685686759626] Sending heartbeat to 127.0.0.1:1026
-[1685686759626] Sending heartbeat to 127.0.0.1:1027
-[1685686759627] Sending Append Entries to 127.0.0.1:1026
-[1685686759627] Sending Append Entries to 127.0.0.1:1027
-[1685686759679] Sending heartbeat to 127.0.0.1:1026
-[1685686759679] Sending heartbeat to 127.0.0.1:1027
-[1685686759680] Sending Append Entries to 127.0.0.1:1026
-[1685686759681] Sending Append Entries to 127.0.0.1:1027
-[1685686759736] Sending heartbeat to 127.0.0.1:1026
-[1685686759736] Sending heartbeat to 127.0.0.1:1027
-[1685686759737] Sending Append Entries to 127.0.0.1:1026
-[1685686759737] Sending Append Entries to 127.0.0.1:1027
-[1685686759792] Sending heartbeat to 127.0.0.1:1026
-[1685686759793] Sending heartbeat to 127.0.0.1:1027
-[1685686759793] Sending Append Entries to 127.0.0.1:1026
-[1685686759794] Sending Append Entries to 127.0.0.1:1027
-[1685686759849] Sending heartbeat to 127.0.0.1:1026
-[1685686759849] Sending heartbeat to 127.0.0.1:1027
-[1685686759849] Sending Append Entries to 127.0.0.1:1026
-[1685686759850] Sending Append Entries to 127.0.0.1:1027
-[1685686759905] Sending heartbeat to 127.0.0.1:1026
-[1685686759906] Sending heartbeat to 127.0.0.1:1027
-[1685686759907] Sending Append Entries to 127.0.0.1:1026
-[1685686759907] Sending Append Entries to 127.0.0.1:1027
-[1685686759962] Sending heartbeat to 127.0.0.1:1026
-[1685686759962] Sending heartbeat to 127.0.0.1:1027
-[1685686759963] Sending Append Entries to 127.0.0.1:1027
-[1685686759963] Sending Append Entries to 127.0.0.1:1026
-[1685686760018] Sending heartbeat to 127.0.0.1:1026
-[1685686760018] Sending heartbeat to 127.0.0.1:1027
-[1685686760018] Sending Append Entries to 127.0.0.1:1026
-[1685686760018] Sending Append Entries to 127.0.0.1:1027
-[1685686760073] Sending heartbeat to 127.0.0.1:1026
-[1685686760074] Sending heartbeat to 127.0.0.1:1027
-[1685686760074] Sending Append Entries to 127.0.0.1:1027
-[1685686760074] Sending Append Entries to 127.0.0.1:1026
-[1685686760127] Sending heartbeat to 127.0.0.1:1026
-[1685686760127] Sending heartbeat to 127.0.0.1:1027
-[1685686760128] Sending Append Entries to 127.0.0.1:1026
-[1685686760128] Sending Append Entries to 127.0.0.1:1027
-[1685686760184] Sending heartbeat to 127.0.0.1:1026
-[1685686760184] Sending heartbeat to 127.0.0.1:1027
-[1685686760185] Sending Append Entries to 127.0.0.1:1026
-[1685686760185] Sending Append Entries to 127.0.0.1:1027
-[1685686760239] Sending heartbeat to 127.0.0.1:1026
-[1685686760239] Sending heartbeat to 127.0.0.1:1027
-[1685686760240] Sending Append Entries to 127.0.0.1:1027
-[1685686760240] Sending Append Entries to 127.0.0.1:1026
-[1685686760295] Sending heartbeat to 127.0.0.1:1026
-[1685686760295] Sending heartbeat to 127.0.0.1:1027
-[1685686760296] Sending Append Entries to 127.0.0.1:1026
-[1685686760297] Sending Append Entries to 127.0.0.1:1027
-[1685686760351] Sending heartbeat to 127.0.0.1:1026
-[1685686760351] Sending heartbeat to 127.0.0.1:1027
-[1685686760352] Sending Append Entries to 127.0.0.1:1027
-[1685686760352] Sending Append Entries to 127.0.0.1:1026
-[1685686760404] Sending heartbeat to 127.0.0.1:1026
-[1685686760404] Sending heartbeat to 127.0.0.1:1027
-[1685686760405] Sending Append Entries to 127.0.0.1:1026
-[1685686760405] Sending Append Entries to 127.0.0.1:1027
-[1685686760459] Sending heartbeat to 127.0.0.1:1026
-[1685686760460] Sending heartbeat to 127.0.0.1:1027
-[1685686760460] Sending Append Entries to 127.0.0.1:1026
-[1685686760460] Sending Append Entries to 127.0.0.1:1027
-[1685686760512] Sending heartbeat to 127.0.0.1:1026
-[1685686760512] Sending heartbeat to 127.0.0.1:1027
-[1685686760513] Sending Append Entries to 127.0.0.1:1026
-[1685686760513] Sending Append Entries to 127.0.0.1:1027
-[1685686760567] Sending heartbeat to 127.0.0.1:1026
-[1685686760568] Sending heartbeat to 127.0.0.1:1027
-[1685686760568] Sending Append Entries to 127.0.0.1:1026
-[1685686760568] Sending Append Entries to 127.0.0.1:1027
-[1685686760620] Sending heartbeat to 127.0.0.1:1026
-[1685686760620] Sending heartbeat to 127.0.0.1:1027
-[1685686760620] Sending Append Entries to 127.0.0.1:1026
-[1685686760621] Sending Append Entries to 127.0.0.1:1027
-[1685686760677] Sending heartbeat to 127.0.0.1:1026
-[1685686760677] Sending heartbeat to 127.0.0.1:1027
-[1685686760677] Sending Append Entries to 127.0.0.1:1026
-[1685686760678] Sending Append Entries to 127.0.0.1:1027
-[1685686760733] Sending heartbeat to 127.0.0.1:1026
-[1685686760734] Sending heartbeat to 127.0.0.1:1027
-[1685686760734] Sending Append Entries to 127.0.0.1:1026
-[1685686760735] Sending Append Entries to 127.0.0.1:1027
-[1685686760792] Sending heartbeat to 127.0.0.1:1026
-[1685686760793] Sending heartbeat to 127.0.0.1:1027
-[1685686760793] Sending Append Entries to 127.0.0.1:1026
-[1685686760794] Sending Append Entries to 127.0.0.1:1027
-[1685686760849] Sending heartbeat to 127.0.0.1:1026
-[1685686760849] Sending heartbeat to 127.0.0.1:1027
-[1685686760849] Sending Append Entries to 127.0.0.1:1027
-[1685686760850] Sending Append Entries to 127.0.0.1:1026
-[1685686760905] Sending heartbeat to 127.0.0.1:1026
-[1685686760905] Sending heartbeat to 127.0.0.1:1027
-[1685686760906] Sending Append Entries to 127.0.0.1:1026
-[1685686760906] Sending Append Entries to 127.0.0.1:1027
-[1685686760906] Error: Unable to connect to: 127.0.0.1:1027
-[1685686760906] Append Entries send_request failed.
-[1685686760959] Sending heartbeat to 127.0.0.1:1026
-[1685686760959] Sending heartbeat to 127.0.0.1:1027
-[1685686760959] Sending Append Entries to 127.0.0.1:1026
-[1685686760960] Sending Append Entries to 127.0.0.1:1027
-[1685686760960] Error: Unable to connect to: 127.0.0.1:1027
-[1685686760960] Append Entries send_request failed.
-[1685686761014] Sending heartbeat to 127.0.0.1:1026
-[1685686761014] Sending heartbeat to 127.0.0.1:1027
-[1685686761015] Sending Append Entries to 127.0.0.1:1026
-[1685686761015] Sending Append Entries to 127.0.0.1:1027
-[1685686761016] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761016] Append Entries send_request failed.
-[1685686761068] Sending heartbeat to 127.0.0.1:1026
-[1685686761069] Sending heartbeat to 127.0.0.1:1027
-[1685686761069] Sending Append Entries to 127.0.0.1:1026
-[1685686761069] Sending Append Entries to 127.0.0.1:1027
-[1685686761070] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761070] Append Entries send_request failed.
-[1685686761124] Sending heartbeat to 127.0.0.1:1026
-[1685686761125] Sending heartbeat to 127.0.0.1:1027
-[1685686761125] Sending Append Entries to 127.0.0.1:1026
-[1685686761125] Sending Append Entries to 127.0.0.1:1027
-[1685686761126] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761126] Append Entries send_request failed.
-[1685686761177] Sending heartbeat to 127.0.0.1:1026
-[1685686761177] Sending heartbeat to 127.0.0.1:1027
-[1685686761177] Sending Append Entries to 127.0.0.1:1027
-[1685686761177] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761177] Append Entries send_request failed.
-[1685686761177] Sending Append Entries to 127.0.0.1:1026
-[1685686761229] Sending heartbeat to 127.0.0.1:1026
-[1685686761229] Sending heartbeat to 127.0.0.1:1027
-[1685686761231] Sending Append Entries to 127.0.0.1:1027
-[1685686761231] Sending Append Entries to 127.0.0.1:1026
-[1685686761231] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761231] Append Entries send_request failed.
-[1685686761285] Sending heartbeat to 127.0.0.1:1026
-[1685686761285] Sending heartbeat to 127.0.0.1:1027
-[1685686761286] Sending Append Entries to 127.0.0.1:1026
-[1685686761286] Sending Append Entries to 127.0.0.1:1027
-[1685686761287] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761287] Append Entries send_request failed.
-[1685686761343] Sending heartbeat to 127.0.0.1:1026
-[1685686761343] Sending heartbeat to 127.0.0.1:1027
-[1685686761343] Sending Append Entries to 127.0.0.1:1026
-[1685686761344] Sending Append Entries to 127.0.0.1:1027
-[1685686761344] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761344] Append Entries send_request failed.
-[1685686761399] Sending heartbeat to 127.0.0.1:1026
-[1685686761399] Sending heartbeat to 127.0.0.1:1027
-[1685686761399] Sending Append Entries to 127.0.0.1:1026
-[1685686761399] Sending Append Entries to 127.0.0.1:1027
-[1685686761400] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761400] Append Entries send_request failed.
-[1685686761455] Sending heartbeat to 127.0.0.1:1026
-[1685686761455] Sending heartbeat to 127.0.0.1:1027
-[1685686761455] Sending Append Entries to 127.0.0.1:1026
-[1685686761455] Sending Append Entries to 127.0.0.1:1027
-[1685686761455] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761455] Append Entries send_request failed.
-[1685686761511] Sending heartbeat to 127.0.0.1:1026
-[1685686761511] Sending heartbeat to 127.0.0.1:1027
-[1685686761512] Sending Append Entries to 127.0.0.1:1026
-[1685686761512] Sending Append Entries to 127.0.0.1:1027
-[1685686761513] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761513] Append Entries send_request failed.
-[1685686761567] Sending heartbeat to 127.0.0.1:1026
-[1685686761567] Sending heartbeat to 127.0.0.1:1027
-[1685686761568] Sending Append Entries to 127.0.0.1:1026
-[1685686761568] Sending Append Entries to 127.0.0.1:1027
-[1685686761569] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761569] Append Entries send_request failed.
-[1685686761621] Sending heartbeat to 127.0.0.1:1026
-[1685686761621] Sending heartbeat to 127.0.0.1:1027
-[1685686761621] Sending Append Entries to 127.0.0.1:1027
-[1685686761622] Sending Append Entries to 127.0.0.1:1026
-[1685686761622] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761622] Append Entries send_request failed.
-[1685686761674] Sending heartbeat to 127.0.0.1:1026
-[1685686761674] Sending heartbeat to 127.0.0.1:1027
-[1685686761674] Sending Append Entries to 127.0.0.1:1026
-[1685686761675] Sending Append Entries to 127.0.0.1:1027
-[1685686761675] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761675] Append Entries send_request failed.
-[1685686761728] Sending heartbeat to 127.0.0.1:1026
-[1685686761729] Sending heartbeat to 127.0.0.1:1027
-[1685686761729] Sending Append Entries to 127.0.0.1:1026
-[1685686761730] Sending Append Entries to 127.0.0.1:1027
-[1685686761730] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761730] Append Entries send_request failed.
-[1685686761784] Sending heartbeat to 127.0.0.1:1026
-[1685686761784] Sending heartbeat to 127.0.0.1:1027
-[1685686761785] Sending Append Entries to 127.0.0.1:1027
-[1685686761785] Sending Append Entries to 127.0.0.1:1026
-[1685686761786] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761786] Append Entries send_request failed.
-[1685686761839] Sending heartbeat to 127.0.0.1:1026
-[1685686761839] Sending heartbeat to 127.0.0.1:1027
-[1685686761840] Sending Append Entries to 127.0.0.1:1026
-[1685686761840] Sending Append Entries to 127.0.0.1:1027
-[1685686761840] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761840] Append Entries send_request failed.
-[1685686761896] Sending heartbeat to 127.0.0.1:1026
-[1685686761896] Sending heartbeat to 127.0.0.1:1027
-[1685686761897] Sending Append Entries to 127.0.0.1:1026
-[1685686761897] Sending Append Entries to 127.0.0.1:1027
-[1685686761898] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761898] Append Entries send_request failed.
-[1685686761952] Sending heartbeat to 127.0.0.1:1026
-[1685686761952] Sending heartbeat to 127.0.0.1:1027
-[1685686761953] Sending Append Entries to 127.0.0.1:1026
-[1685686761953] Sending Append Entries to 127.0.0.1:1027
-[1685686761953] Error: Unable to connect to: 127.0.0.1:1027
-[1685686761953] Append Entries send_request failed.
-[1685686762008] Sending heartbeat to 127.0.0.1:1026
-[1685686762008] Sending heartbeat to 127.0.0.1:1027
-[1685686762008] Sending Append Entries to 127.0.0.1:1026
-[1685686762009] Sending Append Entries to 127.0.0.1:1027
-[1685686762009] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762009] Append Entries send_request failed.
-[1685686762062] Sending heartbeat to 127.0.0.1:1026
-[1685686762062] Sending heartbeat to 127.0.0.1:1027
-[1685686762063] Sending Append Entries to 127.0.0.1:1026
-[1685686762063] Sending Append Entries to 127.0.0.1:1027
-[1685686762064] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762064] Append Entries send_request failed.
-[1685686762118] Sending heartbeat to 127.0.0.1:1026
-[1685686762118] Sending heartbeat to 127.0.0.1:1027
-[1685686762119] Sending Append Entries to 127.0.0.1:1026
-[1685686762119] Sending Append Entries to 127.0.0.1:1027
-[1685686762119] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762119] Append Entries send_request failed.
-[1685686762173] Sending heartbeat to 127.0.0.1:1026
-[1685686762173] Sending heartbeat to 127.0.0.1:1027
-[1685686762174] Sending Append Entries to 127.0.0.1:1026
-[1685686762174] Sending Append Entries to 127.0.0.1:1027
-[1685686762174] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762174] Append Entries send_request failed.
-[1685686762227] Sending heartbeat to 127.0.0.1:1026
-[1685686762228] Sending heartbeat to 127.0.0.1:1027
-[1685686762229] Sending Append Entries to 127.0.0.1:1026
-[1685686762230] Sending Append Entries to 127.0.0.1:1027
-[1685686762230] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762230] Append Entries send_request failed.
-[1685686762285] Sending heartbeat to 127.0.0.1:1026
-[1685686762285] Sending heartbeat to 127.0.0.1:1027
-[1685686762286] Sending Append Entries to 127.0.0.1:1026
-[1685686762287] Sending Append Entries to 127.0.0.1:1027
-[1685686762287] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762287] Append Entries send_request failed.
-[1685686762338] Sending heartbeat to 127.0.0.1:1026
-[1685686762338] Sending heartbeat to 127.0.0.1:1027
-[1685686762339] Sending Append Entries to 127.0.0.1:1026
-[1685686762339] Sending Append Entries to 127.0.0.1:1027
-[1685686762339] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762339] Append Entries send_request failed.
-[1685686762392] Sending heartbeat to 127.0.0.1:1026
-[1685686762392] Sending heartbeat to 127.0.0.1:1027
-[1685686762393] Sending Append Entries to 127.0.0.1:1026
-[1685686762393] Sending Append Entries to 127.0.0.1:1027
-[1685686762394] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762394] Append Entries send_request failed.
-[1685686762446] Sending heartbeat to 127.0.0.1:1026
-[1685686762446] Sending heartbeat to 127.0.0.1:1027
-[1685686762446] Sending Append Entries to 127.0.0.1:1026
-[1685686762447] Sending Append Entries to 127.0.0.1:1027
-[1685686762447] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762447] Append Entries send_request failed.
-[1685686762500] Sending heartbeat to 127.0.0.1:1026
-[1685686762500] Sending heartbeat to 127.0.0.1:1027
-[1685686762501] Sending Append Entries to 127.0.0.1:1026
-[1685686762501] Sending Append Entries to 127.0.0.1:1027
-[1685686762502] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762502] Append Entries send_request failed.
-[1685686762553] Sending heartbeat to 127.0.0.1:1026
-[1685686762553] Sending heartbeat to 127.0.0.1:1027
-[1685686762553] Sending Append Entries to 127.0.0.1:1026
-[1685686762553] Sending Append Entries to 127.0.0.1:1027
-[1685686762553] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762553] Append Entries send_request failed.
-[1685686762607] Sending heartbeat to 127.0.0.1:1026
-[1685686762607] Sending heartbeat to 127.0.0.1:1027
-[1685686762608] Sending Append Entries to 127.0.0.1:1027
-[1685686762608] Sending Append Entries to 127.0.0.1:1026
-[1685686762608] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762608] Append Entries send_request failed.
-[1685686762608] Error: Unable to connect to: 127.0.0.1:1026
-[1685686762608] Append Entries send_request failed.
-[1685686762661] Sending heartbeat to 127.0.0.1:1026
-[1685686762661] Sending heartbeat to 127.0.0.1:1027
-[1685686762662] Sending Append Entries to 127.0.0.1:1026
-[1685686762662] Sending Append Entries to 127.0.0.1:1027
-[1685686762662] Error: Unable to connect to: 127.0.0.1:1026
-[1685686762662] Append Entries send_request failed.
-[1685686762662] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762662] Append Entries send_request failed.
-[1685686762713] Sending heartbeat to 127.0.0.1:1026
-[1685686762713] Sending heartbeat to 127.0.0.1:1027
-[1685686762714] Sending Append Entries to 127.0.0.1:1026
-[1685686762714] Error: Unable to connect to: 127.0.0.1:1026
-[1685686762714] Append Entries send_request failed.
-[1685686762714] Sending Append Entries to 127.0.0.1:1027
-[1685686762715] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762715] Append Entries send_request failed.
-[1685686762769] Sending heartbeat to 127.0.0.1:1026
-[1685686762769] Sending heartbeat to 127.0.0.1:1027
-[1685686762770] Sending Append Entries to 127.0.0.1:1026
-[1685686762770] [1685686762770] Error: Sending Append Entries to 127.0.0.1:1027
-Unable to connect to: 127.0.0.1:1026
-[1685686762771] Append Entries send_request failed.
-[1685686762771] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762771] Append Entries send_request failed.
-[1685686762826] Sending heartbeat to 127.0.0.1:1026
-[1685686762826] Sending heartbeat to 127.0.0.1:1027
-[1685686762826] Sending Append Entries to 127.0.0.1:1026
-[1685686762827] Error: Unable to connect to: 127.0.0.1:1026
-[[1685686762827] Append Entries send_request failed.
-1685686762827] Sending Append Entries to 127.0.0.1:1027
-[1685686762827] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762828] Append Entries send_request failed.
-[1685686762880] Sending heartbeat to 127.0.0.1:1026
-[1685686762880] Sending heartbeat to 127.0.0.1:1027
-[1685686762880] Sending Append Entries to 127.0.0.1:1026
-[1685686762881] Sending Append Entries to 127.0.0.1:1027
-[1685686762881] Error: Unable to connect to: 127.0.0.1:1026
-[1685686762881] Append Entries send_request failed.
-[1685686762881] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762881] Append Entries send_request failed.
-[1685686762933] Sending heartbeat to 127.0.0.1:1026
-[1685686762933] Sending heartbeat to 127.0.0.1:1027
-[1685686762934] Sending Append Entries to 127.0.0.1:1027
-[1685686762935] Sending Append Entries to 127.0.0.1:1026
-[1685686762935] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762935] Append Entries send_request failed.
-[1685686762936] Error: Unable to connect to: 127.0.0.1:1026
-[1685686762936] Append Entries send_request failed.
-[1685686762987] Sending heartbeat to 127.0.0.1:1026
-[1685686762987] Sending heartbeat to 127.0.0.1:1027
-[1685686762987] Sending Append Entries to 127.0.0.1:1026
-[1685686762987] Sending Append Entries to 127.0.0.1:1027
-[1685686762988] Error: Unable to connect to: 127.0.0.1:1026
-[1685686762988] Append Entries send_request failed.
-[1685686762988] Error: Unable to connect to: 127.0.0.1:1027
-[1685686762988] Append Entries send_request failed.
-[1685686763039] Sending heartbeat to 127.0.0.1:1026
-[1685686763039] Sending heartbeat to 127.0.0.1:1027
-[1685686763039] Sending Append Entries to 127.0.0.1:1026
-[1685686763040] Sending Append Entries to 127.0.0.1:1027
-[1685686763040] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763040] Append Entries send_request failed.
-[1685686763040] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763040] Append Entries send_request failed.
-[1685686763092] Sending heartbeat to 127.0.0.1:1026
-[1685686763093] Sending heartbeat to 127.0.0.1:1027
-[1685686763093] Sending Append Entries to 127.0.0.1:1026
-[1685686763094] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763094] Append Entries send_request failed.
-[1685686763094] Sending Append Entries to 127.0.0.1:1027
-[1685686763094] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763094] Append Entries send_request failed.
-[1685686763150] Sending heartbeat to 127.0.0.1:1026
-[1685686763150] Sending heartbeat to 127.0.0.1:1027
-[1685686763150] Sending Append Entries to 127.0.0.1:1026
-[1685686763151] Sending Append Entries to 127.0.0.1:1027
-[1685686763151] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763151] Append Entries send_request failed.
-[1685686763151] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763152] Append Entries send_request failed.
-[1685686763207] Sending heartbeat to 127.0.0.1:1026
-[1685686763208] Sending heartbeat to 127.0.0.1:1027
-[1685686763208] Sending Append Entries to 127.0.0.1:1026
-[1685686763209] Sending Append Entries to 127.0.0.1:1027
-[1685686763209] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763209] Append Entries send_request failed.
-[1685686763209] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763209] Append Entries send_request failed.
-[1685686763263] Sending heartbeat to 127.0.0.1:1026
-[1685686763263] Sending heartbeat to 127.0.0.1:1027
-[1685686763264] Sending Append Entries to 127.0.0.1:1026
-[1685686763264] Sending Append Entries to 127.0.0.1:1027
-[1685686763264] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763264] Append Entries send_request failed.
-[1685686763265] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763265] Append Entries send_request failed.
-[1685686763317] Sending heartbeat to 127.0.0.1:1026
-[1685686763317] Sending heartbeat to 127.0.0.1:1027
-[1685686763318] Sending Append Entries to 127.0.0.1:1026
-[1685686763318] Sending Append Entries to 127.0.0.1:1027
-[1685686763318] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763318] Append Entries send_request failed.
-[1685686763319] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763319] Append Entries send_request failed.
-[1685686763370] Sending heartbeat to 127.0.0.1:1026
-[1685686763370] Sending heartbeat to 127.0.0.1:1027
-[1685686763370] Sending Append Entries to 127.0.0.1:1026
-[[1685686763371] Sending Append Entries to 127.0.0.1:1027
-1685686763371] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763371] Append Entries send_request failed.
-[1685686763371] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763371] Append Entries send_request failed.
-[1685686763423] Sending heartbeat to 127.0.0.1:1026
-[1685686763423] Sending heartbeat to 127.0.0.1:1027
-[1685686763424] Sending Append Entries to 127.0.0.1:1026
-[1685686763424] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763424] Append Entries send_request failed.
-[1685686763424] Sending Append Entries to 127.0.0.1:1027
-[1685686763425] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763425] Append Entries send_request failed.
-[1685686763478] Sending heartbeat to 127.0.0.1:1026
-[1685686763478] Sending heartbeat to 127.0.0.1:1027
-[1685686763479] Sending Append Entries to 127.0.0.1:1026
-[1685686763479] Sending Append Entries to 127.0.0.1:1027
-[1685686763480] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763480] Append Entries send_request failed.
-[1685686763480] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763480] Append Entries send_request failed.
-[1685686763532] Sending heartbeat to 127.0.0.1:1026
-[1685686763533] Sending heartbeat to 127.0.0.1:1027
-[1685686763533] Sending Append Entries to 127.0.0.1:1026
-[1685686763534] Sending Append Entries to 127.0.0.1:1027
-[1685686763534] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763534] Append Entries send_request failed.
-[1685686763534] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763534] Append Entries send_request failed.
-[1685686763586] Sending heartbeat to 127.0.0.1:1026
-[1685686763586] Sending heartbeat to 127.0.0.1:1027
-[1685686763588] Sending Append Entries to 127.0.0.1:1026
-[[1685686763588] 1685686763588Sending Append Entries to 127.0.0.1:1027
-] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763588] Append Entries send_request failed.
-[1685686763589] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763589] Append Entries send_request failed.
-[1685686763640] Sending heartbeat to 127.0.0.1:1026
-[1685686763640] Sending heartbeat to 127.0.0.1:1027
-[1685686763641] Sending Append Entries to 127.0.0.1:1026
-[1685686763641] Sending Append Entries to 127.0.0.1:1027
-[1685686763641] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763641] Append Entries send_request failed.
-[1685686763641] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763641] Append Entries send_request failed.
-[1685686763692] Sending heartbeat to 127.0.0.1:1026
-[1685686763693] Sending heartbeat to 127.0.0.1:1027
-[1685686763693] Sending Append Entries to 127.0.0.1:1026
-[1685686763694] Sending Append Entries to 127.0.0.1:1027
-[1685686763694] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763694] Append Entries send_request failed.
-[1685686763694] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763694] Append Entries send_request failed.
-[1685686763749] Sending heartbeat to 127.0.0.1:1026
-[1685686763750] Sending heartbeat to 127.0.0.1:1027
-[1685686763750] Sending Append Entries to 127.0.0.1:1026
-[1685686763751] Sending Append Entries to 127.0.0.1:1027
-[1685686763751] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763751] Append Entries send_request failed.
-[1685686763751] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763751] Append Entries send_request failed.
-[1685686763807] Sending heartbeat to 127.0.0.1:1026
-[1685686763807] Sending heartbeat to 127.0.0.1:1027
-[1685686763808] Sending Append Entries to 127.0.0.1:1026
-[1685686763808] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763809] Append Entries send_request failed.
-[1685686763809] Sending Append Entries to 127.0.0.1:1027
-[1685686763809] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763809] Append Entries send_request failed.
-[1685686763862] Sending heartbeat to 127.0.0.1:1026
-[1685686763862] Sending heartbeat to 127.0.0.1:1027
-[1685686763862] Sending Append Entries to 127.0.0.1:1026
-[1685686763863[1685686763863] Error: ] Unable to connect to: 127.0.0.1:1026
-[1685686763863] Append Entries send_request failed.
-Sending Append Entries to 127.0.0.1:1027
-[1685686763863] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763864] Append Entries send_request failed.
-[1685686763914] Sending heartbeat to 127.0.0.1:1026
-[1685686763914] Sending heartbeat to 127.0.0.1:1027
-[1685686763914] Sending Append Entries to 127.0.0.1:1026
-[1685686763915] Sending Append Entries to 127.0.0.1:1027
-[1685686763915] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763915] Append Entries send_request failed.
-[1685686763915] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763915] Append Entries send_request failed.
-[1685686763967] Sending heartbeat to 127.0.0.1:1026
-[1685686763967] Sending heartbeat to 127.0.0.1:1027
-[1685686763968] Sending Append Entries to 127.0.0.1:1026
-[[1685686763968] Sending Append Entries to 127.0.0.1:1027
-1685686763968] Error: Unable to connect to: 127.0.0.1:1026
-[1685686763969] Append Entries send_request failed.
-[1685686763969] Error: Unable to connect to: 127.0.0.1:1027
-[1685686763969] Append Entries send_request failed.
-[1685686764021] Sending heartbeat to 127.0.0.1:1026
-[1685686764021] Sending heartbeat to 127.0.0.1:1027
-[1685686764022] Sending Append Entries to 127.0.0.1:1026
-[1685686764022] Sending Append Entries to 127.0.0.1:1027
-[1685686764022] Error: Unable to connect to: 127.0.0.1:1026
-[1685686764022] Append Entries send_request failed.
-[1685686764022] Error: Unable to connect to: 127.0.0.1:1027
-[1685686764022] Append Entries send_request failed.
-[1685686764074] Sending heartbeat to 127.0.0.1:1026
-[1685686764074] Sending heartbeat to 127.0.0.1:1027
-[1685686764075] Sending Append Entries to 127.0.0.1:1026
-[1685686764075] Error: Unable to connect to: 127.0.0.1:1026
-[1685686764076] Append Entries send_request failed.
-[1685686764076] Sending Append Entries to 127.0.0.1:1027
-[1685686764076] Error: Unable to connect to: 127.0.0.1:1027
-[1685686764076] Append Entries send_request failed.
+[1685744733497] Initialized server with id 127.0.0.1:1025
+[1685744733497] Error: Key "voted_for" not found in 1025.raft
+[1685744733497] Committing changes to persistent storage. State is now: Term: 0, Commit log index: -1, Last applied log index: -1, Last voted for: NULL, 
+[1685744733497] Became follower
+[1685744735307] Heartbeat timed out, became candidate
+[1685744735310] Committing changes to persistent storage. State is now: Term: 1, Commit log index: -1, Last applied log index: -1, Last voted for: self, 
+[1685744735310] Sending Request Vote to 127.0.0.1:1026
+[1685744735310] Sending Request Vote to 127.0.0.1:1027
+[1685744735314] Won election, became leader in term 1
+[1685744735367] Sending heartbeat to 127.0.0.1:1026
+[1685744735368] Sending heartbeat to 127.0.0.1:1027
+[1685744735368] Sending Append Entries to 127.0.0.1:1026
+[1685744735369] Sending Append Entries to 127.0.0.1:1027
+[1685744735422] Sending heartbeat to 127.0.0.1:1026
+[1685744735422] Sending heartbeat to 127.0.0.1:1027
+[1685744735423] Sending Append Entries to 127.0.0.1:1026
+[1685744735423] Sending Append Entries to 127.0.0.1:1027
+[1685744735475] Sending heartbeat to 127.0.0.1:1026
+[1685744735475] Sending heartbeat to 127.0.0.1:1027
+[1685744735476] Sending Append Entries to 127.0.0.1:1026
+[1685744735476] Sending Append Entries to 127.0.0.1:1027
+[1685744735531] Sending heartbeat to 127.0.0.1:1026
+[1685744735531] Sending heartbeat to 127.0.0.1:1027
+[1685744735532] Sending Append Entries to 127.0.0.1:1026
+[1685744735532] Sending Append Entries to 127.0.0.1:1027
+[1685744735587] Sending heartbeat to 127.0.0.1:1026
+[1685744735587] Sending heartbeat to 127.0.0.1:1027
+[1685744735587] Sending Append Entries to 127.0.0.1:1026
+[1685744735588] Sending Append Entries to 127.0.0.1:1027
+[1685744735639] Sending heartbeat to 127.0.0.1:1026
+[1685744735640] Sending heartbeat to 127.0.0.1:1027
+[1685744735640] Sending Append Entries to 127.0.0.1:1026
+[1685744735640] Sending Append Entries to 127.0.0.1:1027
+[1685744735693] Sending heartbeat to 127.0.0.1:1026
+[1685744735694] Sending heartbeat to 127.0.0.1:1027
+[1685744735694] Sending Append Entries to 127.0.0.1:1026
+[1685744735694] Sending Append Entries to 127.0.0.1:1027
+[1685744735748] Sending heartbeat to 127.0.0.1:1026
+[1685744735748] Sending heartbeat to 127.0.0.1:1027
+[1685744735749] Sending Append Entries to 127.0.0.1:1026
+[1685744735750] Sending Append Entries to 127.0.0.1:1027
+[1685744735805] Sending heartbeat to 127.0.0.1:1026
+[1685744735806] Sending heartbeat to 127.0.0.1:1027
+[1685744735806] Sending Append Entries to 127.0.0.1:1026
+[1685744735807] Sending Append Entries to 127.0.0.1:1027
+[1685744735858] Sending heartbeat to 127.0.0.1:1026
+[1685744735858] Sending heartbeat to 127.0.0.1:1027
+[1685744735859] Sending Append Entries to 127.0.0.1:1026
+[1685744735859] Sending Append Entries to 127.0.0.1:1027
+[1685744735912] Sending heartbeat to 127.0.0.1:1026
+[1685744735912] Sending heartbeat to 127.0.0.1:1027
+[1685744735913] Sending Append Entries to 127.0.0.1:1026
+[1685744735913] Sending Append Entries to 127.0.0.1:1027
+[1685744735968] Sending heartbeat to 127.0.0.1:1026
+[1685744735969] Sending heartbeat to 127.0.0.1:1027
+[1685744735970] Sending Append Entries to 127.0.0.1:1026
+[1685744735970] Sending Append Entries to 127.0.0.1:1027
+[1685744736026] Sending heartbeat to 127.0.0.1:1026
+[1685744736027] Sending heartbeat to 127.0.0.1:1027
+[1685744736027] Sending Append Entries to 127.0.0.1:1026
+[1685744736028] Sending Append Entries to 127.0.0.1:1027
+[1685744736082] Sending heartbeat to 127.0.0.1:1026
+[1685744736082] Sending heartbeat to 127.0.0.1:1027
+[1685744736082] Sending Append Entries to 127.0.0.1:1026
+[1685744736083] Sending Append Entries to 127.0.0.1:1027
+[1685744736138] Sending heartbeat to 127.0.0.1:1026
+[1685744736138] Sending heartbeat to 127.0.0.1:1027
+[1685744736139] Sending Append Entries to 127.0.0.1:1026
+[1685744736139] Sending Append Entries to 127.0.0.1:1027
+[1685744736195] Sending heartbeat to 127.0.0.1:1026
+[1685744736196] Sending heartbeat to 127.0.0.1:1027
+[1685744736196] Sending Append Entries to 127.0.0.1:1026
+[1685744736197] Sending Append Entries to 127.0.0.1:1027
+[1685744736248] Sending heartbeat to 127.0.0.1:1026
+[1685744736248] Sending heartbeat to 127.0.0.1:1027
+[1685744736249] Sending Append Entries to 127.0.0.1:1026
+[1685744736249] Sending Append Entries to 127.0.0.1:1027
+[1685744736301] Sending heartbeat to 127.0.0.1:1026
+[1685744736301] Sending heartbeat to 127.0.0.1:1027
+[1685744736302] Sending Append Entries to 127.0.0.1:1026
+[1685744736302] Sending Append Entries to 127.0.0.1:1027
+[1685744736355] Sending heartbeat to 127.0.0.1:1026
+[1685744736355] Sending heartbeat to 127.0.0.1:1027
+[1685744736356] Sending Append Entries to 127.0.0.1:1026
+[1685744736356] Sending Append Entries to 127.0.0.1:1027
+[1685744736410] Sending heartbeat to 127.0.0.1:1026
+[1685744736410] Sending heartbeat to 127.0.0.1:1027
+[1685744736411] Sending Append Entries to 127.0.0.1:1026
+[1685744736411] Sending Append Entries to 127.0.0.1:1027
+[1685744736462] Sending heartbeat to 127.0.0.1:1026
+[1685744736463] Sending heartbeat to 127.0.0.1:1027
+[1685744736463] Sending Append Entries to 127.0.0.1:1026
+[1685744736464] Sending Append Entries to 127.0.0.1:1027
+[1685744736519] Sending heartbeat to 127.0.0.1:1026
+[1685744736520] Sending heartbeat to 127.0.0.1:1027
+[1685744736520] Sending Append Entries to 127.0.0.1:1026
+[1685744736520] Sending Append Entries to 127.0.0.1:1027
+[1685744736573] Sending heartbeat to 127.0.0.1:1026
+[1685744736573] Sending heartbeat to 127.0.0.1:1027
+[1685744736573] Sending Append Entries to 127.0.0.1:1027
+[1685744736573] Sending Append Entries to 127.0.0.1:1026
+[1685744736627] Sending heartbeat to 127.0.0.1:1026
+[1685744736627] Sending heartbeat to 127.0.0.1:1027
+[1685744736628] Sending Append Entries to 127.0.0.1:1026
+[1685744736628] Sending Append Entries to 127.0.0.1:1027
+[1685744736683] Sending heartbeat to 127.0.0.1:1026
+[1685744736683] Sending heartbeat to 127.0.0.1:1027
+[1685744736684] Sending Append Entries to 127.0.0.1:1026
+[1685744736685] Sending Append Entries to 127.0.0.1:1027
+[1685744736739] Sending heartbeat to 127.0.0.1:1026
+[1685744736739] Sending heartbeat to 127.0.0.1:1027
+[1685744736740] Sending Append Entries to 127.0.0.1:1026
+[1685744736741] Sending Append Entries to 127.0.0.1:1027
+[1685744736796] Sending heartbeat to 127.0.0.1:1026
+[1685744736796] Sending heartbeat to 127.0.0.1:1027
+[1685744736796] Sending Append Entries to 127.0.0.1:1026
+[1685744736797] Sending Append Entries to 127.0.0.1:1027
+[1685744736849] Sending heartbeat to 127.0.0.1:1026
+[1685744736849] Sending heartbeat to 127.0.0.1:1027
+[1685744736850] Sending Append Entries to 127.0.0.1:1026
+[1685744736850] Sending Append Entries to 127.0.0.1:1027
+[1685744736903] Sending heartbeat to 127.0.0.1:1026
+[1685744736903] Sending heartbeat to 127.0.0.1:1027
+[1685744736904] Sending Append Entries to 127.0.0.1:1027
+[1685744736904] Sending Append Entries to 127.0.0.1:1026
+[1685744736960] Sending heartbeat to 127.0.0.1:1026
+[1685744736971] Sending heartbeat to 127.0.0.1:1027
+[1685744736973] Sending Append Entries to 127.0.0.1:1026
+[1685744736973] Sending Append Entries to 127.0.0.1:1027
+[1685744737043] Sending heartbeat to 127.0.0.1:1026
+[1685744737051] Sending heartbeat to 127.0.0.1:1027
+[1685744737051] Sending Append Entries to 127.0.0.1:1026
+[1685744737051] Sending Append Entries to 127.0.0.1:1027
+[1685744737103] Sending heartbeat to 127.0.0.1:1026
+[1685744737103] Sending heartbeat to 127.0.0.1:1027
+[1685744737103] Sending Append Entries to 127.0.0.1:1026
+[1685744737104] Sending Append Entries to 127.0.0.1:1027
+[1685744737156] Sending heartbeat to 127.0.0.1:1026
+[1685744737156] Sending heartbeat to 127.0.0.1:1027
+[1685744737156] Sending Append Entries to 127.0.0.1:1026
+[1685744737156] Sending Append Entries to 127.0.0.1:1027
+[1685744737209] Sending heartbeat to 127.0.0.1:1026
+[1685744737209] Sending heartbeat to 127.0.0.1:1027
+[1685744737209] Sending Append Entries to 127.0.0.1:1026
+[1685744737209] Sending Append Entries to 127.0.0.1:1027
+[1685744737261] Sending heartbeat to 127.0.0.1:1026
+[1685744737261] Sending heartbeat to 127.0.0.1:1027
+[1685744737262] Sending Append Entries to 127.0.0.1:1026
+[1685744737263] Sending Append Entries to 127.0.0.1:1027
+[1685744737318] Sending heartbeat to 127.0.0.1:1026
+[1685744737318] Sending heartbeat to 127.0.0.1:1027
+[1685744737319] Sending Append Entries to 127.0.0.1:1026
+[1685744737319] Sending Append Entries to 127.0.0.1:1027
+[1685744737373] Sending heartbeat to 127.0.0.1:1026
+[1685744737374] Sending heartbeat to 127.0.0.1:1027
+[1685744737374] Sending Append Entries to 127.0.0.1:1026
+[1685744737375] Sending Append Entries to 127.0.0.1:1027
+[1685744737427] Sending heartbeat to 127.0.0.1:1026
+[1685744737427] Sending heartbeat to 127.0.0.1:1027
+[1685744737428] Sending Append Entries to 127.0.0.1:1026
+[1685744737428] Sending Append Entries to 127.0.0.1:1027
+[1685744737481] Sending heartbeat to 127.0.0.1:1026
+[1685744737481] Sending heartbeat to 127.0.0.1:1027
+[1685744737481] Sending Append Entries to 127.0.0.1:1026
+[1685744737482] Sending Append Entries to 127.0.0.1:1027
+[1685744737539] Sending heartbeat to 127.0.0.1:1026
+[1685744737539] Sending heartbeat to 127.0.0.1:1027
+[1685744737540] Sending Append Entries to 127.0.0.1:1026
+[1685744737540] Sending Append Entries to 127.0.0.1:1027
+[1685744737596] Sending heartbeat to 127.0.0.1:1026
+[1685744737596] Sending heartbeat to 127.0.0.1:1027
+[1685744737597] Sending Append Entries to 127.0.0.1:1026
+[1685744737597] Sending Append Entries to 127.0.0.1:1027
+[1685744737649] Sending heartbeat to 127.0.0.1:1026
+[1685744737650] Sending heartbeat to 127.0.0.1:1027
+[1685744737650] Sending Append Entries to 127.0.0.1:1026
+[1685744737651] Sending Append Entries to 127.0.0.1:1027
+[1685744737704] Sending heartbeat to 127.0.0.1:1026
+[1685744737705] Sending heartbeat to 127.0.0.1:1027
+[1685744737705] Sending Append Entries to 127.0.0.1:1027
+[1685744737705] Sending Append Entries to 127.0.0.1:1026
+[1685744737758] Sending heartbeat to 127.0.0.1:1026
+[1685744737758] Sending heartbeat to 127.0.0.1:1027
+[1685744737759] Sending Append Entries to 127.0.0.1:1026
+[1685744737759] Sending Append Entries to 127.0.0.1:1027
+[1685744737812] Sending heartbeat to 127.0.0.1:1026
+[1685744737813] Sending heartbeat to 127.0.0.1:1027
+[1685744737813] Sending Append Entries to 127.0.0.1:1026
+[1685744737814] Sending Append Entries to 127.0.0.1:1027
+[1685744737869] Sending heartbeat to 127.0.0.1:1026
+[1685744737869] Sending heartbeat to 127.0.0.1:1027
+[1685744737870] Sending Append Entries to 127.0.0.1:1026
+[1685744737870] Sending Append Entries to 127.0.0.1:1027
+[1685744737923] Sending heartbeat to 127.0.0.1:1026
+[1685744737923] Sending heartbeat to 127.0.0.1:1027
+[1685744737924] Sending Append Entries to 127.0.0.1:1026
+[1685744737924] Sending Append Entries to 127.0.0.1:1027
+[1685744737977] Sending heartbeat to 127.0.0.1:1026
+[1685744737977] Sending heartbeat to 127.0.0.1:1027
+[1685744737977] Sending Append Entries to 127.0.0.1:1026
+[1685744737978] Sending Append Entries to 127.0.0.1:1027
+[1685744738033] Sending heartbeat to 127.0.0.1:1026
+[1685744738033] Sending heartbeat to 127.0.0.1:1027
+[1685744738033] Sending Append Entries to 127.0.0.1:1026
+[1685744738033] Sending Append Entries to 127.0.0.1:1027
+[1685744738088] Sending heartbeat to 127.0.0.1:1026
+[1685744738088] Sending heartbeat to 127.0.0.1:1027
+[1685744738088] Sending Append Entries to 127.0.0.1:1026
+[1685744738088] Sending Append Entries to 127.0.0.1:1027
+[1685744738142] Sending heartbeat to 127.0.0.1:1026
+[1685744738142] Sending heartbeat to 127.0.0.1:1027
+[1685744738143] Sending Append Entries to 127.0.0.1:1026
+[1685744738143] Sending Append Entries to 127.0.0.1:1027
+[1685744738198] Sending heartbeat to 127.0.0.1:1026
+[1685744738198] Sending heartbeat to 127.0.0.1:1027
+[1685744738199] Sending Append Entries to 127.0.0.1:1026
+[1685744738199] Sending Append Entries to 127.0.0.1:1027
+[1685744738254] Sending heartbeat to 127.0.0.1:1026
+[1685744738254] Sending heartbeat to 127.0.0.1:1027
+[1685744738255] Sending Append Entries to 127.0.0.1:1026
+[1685744738255] Sending Append Entries to 127.0.0.1:1027
+[1685744738309] Sending heartbeat to 127.0.0.1:1026
+[1685744738309] Sending heartbeat to 127.0.0.1:1027
+[1685744738309] Sending Append Entries to 127.0.0.1:1026
+[1685744738310] Sending Append Entries to 127.0.0.1:1027
+[1685744738366] Sending heartbeat to 127.0.0.1:1026
+[1685744738366] Sending heartbeat to 127.0.0.1:1027
+[1685744738367] Sending Append Entries to 127.0.0.1:1026
+[1685744738367] Sending Append Entries to 127.0.0.1:1027
+[1685744738419] Sending heartbeat to 127.0.0.1:1026
+[1685744738419] Sending heartbeat to 127.0.0.1:1027
+[1685744738420] Sending Append Entries to 127.0.0.1:1026
+[1685744738420] Sending Append Entries to 127.0.0.1:1027
+[1685744738473] Sending heartbeat to 127.0.0.1:1026
+[1685744738473] Sending heartbeat to 127.0.0.1:1027
+[1685744738474] Sending Append Entries to 127.0.0.1:1026
+[1685744738474] Sending Append Entries to 127.0.0.1:1027
+[1685744738527] Sending heartbeat to 127.0.0.1:1026
+[1685744738528] Sending heartbeat to 127.0.0.1:1027
+[1685744738528] Sending Append Entries to 127.0.0.1:1026
+[1685744738529] Sending Append Entries to 127.0.0.1:1027
+[1685744738584] Sending heartbeat to 127.0.0.1:1026
+[1685744738584] Sending heartbeat to 127.0.0.1:1027
+[1685744738584] Sending Append Entries to 127.0.0.1:1026
+[1685744738584] Sending Append Entries to 127.0.0.1:1027
+[1685744738637] Sending heartbeat to 127.0.0.1:1026
+[1685744738637] Sending heartbeat to 127.0.0.1:1027
+[1685744738638] Sending Append Entries to 127.0.0.1:1026
+[1685744738638] Sending Append Entries to 127.0.0.1:1027
+[1685744738695] Sending heartbeat to 127.0.0.1:1026
+[1685744738695] Sending heartbeat to 127.0.0.1:1027
+[1685744738696] Sending Append Entries to 127.0.0.1:1026
+[1685744738696] Sending Append Entries to 127.0.0.1:1027
+[1685744738748] Sending heartbeat to 127.0.0.1:1026
+[1685744738748] Sending heartbeat to 127.0.0.1:1027
+[1685744738748] Sending Append Entries to 127.0.0.1:1026
+[1685744738748] Sending Append Entries to 127.0.0.1:1027
+[1685744738800] Sending heartbeat to 127.0.0.1:1026
+[1685744738800] Sending heartbeat to 127.0.0.1:1027
+[1685744738801] Sending Append Entries to 127.0.0.1:1026
+[1685744738801] Sending Append Entries to 127.0.0.1:1027
+[1685744738856] Sending heartbeat to 127.0.0.1:1026
+[1685744738857] Sending heartbeat to 127.0.0.1:1027
+[1685744738857] Sending Append Entries to 127.0.0.1:1026
+[1685744738857] Sending Append Entries to 127.0.0.1:1027
+[1685744738910] Sending heartbeat to 127.0.0.1:1026
+[1685744738910] Sending heartbeat to 127.0.0.1:1027
+[1685744738911] Sending Append Entries to 127.0.0.1:1026
+[1685744738911] Sending Append Entries to 127.0.0.1:1027
+[1685744738966] Sending heartbeat to 127.0.0.1:1026
+[1685744738966] Sending heartbeat to 127.0.0.1:1027
+[1685744738968] Sending Append Entries to 127.0.0.1:1026
+[1685744738968] Sending Append Entries to 127.0.0.1:1027
+[1685744739021] Sending heartbeat to 127.0.0.1:1026
+[1685744739021] Sending heartbeat to 127.0.0.1:1027
+[1685744739021] Sending Append Entries to 127.0.0.1:1027
+[1685744739022] Sending Append Entries to 127.0.0.1:1026
+[1685744739075] Sending heartbeat to 127.0.0.1:1026
+[1685744739075] Sending heartbeat to 127.0.0.1:1027
+[1685744739076] Sending Append Entries to 127.0.0.1:1026
+[1685744739076] Sending Append Entries to 127.0.0.1:1027
+[1685744739132] Sending heartbeat to 127.0.0.1:1026
+[1685744739132] Sending heartbeat to 127.0.0.1:1027
+[1685744739133] Sending Append Entries to 127.0.0.1:1026
+[1685744739134] Sending Append Entries to 127.0.0.1:1027
+[1685744739189] Sending heartbeat to 127.0.0.1:1026
+[1685744739189] Sending heartbeat to 127.0.0.1:1027
+[1685744739189] Sending Append Entries to 127.0.0.1:1026
+[1685744739190] Sending Append Entries to 127.0.0.1:1027
+[1685744739246] Sending heartbeat to 127.0.0.1:1026
+[1685744739246] Sending heartbeat to 127.0.0.1:1027
+[1685744739247] Sending Append Entries to 127.0.0.1:1026
+[1685744739247] Sending Append Entries to 127.0.0.1:1027
+[1685744739302] Sending heartbeat to 127.0.0.1:1026
+[1685744739303] Sending heartbeat to 127.0.0.1:1027
+[1685744739303] Sending Append Entries to 127.0.0.1:1026
+[1685744739304] Sending Append Entries to 127.0.0.1:1027
+[1685744739355] Sending heartbeat to 127.0.0.1:1026
+[1685744739355] Sending heartbeat to 127.0.0.1:1027
+[1685744739356] Sending Append Entries to 127.0.0.1:1026
+[1685744739356] Sending Append Entries to 127.0.0.1:1027
+[1685744739411] Sending heartbeat to 127.0.0.1:1026
+[1685744739411] Sending heartbeat to 127.0.0.1:1027
+[1685744739412] Sending Append Entries to 127.0.0.1:1026
+[1685744739412] Sending Append Entries to 127.0.0.1:1027
+[1685744739465] Sending heartbeat to 127.0.0.1:1026
+[1685744739465] Sending heartbeat to 127.0.0.1:1027
+[1685744739465] Sending Append Entries to 127.0.0.1:1026
+[1685744739466] Sending Append Entries to 127.0.0.1:1027
+[1685744739518] Sending heartbeat to 127.0.0.1:1026
+[1685744739518] Sending heartbeat to 127.0.0.1:1027
+[1685744739519] Sending Append Entries to 127.0.0.1:1026
+[1685744739519] Sending Append Entries to 127.0.0.1:1027
+[1685744739576] Sending heartbeat to 127.0.0.1:1026
+[1685744739576] Sending heartbeat to 127.0.0.1:1027
+[1685744739577] Sending Append Entries to 127.0.0.1:1026
+[1685744739577] Sending Append Entries to 127.0.0.1:1027
+[1685744739630] Sending heartbeat to 127.0.0.1:1026
+[1685744739630] Sending heartbeat to 127.0.0.1:1027
+[1685744739630] Sending Append Entries to 127.0.0.1:1026
+[1685744739631] Sending Append Entries to 127.0.0.1:1027
+[1685744739686] Sending heartbeat to 127.0.0.1:1026
+[1685744739686] Sending heartbeat to 127.0.0.1:1027
+[1685744739686] Sending Append Entries to 127.0.0.1:1026
+[1685744739687] Sending Append Entries to 127.0.0.1:1027
+[1685744739739] Sending heartbeat to 127.0.0.1:1026
+[1685744739739] Sending heartbeat to 127.0.0.1:1027
+[1685744739740] Sending Append Entries to 127.0.0.1:1026
+[1685744739740] Sending Append Entries to 127.0.0.1:1027
+[1685744739793] Sending heartbeat to 127.0.0.1:1026
+[1685744739793] Sending heartbeat to 127.0.0.1:1027
+[1685744739794] Sending Append Entries to 127.0.0.1:1026
+[1685744739794] Sending Append Entries to 127.0.0.1:1027
+[1685744739846] Sending heartbeat to 127.0.0.1:1026
+[1685744739846] Sending heartbeat to 127.0.0.1:1027
+[1685744739847] Sending Append Entries to 127.0.0.1:1026
+[1685744739847] Sending Append Entries to 127.0.0.1:1027
+[1685744739901] Sending heartbeat to 127.0.0.1:1026
+[1685744739902] Sending heartbeat to 127.0.0.1:1027
+[1685744739903] Sending Append Entries to 127.0.0.1:1026
+[1685744739904] Sending Append Entries to 127.0.0.1:1027
+[1685744739955] Sending heartbeat to 127.0.0.1:1026
+[1685744739956] Sending heartbeat to 127.0.0.1:1027
+[1685744739956] Sending Append Entries to 127.0.0.1:1026
+[1685744739956] Sending Append Entries to 127.0.0.1:1027
+[1685744740008] Sending heartbeat to 127.0.0.1:1026
+[1685744740009] Sending heartbeat to 127.0.0.1:1027
+[1685744740009] Sending Append Entries to 127.0.0.1:1026
+[1685744740010] Sending Append Entries to 127.0.0.1:1027
+[1685744740062] Sending heartbeat to 127.0.0.1:1026
+[1685744740062] Sending heartbeat to 127.0.0.1:1027
+[1685744740062] Sending Append Entries to 127.0.0.1:1026
+[1685744740063] Sending Append Entries to 127.0.0.1:1027
+[1685744740118] Sending heartbeat to 127.0.0.1:1026
+[1685744740118] Sending heartbeat to 127.0.0.1:1027
+[1685744740119] Sending Append Entries to 127.0.0.1:1026
+[1685744740120] Sending Append Entries to 127.0.0.1:1027
+[1685744740175] Sending heartbeat to 127.0.0.1:1026
+[1685744740175] Sending heartbeat to 127.0.0.1:1027
+[1685744740175] Sending Append Entries to 127.0.0.1:1026
+[1685744740176] Sending Append Entries to 127.0.0.1:1027
+[1685744740231] Sending heartbeat to 127.0.0.1:1026
+[1685744740231] Sending heartbeat to 127.0.0.1:1027
+[1685744740231] Sending Append Entries to 127.0.0.1:1026
+[1685744740232] Sending Append Entries to 127.0.0.1:1027
+[1685744740286] Sending heartbeat to 127.0.0.1:1026
+[1685744740286] Sending heartbeat to 127.0.0.1:1027
+[1685744740287] Sending Append Entries to 127.0.0.1:1026
+[1685744740288] Sending Append Entries to 127.0.0.1:1027
+[1685744740339] Sending heartbeat to 127.0.0.1:1026
+[1685744740340] Sending heartbeat to 127.0.0.1:1027
+[1685744740340] Sending Append Entries to 127.0.0.1:1027
+[1685744740341] Sending Append Entries to 127.0.0.1:1026
+[1685744740393] Sending heartbeat to 127.0.0.1:1026
+[1685744740394] Sending heartbeat to 127.0.0.1:1027
+[1685744740394] Sending Append Entries to 127.0.0.1:1026
+[1685744740395] Sending Append Entries to 127.0.0.1:1027
+[1685744740446] Sending heartbeat to 127.0.0.1:1026
+[1685744740447] Sending heartbeat to 127.0.0.1:1027
+[1685744740447] Sending Append Entries to 127.0.0.1:1026
+[1685744740447] Sending Append Entries to 127.0.0.1:1027
+[1685744740503] Sending heartbeat to 127.0.0.1:1026
+[1685744740503] Sending heartbeat to 127.0.0.1:1027
+[1685744740503] Sending Append Entries to 127.0.0.1:1026
+[1685744740504] Sending Append Entries to 127.0.0.1:1027
+[1685744740558] Sending heartbeat to 127.0.0.1:1026
+[1685744740558] Sending heartbeat to 127.0.0.1:1027
+[1685744740559] Sending Append Entries to 127.0.0.1:1026
+[1685744740559] Sending Append Entries to 127.0.0.1:1027
+[1685744740611] Sending heartbeat to 127.0.0.1:1026
+[1685744740611] Sending heartbeat to 127.0.0.1:1027
+[1685744740612] Sending Append Entries to 127.0.0.1:1026
+[1685744740612] Sending Append Entries to 127.0.0.1:1027
+[1685744740668] Sending heartbeat to 127.0.0.1:1026
+[1685744740668] Sending heartbeat to 127.0.0.1:1027
+[1685744740669] Sending Append Entries to 127.0.0.1:1026
+[1685744740669] Sending Append Entries to 127.0.0.1:1027
+[1685744740725] Sending heartbeat to 127.0.0.1:1026
+[1685744740726] Sending heartbeat to 127.0.0.1:1027
+[1685744740726] Sending Append Entries to 127.0.0.1:1026
+[1685744740727] Sending Append Entries to 127.0.0.1:1027
+[1685744740782] Sending heartbeat to 127.0.0.1:1026
+[1685744740782] Sending heartbeat to 127.0.0.1:1027
+[1685744740783] Sending Append Entries to 127.0.0.1:1026
+[1685744740783] Sending Append Entries to 127.0.0.1:1027
+[1685744740839] Sending heartbeat to 127.0.0.1:1026
+[1685744740839] Sending heartbeat to 127.0.0.1:1027
+[1685744740839] Sending Append Entries to 127.0.0.1:1027
+[1685744740839] Sending Append Entries to 127.0.0.1:1026
+[1685744740894] Sending heartbeat to 127.0.0.1:1026
+[1685744740894] Sending heartbeat to 127.0.0.1:1027
+[1685744740894] Sending Append Entries to 127.0.0.1:1026
+[1685744740894] Sending Append Entries to 127.0.0.1:1027
+[1685744740950] Sending heartbeat to 127.0.0.1:1026
+[1685744740950] Sending heartbeat to 127.0.0.1:1027
+[1685744740951] Sending Append Entries to 127.0.0.1:1026
+[1685744740951] Sending Append Entries to 127.0.0.1:1027
+[1685744741006] Sending heartbeat to 127.0.0.1:1026
+[1685744741006] Sending heartbeat to 127.0.0.1:1027
+[1685744741007] Sending Append Entries to 127.0.0.1:1026
+[1685744741007] Sending Append Entries to 127.0.0.1:1027
+[1685744741059] Sending heartbeat to 127.0.0.1:1026
+[1685744741059] Sending heartbeat to 127.0.0.1:1027
+[1685744741060] Sending Append Entries to 127.0.0.1:1027
+[1685744741060] Sending Append Entries to 127.0.0.1:1026
+[1685744741113] Sending heartbeat to 127.0.0.1:1026
+[1685744741113] Sending heartbeat to 127.0.0.1:1027
+[1685744741113] Sending Append Entries to 127.0.0.1:1027
+[1685744741114] Sending Append Entries to 127.0.0.1:1026
+[1685744741169] Sending heartbeat to 127.0.0.1:1026
+[1685744741169] Sending heartbeat to 127.0.0.1:1027
+[1685744741170] Sending Append Entries to 127.0.0.1:1026
+[1685744741170] Sending Append Entries to 127.0.0.1:1027
+[1685744741225] Sending heartbeat to 127.0.0.1:1026
+[1685744741225] Sending heartbeat to 127.0.0.1:1027
+[1685744741225] Sending Append Entries to 127.0.0.1:1026
+[1685744741225] Sending Append Entries to 127.0.0.1:1027
+[1685744741282] Sending heartbeat to 127.0.0.1:1026
+[1685744741282] Sending heartbeat to 127.0.0.1:1027
+[1685744741283] Sending Append Entries to 127.0.0.1:1026
+[1685744741283] Sending Append Entries to 127.0.0.1:1027
+[1685744741337] Sending heartbeat to 127.0.0.1:1026
+[1685744741337] Sending heartbeat to 127.0.0.1:1027
+[1685744741337] Sending Append Entries to 127.0.0.1:1026
+[1685744741338] Sending Append Entries to 127.0.0.1:1027
+[1685744741390] Sending heartbeat to 127.0.0.1:1026
+[1685744741390] Sending heartbeat to 127.0.0.1:1027
+[1685744741391] Sending Append Entries to 127.0.0.1:1026
+[1685744741391] Sending Append Entries to 127.0.0.1:1027
+[1685744741443] Sending heartbeat to 127.0.0.1:1026
+[1685744741443] Sending heartbeat to 127.0.0.1:1027
+[1685744741444] Sending Append Entries to 127.0.0.1:1026
+[1685744741444] Sending Append Entries to 127.0.0.1:1027
+[1685744741499] Sending heartbeat to 127.0.0.1:1026
+[1685744741499] Sending heartbeat to 127.0.0.1:1027
+[1685744741500] Sending Append Entries to 127.0.0.1:1026
+[1685744741500] Sending Append Entries to 127.0.0.1:1027
+[1685744741556] Sending heartbeat to 127.0.0.1:1026
+[1685744741556] Sending heartbeat to 127.0.0.1:1027
+[1685744741557] Sending Append Entries to 127.0.0.1:1026
+[1685744741557] Sending Append Entries to 127.0.0.1:1027
+[1685744741610] Sending heartbeat to 127.0.0.1:1026
+[1685744741610] Sending heartbeat to 127.0.0.1:1027
+[1685744741611] Sending Append Entries to 127.0.0.1:1027
+[1685744741612] Sending Append Entries to 127.0.0.1:1026
+[1685744741667] Sending heartbeat to 127.0.0.1:1026
+[1685744741668] Sending heartbeat to 127.0.0.1:1027
+[1685744741668] Sending Append Entries to 127.0.0.1:1026
+[1685744741669] Sending Append Entries to 127.0.0.1:1027
+[1685744741720] Sending heartbeat to 127.0.0.1:1026
+[1685744741721] Sending heartbeat to 127.0.0.1:1027
+[1685744741721] Sending Append Entries to 127.0.0.1:1027
+[1685744741721] Sending Append Entries to 127.0.0.1:1026
+[1685744741774] Sending heartbeat to 127.0.0.1:1026
+[1685744741774] Sending heartbeat to 127.0.0.1:1027
+[1685744741775] Sending Append Entries to 127.0.0.1:1026
+[1685744741775] Sending Append Entries to 127.0.0.1:1027
+[1685744741827] Sending heartbeat to 127.0.0.1:1026
+[1685744741827] Sending heartbeat to 127.0.0.1:1027
+[1685744741828] Sending Append Entries to 127.0.0.1:1026
+[1685744741828] Sending Append Entries to 127.0.0.1:1027
+[1685744741880] Sending heartbeat to 127.0.0.1:1026
+[1685744741881] Sending heartbeat to 127.0.0.1:1027
+[1685744741881] Sending Append Entries to 127.0.0.1:1026
+[1685744741882] Sending Append Entries to 127.0.0.1:1027
+[1685744741933] Sending heartbeat to 127.0.0.1:1026
+[1685744741934] Sending heartbeat to 127.0.0.1:1027
+[1685744741934] Sending Append Entries to 127.0.0.1:1026
+[1685744741935] Sending Append Entries to 127.0.0.1:1027
+[1685744741986] Sending heartbeat to 127.0.0.1:1026
+[1685744741986] Sending heartbeat to 127.0.0.1:1027
+[1685744741987] Sending Append Entries to 127.0.0.1:1026
+[1685744741987] Sending Append Entries to 127.0.0.1:1027
+[1685744742039] Sending heartbeat to 127.0.0.1:1026
+[1685744742040] Sending heartbeat to 127.0.0.1:1027
+[1685744742040] Sending Append Entries to 127.0.0.1:1026
+[1685744742040] Sending Append Entries to 127.0.0.1:1027
+[1685744742093] Sending heartbeat to 127.0.0.1:1026
+[1685744742093] Sending heartbeat to 127.0.0.1:1027
+[1685744742094] Sending Append Entries to 127.0.0.1:1027
+[1685744742094] Sending Append Entries to 127.0.0.1:1026
+[1685744742151] Sending heartbeat to 127.0.0.1:1026
+[1685744742151] Sending heartbeat to 127.0.0.1:1027
+[1685744742152] Sending Append Entries to 127.0.0.1:1026
+[1685744742153] Sending Append Entries to 127.0.0.1:1027
+[1685744742205] Sending heartbeat to 127.0.0.1:1026
+[1685744742205] Sending heartbeat to 127.0.0.1:1027
+[1685744742206] Sending Append Entries to 127.0.0.1:1026
+[1685744742206] Sending Append Entries to 127.0.0.1:1027
+[1685744742262] Sending heartbeat to 127.0.0.1:1026
+[1685744742262] Sending heartbeat to 127.0.0.1:1027
+[1685744742263] Sending Append Entries to 127.0.0.1:1026
+[1685744742263] Sending Append Entries to 127.0.0.1:1027
+[1685744742318] Sending heartbeat to 127.0.0.1:1026
+[1685744742318] Sending heartbeat to 127.0.0.1:1027
+[1685744742319] Sending Append Entries to 127.0.0.1:1026
+[1685744742319] Sending Append Entries to 127.0.0.1:1027
+[1685744742376] Sending heartbeat to 127.0.0.1:1026
+[1685744742376] Sending heartbeat to 127.0.0.1:1027
+[1685744742377] Sending Append Entries to 127.0.0.1:1026
+[1685744742377] Sending Append Entries to 127.0.0.1:1027
+[1685744742432] Sending heartbeat to 127.0.0.1:1026
+[1685744742432] Sending heartbeat to 127.0.0.1:1027
+[1685744742433] Sending Append Entries to 127.0.0.1:1026
+[1685744742433] Sending Append Entries to 127.0.0.1:1027
+[1685744742485] Sending heartbeat to 127.0.0.1:1026
+[1685744742485] Sending heartbeat to 127.0.0.1:1027
+[1685744742486] Sending Append Entries to 127.0.0.1:1026
+[1685744742486] Sending Append Entries to 127.0.0.1:1027
+[1685744742539] Sending heartbeat to 127.0.0.1:1026
+[1685744742539] Sending heartbeat to 127.0.0.1:1027
+[1685744742540] Sending Append Entries to 127.0.0.1:1026
+[1685744742540] Sending Append Entries to 127.0.0.1:1027
+[1685744742594] Sending heartbeat to 127.0.0.1:1026
+[1685744742594] Sending heartbeat to 127.0.0.1:1027
+[1685744742595] Sending Append Entries to 127.0.0.1:1026
+[1685744742595] Sending Append Entries to 127.0.0.1:1027
+[1685744742649] Sending heartbeat to 127.0.0.1:1026
+[1685744742649] Sending heartbeat to 127.0.0.1:1027
+[1685744742649] Sending Append Entries to 127.0.0.1:1027
+[1685744742650] Sending Append Entries to 127.0.0.1:1026
+[1685744742706] Sending heartbeat to 127.0.0.1:1026
+[1685744742706] Sending heartbeat to 127.0.0.1:1027
+[1685744742706] Sending Append Entries to 127.0.0.1:1027
+[1685744742707] Sending Append Entries to 127.0.0.1:1026
+[1685744742758] Sending heartbeat to 127.0.0.1:1026
+[1685744742758] Sending heartbeat to 127.0.0.1:1027
+[1685744742759] Sending Append Entries to 127.0.0.1:1026
+[1685744742759] Sending Append Entries to 127.0.0.1:1027
+[1685744742815] Sending heartbeat to 127.0.0.1:1026
+[1685744742815] Sending heartbeat to 127.0.0.1:1027
+[1685744742816] Sending Append Entries to 127.0.0.1:1026
+[1685744742816] Sending Append Entries to 127.0.0.1:1027
+[1685744742872] Sending heartbeat to 127.0.0.1:1026
+[1685744742872] Sending heartbeat to 127.0.0.1:1027
+[1685744742873] Sending Append Entries to 127.0.0.1:1026
+[1685744742873] Sending Append Entries to 127.0.0.1:1027
+[1685744742926] Sending heartbeat to 127.0.0.1:1026
+[1685744742926] Sending heartbeat to 127.0.0.1:1027
+[1685744742927] Sending Append Entries to 127.0.0.1:1026
+[1685744742927] Sending Append Entries to 127.0.0.1:1027
+[1685744742979] Sending heartbeat to 127.0.0.1:1026
+[1685744742979] Sending heartbeat to 127.0.0.1:1027
+[1685744742980] Sending Append Entries to 127.0.0.1:1026
+[1685744742980] Sending Append Entries to 127.0.0.1:1027
+[1685744743034] Sending heartbeat to 127.0.0.1:1026
+[1685744743034] Sending heartbeat to 127.0.0.1:1027
+[1685744743034] Sending Append Entries to 127.0.0.1:1027
+[1685744743034] Sending Append Entries to 127.0.0.1:1026
+[1685744743091] Sending heartbeat to 127.0.0.1:1026
+[1685744743091] Sending heartbeat to 127.0.0.1:1027
+[1685744743091] Sending Append Entries to 127.0.0.1:1026
+[1685744743092] Sending Append Entries to 127.0.0.1:1027
+[1685744743148] Sending heartbeat to 127.0.0.1:1026
+[1685744743149] Sending heartbeat to 127.0.0.1:1027
+[1685744743149] Sending Append Entries to 127.0.0.1:1026
+[1685744743150] Sending Append Entries to 127.0.0.1:1027
+[1685744743203] Sending heartbeat to 127.0.0.1:1026
+[1685744743204] Sending heartbeat to 127.0.0.1:1027
+[1685744743204] Sending Append Entries to 127.0.0.1:1026
+[1685744743204] Sending Append Entries to 127.0.0.1:1027
+[1685744743256] Sending heartbeat to 127.0.0.1:1026
+[1685744743256] Sending heartbeat to 127.0.0.1:1027
+[1685744743257] Sending Append Entries to 127.0.0.1:1026
+[1685744743257] Sending Append Entries to 127.0.0.1:1027
+[1685744743281] Received a client request
+[1685744743282] Appended log entry echo "cs349d rocks!"
+[1685744743283] Sending append entries to 127.0.0.1:1026 with entries [1685744743283] echo "cs349d rocks!" [1685744743283] 
+[1685744743283] Sending append entries to 127.0.0.1:1027 with entries [1685744743283] echo "cs349d rocks!" [1685744743283] 
+[1685744743283] Sending Append Entries to 127.0.0.1:1026
+[1685744743283] Sending Append Entries to 127.0.0.1:1027
+[1685744743287] Committing changes to persistent storage. State is now: Term: 1, Commit log index: 0, Last applied log index: -1, Last voted for: self, 
+[1685744743287] Majority have this entry. Updated commit index to 0
+[1685744743298] Command applied to state machine: echo "cs349d rocks!" Output: "cs349d rocks!" 
+[1685744743299] Committing changes to persistent storage. State is now: Term: 1, Commit log index: 0, Last applied log index: 0, Last voted for: self, 
+[1685744743299] Applied log entry to state machine 0
+[1685744743309] Sending heartbeat to 127.0.0.1:1026
+[1685744743309] Sending heartbeat to 127.0.0.1:1027
+[1685744743310] Sending Append Entries to 127.0.0.1:1026
+[1685744743310] Sending Append Entries to 127.0.0.1:1027
+[1685744743364] Sending heartbeat to 127.0.0.1:1026
+[1685744743364] Sending heartbeat to 127.0.0.1:1027
+[1685744743364] Sending Append Entries to 127.0.0.1:1026
+[1685744743365] Sending Append Entries to 127.0.0.1:1027
+[1685744743418] Sending heartbeat to 127.0.0.1:1026
+[1685744743419] Sending heartbeat to 127.0.0.1:1027
+[1685744743419] Sending Append Entries to 127.0.0.1:1026
+[1685744743420] Sending Append Entries to 127.0.0.1:1027
+[1685744743474] Sending heartbeat to 127.0.0.1:1026
+[1685744743474] Sending heartbeat to 127.0.0.1:1027
+[1685744743474] Sending Append Entries to 127.0.0.1:1026
+[1685744743475] Sending Append Entries to 127.0.0.1:1027
+[1685744743529] Sending heartbeat to 127.0.0.1:1026
+[1685744743529] Sending heartbeat to 127.0.0.1:1027
+[1685744743529] Sending Append Entries to 127.0.0.1:1026
+[1685744743530] Sending Append Entries to 127.0.0.1:1027
+[1685744743585] Sending heartbeat to 127.0.0.1:1026
+[1685744743585] Sending heartbeat to 127.0.0.1:1027
+[1685744743585] Sending Append Entries to 127.0.0.1:1026
+[1685744743586] Sending Append Entries to 127.0.0.1:1027
+[1685744743639] Sending heartbeat to 127.0.0.1:1026
+[1685744743639] Sending heartbeat to 127.0.0.1:1027
+[1685744743640] Sending Append Entries to 127.0.0.1:1026
+[1685744743640] Sending Append Entries to 127.0.0.1:1027
+[1685744743693] Sending heartbeat to 127.0.0.1:1026
+[1685744743693] Sending heartbeat to 127.0.0.1:1027
+[1685744743694] Sending Append Entries to 127.0.0.1:1026
+[1685744743694] Sending Append Entries to 127.0.0.1:1027
+[1685744743750] Sending heartbeat to 127.0.0.1:1026
+[1685744743750] Sending heartbeat to 127.0.0.1:1027
+[1685744743750] Sending Append Entries to 127.0.0.1:1026
+[1685744743750] Sending Append Entries to 127.0.0.1:1027
+[1685744743806] Sending heartbeat to 127.0.0.1:1026
+[1685744743807] Sending heartbeat to 127.0.0.1:1027
+[1685744743807] Sending Append Entries to 127.0.0.1:1027
+[1685744743807] Sending Append Entries to 127.0.0.1:1026
+[1685744743859] Sending heartbeat to 127.0.0.1:1026
+[1685744743859] Sending heartbeat to 127.0.0.1:1027
+[1685744743860] Sending Append Entries to 127.0.0.1:1027
+[1685744743860] Sending Append Entries to 127.0.0.1:1026
+[1685744743913] Sending heartbeat to 127.0.0.1:1026
+[1685744743913] Sending heartbeat to 127.0.0.1:1027
+[1685744743914] Sending Append Entries to 127.0.0.1:1026
+[1685744743914] Sending Append Entries to 127.0.0.1:1027
+[1685744743969] Sending heartbeat to 127.0.0.1:1026
+[1685744743969] Sending heartbeat to 127.0.0.1:1027
+[1685744743970] Sending Append Entries to 127.0.0.1:1026
+[1685744743970] Sending Append Entries to 127.0.0.1:1027
+[1685744744023] Sending heartbeat to 127.0.0.1:1026
+[1685744744023] Sending heartbeat to 127.0.0.1:1027
+[1685744744024] Sending Append Entries to 127.0.0.1:1026
+[1685744744025] Sending Append Entries to 127.0.0.1:1027
+[1685744744077] Sending heartbeat to 127.0.0.1:1026
+[1685744744077] Sending heartbeat to 127.0.0.1:1027
+[1685744744078] Sending Append Entries to 127.0.0.1:1026
+[1685744744078] Sending Append Entries to 127.0.0.1:1027
+[1685744744132] Sending heartbeat to 127.0.0.1:1026
+[1685744744132] Sending heartbeat to 127.0.0.1:1027
+[1685744744133] Sending Append Entries to 127.0.0.1:1026
+[1685744744133] Sending Append Entries to 127.0.0.1:1027
+[1685744744185] Sending heartbeat to 127.0.0.1:1026
+[1685744744185] Sending heartbeat to 127.0.0.1:1027
+[1685744744186] Sending Append Entries to 127.0.0.1:1026
+[1685744744186] Sending Append Entries to 127.0.0.1:1027
+[1685744744243] Sending heartbeat to 127.0.0.1:1026
+[1685744744243] Sending heartbeat to 127.0.0.1:1027
+[1685744744243] Sending Append Entries to 127.0.0.1:1026
+[1685744744244] Sending Append Entries to 127.0.0.1:1027
+[1685744744295] Sending heartbeat to 127.0.0.1:1026
+[1685744744296] Sending heartbeat to 127.0.0.1:1027
+[1685744744296] Sending Append Entries to 127.0.0.1:1026
+[1685744744296] Sending Append Entries to 127.0.0.1:1027
+[1685744744350] Sending heartbeat to 127.0.0.1:1026
+[1685744744350] Sending heartbeat to 127.0.0.1:1027
+[1685744744351] Sending Append Entries to 127.0.0.1:1026
+[1685744744351] Sending Append Entries to 127.0.0.1:1027
+[1685744744406] Sending heartbeat to 127.0.0.1:1026
+[1685744744406] Sending heartbeat to 127.0.0.1:1027
+[1685744744407] Sending Append Entries to 127.0.0.1:1026
+[1685744744407] Sending Append Entries to 127.0.0.1:1027
+[1685744744462] Sending heartbeat to 127.0.0.1:1026
+[1685744744462] Sending heartbeat to 127.0.0.1:1027
+[1685744744463] Sending Append Entries to 127.0.0.1:1026
+[1685744744463] Sending Append Entries to 127.0.0.1:1027
+[1685744744518] Sending heartbeat to 127.0.0.1:1026
+[1685744744518] Sending heartbeat to 127.0.0.1:1027
+[1685744744518] Sending Append Entries to 127.0.0.1:1026
+[1685744744519] Sending Append Entries to 127.0.0.1:1027
+[1685744744574] Sending heartbeat to 127.0.0.1:1026
+[1685744744574] Sending heartbeat to 127.0.0.1:1027
+[1685744744574] Sending Append Entries to 127.0.0.1:1026
+[1685744744574] Sending Append Entries to 127.0.0.1:1027
+[1685744744627] Sending heartbeat to 127.0.0.1:1026
+[1685744744627] Sending heartbeat to 127.0.0.1:1027
+[1685744744628] Sending Append Entries to 127.0.0.1:1026
+[1685744744628] Sending Append Entries to 127.0.0.1:1027
+[1685744744683] Sending heartbeat to 127.0.0.1:1026
+[1685744744683] Sending heartbeat to 127.0.0.1:1027
+[1685744744683] Sending Append Entries to 127.0.0.1:1027
+[1685744744684] Sending Append Entries to 127.0.0.1:1026
+[1685744744735] Sending heartbeat to 127.0.0.1:1026
+[1685744744735] Sending heartbeat to 127.0.0.1:1027
+[1685744744736] Sending Append Entries to 127.0.0.1:1026
+[1685744744736] Sending Append Entries to 127.0.0.1:1027
+[1685744744787] Sending heartbeat to 127.0.0.1:1026
+[1685744744787] Sending heartbeat to 127.0.0.1:1027
+[1685744744788] Sending Append Entries to 127.0.0.1:1026
+[1685744744788] Sending Append Entries to 127.0.0.1:1027
+[1685744744841] Sending heartbeat to 127.0.0.1:1026
+[1685744744841] Sending heartbeat to 127.0.0.1:1027
+[1685744744842] Sending Append Entries to 127.0.0.1:1026
+[1685744744842] Sending Append Entries to 127.0.0.1:1027
+[1685744744897] Sending heartbeat to 127.0.0.1:1026
+[1685744744898] Sending heartbeat to 127.0.0.1:1027
+[1685744744903] Sending Append Entries to 127.0.0.1:1027
+[1685744744906] Sending Append Entries to 127.0.0.1:1026
+[1685744744964] Sending heartbeat to 127.0.0.1:1026
+[1685744744964] Sending heartbeat to 127.0.0.1:1027
+[1685744744964] Sending Append Entries to 127.0.0.1:1026
+[1685744744964] Sending Append Entries to 127.0.0.1:1027
+[1685744745018] Sending heartbeat to 127.0.0.1:1026
+[1685744745018] Sending heartbeat to 127.0.0.1:1027
+[1685744745018] Sending Append Entries to 127.0.0.1:1027
+[1685744745019] Sending Append Entries to 127.0.0.1:1026
+[1685744745074] Sending heartbeat to 127.0.0.1:1026
+[1685744745074] Sending heartbeat to 127.0.0.1:1027
+[1685744745074] Sending Append Entries to 127.0.0.1:1026
+[1685744745075] Sending Append Entries to 127.0.0.1:1027
+[1685744745129] Sending heartbeat to 127.0.0.1:1026
+[1685744745129] Sending heartbeat to 127.0.0.1:1027
+[1685744745129] Sending Append Entries to 127.0.0.1:1027
+[1685744745130] Sending Append Entries to 127.0.0.1:1026
+[1685744745184] Sending heartbeat to 127.0.0.1:1026
+[1685744745184] Sending heartbeat to 127.0.0.1:1027
+[1685744745184] Sending Append Entries to 127.0.0.1:1026
+[1685744745185] Sending Append Entries to 127.0.0.1:1027
+[1685744745236] Sending heartbeat to 127.0.0.1:1026
+[1685744745236] Sending heartbeat to 127.0.0.1:1027
+[1685744745237] Sending Append Entries to 127.0.0.1:1026
+[1685744745237] Sending Append Entries to 127.0.0.1:1027
+[1685744745288] Sending heartbeat to 127.0.0.1:1026
+[1685744745289] Sending heartbeat to 127.0.0.1:1027
+[1685744745289] Sending Append Entries to 127.0.0.1:1026
+[1685744745290] Sending Append Entries to 127.0.0.1:1027
+[1685744745341] Sending heartbeat to 127.0.0.1:1026
+[1685744745342] Sending heartbeat to 127.0.0.1:1027
+[1685744745342] Sending Append Entries to 127.0.0.1:1026
+[1685744745343] Sending Append Entries to 127.0.0.1:1027
+[1685744745398] Sending heartbeat to 127.0.0.1:1026
+[1685744745398] Sending heartbeat to 127.0.0.1:1027
+[1685744745398] Sending Append Entries to 127.0.0.1:1026
+[1685744745398] Sending Append Entries to 127.0.0.1:1027
+[1685744745453] Sending heartbeat to 127.0.0.1:1026
+[1685744745453] Sending heartbeat to 127.0.0.1:1027
+[1685744745454] Sending Append Entries to 127.0.0.1:1027
+[1685744745454] Sending Append Entries to 127.0.0.1:1026
+[1685744745507] Sending heartbeat to 127.0.0.1:1026
+[1685744745507] Sending heartbeat to 127.0.0.1:1027
+[1685744745508] Sending Append Entries to 127.0.0.1:1026
+[1685744745508] Sending Append Entries to 127.0.0.1:1027
+[1685744745560] Sending heartbeat to 127.0.0.1:1026
+[1685744745561] Sending heartbeat to 127.0.0.1:1027
+[1685744745561] Sending Append Entries to 127.0.0.1:1027
+[1685744745561] Sending Append Entries to 127.0.0.1:1026
+[1685744745616] Sending heartbeat to 127.0.0.1:1026
+[1685744745616] Sending heartbeat to 127.0.0.1:1027
+[1685744745617] Sending Append Entries to 127.0.0.1:1026
+[1685744745617] Sending Append Entries to 127.0.0.1:1027
+[1685744745672] Sending heartbeat to 127.0.0.1:1026
+[1685744745673] Sending heartbeat to 127.0.0.1:1027
+[1685744745673] Sending Append Entries to 127.0.0.1:1026
+[1685744745674] Sending Append Entries to 127.0.0.1:1027
+[1685744745729] Sending heartbeat to 127.0.0.1:1026
+[1685744745729] Sending heartbeat to 127.0.0.1:1027
+[1685744745730] Sending Append Entries to 127.0.0.1:1026
+[1685744745730] Sending Append Entries to 127.0.0.1:1027
+[1685744745784] Sending heartbeat to 127.0.0.1:1026
+[1685744745784] Sending heartbeat to 127.0.0.1:1027
+[1685744745784] Sending Append Entries to 127.0.0.1:1026
+[1685744745785] Sending Append Entries to 127.0.0.1:1027
+[1685744745840] Sending heartbeat to 127.0.0.1:1026
+[1685744745841] Sending heartbeat to 127.0.0.1:1027
+[1685744745841] Sending Append Entries to 127.0.0.1:1026
+[1685744745842] Sending Append Entries to 127.0.0.1:1027
+[1685744745897] Sending heartbeat to 127.0.0.1:1026
+[1685744745897] Sending heartbeat to 127.0.0.1:1027
+[1685744745898] Sending Append Entries to 127.0.0.1:1026
+[1685744745898] Sending Append Entries to 127.0.0.1:1027
+[1685744745952] Sending heartbeat to 127.0.0.1:1026
+[1685744745953] Sending heartbeat to 127.0.0.1:1027
+[1685744745953] Sending Append Entries to 127.0.0.1:1026
+[1685744745953] Sending Append Entries to 127.0.0.1:1027
+[1685744746006] Sending heartbeat to 127.0.0.1:1026
+[1685744746007] Sending heartbeat to 127.0.0.1:1027
+[1685744746007] Sending Append Entries to 127.0.0.1:1026
+[1685744746008] Sending Append Entries to 127.0.0.1:1027
+[1685744746062] Sending heartbeat to 127.0.0.1:1026
+[1685744746062] Sending heartbeat to 127.0.0.1:1027
+[1685744746063] Sending Append Entries to 127.0.0.1:1026
+[1685744746063] Sending Append Entries to 127.0.0.1:1027
+[1685744746119] Sending heartbeat to 127.0.0.1:1026
+[1685744746119] Sending heartbeat to 127.0.0.1:1027
+[1685744746119] Sending Append Entries to 127.0.0.1:1026
+[1685744746120] Sending Append Entries to 127.0.0.1:1027
+[1685744746174] Sending heartbeat to 127.0.0.1:1026
+[1685744746174] Sending heartbeat to 127.0.0.1:1027
+[1685744746174] Sending Append Entries to 127.0.0.1:1027
+[1685744746175] Sending Append Entries to 127.0.0.1:1026
+[1685744746226] Sending heartbeat to 127.0.0.1:1026
+[1685744746226] Sending heartbeat to 127.0.0.1:1027
+[1685744746227] Sending Append Entries to 127.0.0.1:1027
+[1685744746227] Sending Append Entries to 127.0.0.1:1026
+[1685744746283] Sending heartbeat to 127.0.0.1:1026
+[1685744746283] Sending heartbeat to 127.0.0.1:1027
+[1685744746283] Sending Append Entries to 127.0.0.1:1026
+[1685744746283] Sending Append Entries to 127.0.0.1:1027
+[1685744746339] Sending heartbeat to 127.0.0.1:1026
+[1685744746339] Sending heartbeat to 127.0.0.1:1027
+[1685744746340] Sending Append Entries to 127.0.0.1:1026
+[1685744746341] Sending Append Entries to 127.0.0.1:1027
+[1685744746398] Sending heartbeat to 127.0.0.1:1026
+[1685744746398] Sending heartbeat to 127.0.0.1:1027
+[1685744746398] Sending Append Entries to 127.0.0.1:1026
+[1685744746399] Sending Append Entries to 127.0.0.1:1027
+[1685744746453] Sending heartbeat to 127.0.0.1:1026
+[1685744746454] Sending heartbeat to 127.0.0.1:1027
+[1685744746454] Sending Append Entries to 127.0.0.1:1026
+[1685744746455] Sending Append Entries to 127.0.0.1:1027
+[1685744746459] Received a client request
+[1685744746460] Appended log entry ls
+[1685744746460] Sending append entries to 127.0.0.1:1026 with entries [1685744746460] ls [1685744746460] 
+[1685744746460] Sending append entries to 127.0.0.1:1027 with entries [1685744746461] ls [1685744746461] 
+[1685744746461] Sending Append Entries to 127.0.0.1:1026
+[1685744746461] Sending Append Entries to 127.0.0.1:1027
+[1685744746465] Committing changes to persistent storage. State is now: Term: 1, Commit log index: 1, Last applied log index: 0, Last voted for: self, 
+[1685744746465] Majority have this entry. Updated commit index to 1
+[1685744746473] Command applied to state machine: ls Output: 1025.log 1025.raft 1026.log 1026.raft 1027.log 1027.raft Makefile README.md bin changes include node_127.0.0.1:1025 node_127.0.0.1:1026 node_127.0.0.1:1027 obj protos src 
+[1685744746475] Committing changes to persistent storage. State is now: Term: 1, Commit log index: 1, Last applied log index: 1, Last voted for: self, 
+[1685744746475] Applied log entry to state machine 1
+[1685744746509] Sending heartbeat to 127.0.0.1:1026
+[1685744746509] Sending heartbeat to 127.0.0.1:1027
+[1685744746509] Sending Append Entries to 127.0.0.1:1026
+[1685744746509] Sending Append Entries to 127.0.0.1:1027
+[1685744746562] Sending heartbeat to 127.0.0.1:1026
+[1685744746562] Sending heartbeat to 127.0.0.1:1027
+[1685744746563] Sending Append Entries to 127.0.0.1:1026
+[1685744746563] Sending Append Entries to 127.0.0.1:1027
+[1685744746617] Sending heartbeat to 127.0.0.1:1026
+[1685744746617] Sending heartbeat to 127.0.0.1:1027
+[1685744746618] Sending Append Entries to 127.0.0.1:1026
+[1685744746618] Sending Append Entries to 127.0.0.1:1027
+[1685744746670] Sending heartbeat to 127.0.0.1:1026
+[1685744746670] Sending heartbeat to 127.0.0.1:1027
+[1685744746671] Sending Append Entries to 127.0.0.1:1026
+[1685744746671] Sending Append Entries to 127.0.0.1:1027
+[1685744746726] Sending heartbeat to 127.0.0.1:1026
+[1685744746726] Sending heartbeat to 127.0.0.1:1027
+[1685744746727] Sending Append Entries to 127.0.0.1:1026
+[1685744746727] Sending Append Entries to 127.0.0.1:1027
+[1685744746781] Sending heartbeat to 127.0.0.1:1026
+[1685744746781] Sending heartbeat to 127.0.0.1:1027
+[1685744746782] Sending Append Entries to 127.0.0.1:1026
+[1685744746782] Sending Append Entries to 127.0.0.1:1027
+[1685744746834] Sending heartbeat to 127.0.0.1:1026
+[1685744746834] Sending heartbeat to 127.0.0.1:1027
+[1685744746834] Sending Append Entries to 127.0.0.1:1026
+[1685744746835] Sending Append Entries to 127.0.0.1:1027
+[1685744746890] Sending heartbeat to 127.0.0.1:1026
+[1685744746890] Sending heartbeat to 127.0.0.1:1027
+[1685744746891] Sending Append Entries to 127.0.0.1:1026
+[1685744746891] Sending Append Entries to 127.0.0.1:1027
+[1685744746946] Sending heartbeat to 127.0.0.1:1026
+[1685744746946] Sending heartbeat to 127.0.0.1:1027
+[1685744746947] Sending Append Entries to 127.0.0.1:1026
+[1685744746947] Sending Append Entries to 127.0.0.1:1027
+[1685744747000] Sending heartbeat to 127.0.0.1:1026
+[1685744747000] Sending heartbeat to 127.0.0.1:1027
+[1685744747001] Sending Append Entries to 127.0.0.1:1026
+[1685744747001] Sending Append Entries to 127.0.0.1:1027
+[1685744747053] Sending heartbeat to 127.0.0.1:1026
+[1685744747053] Sending heartbeat to 127.0.0.1:1027
+[1685744747054] Sending Append Entries to 127.0.0.1:1026
+[1685744747054] Sending Append Entries to 127.0.0.1:1027
+[1685744747110] Sending heartbeat to 127.0.0.1:1026
+[1685744747110] Sending heartbeat to 127.0.0.1:1027
+[1685744747111] Sending Append Entries to 127.0.0.1:1027
+[1685744747111] Sending Append Entries to 127.0.0.1:1026
+[1685744747166] Sending heartbeat to 127.0.0.1:1026
+[1685744747166] Sending heartbeat to 127.0.0.1:1027
+[1685744747167] Sending Append Entries to 127.0.0.1:1026
+[1685744747167] Sending Append Entries to 127.0.0.1:1027
+[1685744747219] Sending heartbeat to 127.0.0.1:1026
+[1685744747219] Sending heartbeat to 127.0.0.1:1027
+[1685744747220] Sending Append Entries to 127.0.0.1:1026
+[1685744747220] Sending Append Entries to 127.0.0.1:1027
+[1685744747272] Sending heartbeat to 127.0.0.1:1026
+[1685744747273] Sending heartbeat to 127.0.0.1:1027
+[1685744747273] Sending Append Entries to 127.0.0.1:1027
+[1685744747273] Sending Append Entries to 127.0.0.1:1026
+[1685744747328] Sending heartbeat to 127.0.0.1:1026
+[1685744747328] Sending heartbeat to 127.0.0.1:1027
+[1685744747328] Sending Append Entries to 127.0.0.1:1026
+[1685744747329] Sending Append Entries to 127.0.0.1:1027
+[1685744747384] Sending heartbeat to 127.0.0.1:1026
+[1685744747385] Sending heartbeat to 127.0.0.1:1027
+[1685744747385] Sending Append Entries to 127.0.0.1:1026
+[1685744747386] Sending Append Entries to 127.0.0.1:1027
+[1685744747438] Sending heartbeat to 127.0.0.1:1026
+[1685744747438] Sending heartbeat to 127.0.0.1:1027
+[1685744747439] Sending Append Entries to 127.0.0.1:1026
+[1685744747439] Sending Append Entries to 127.0.0.1:1027
+[1685744747490] Sending heartbeat to 127.0.0.1:1026
+[1685744747491] Sending heartbeat to 127.0.0.1:1027
+[1685744747491] Sending Append Entries to 127.0.0.1:1026
+[1685744747492] Sending Append Entries to 127.0.0.1:1027
+[1685744747543] Sending heartbeat to 127.0.0.1:1026
+[1685744747544] Sending heartbeat to 127.0.0.1:1027
+[1685744747544] Sending Append Entries to 127.0.0.1:1026
+[1685744747545] Sending Append Entries to 127.0.0.1:1027
+[1685744747597] Sending heartbeat to 127.0.0.1:1026
+[1685744747597] Sending heartbeat to 127.0.0.1:1027
+[1685744747597] Sending Append Entries to 127.0.0.1:1026
+[1685744747598] Sending Append Entries to 127.0.0.1:1027
+[1685744747651] Sending heartbeat to 127.0.0.1:1026
+[1685744747651] Sending heartbeat to 127.0.0.1:1027
+[1685744747651] Sending Append Entries to 127.0.0.1:1026
+[1685744747652] Sending Append Entries to 127.0.0.1:1027
+[1685744747707] Sending heartbeat to 127.0.0.1:1026
+[1685744747708] Sending heartbeat to 127.0.0.1:1027
+[1685744747708] Sending Append Entries to 127.0.0.1:1026
+[1685744747709] Sending Append Entries to 127.0.0.1:1027
+[1685744747761] Sending heartbeat to 127.0.0.1:1026
+[1685744747761] Sending heartbeat to 127.0.0.1:1027
+[1685744747761] Sending Append Entries to 127.0.0.1:1026
+[1685744747762] Sending Append Entries to 127.0.0.1:1027
+[1685744747818] Sending heartbeat to 127.0.0.1:1026
+[1685744747818] Sending heartbeat to 127.0.0.1:1027
+[1685744747819] Sending Append Entries to 127.0.0.1:1026
+[1685744747819] Sending Append Entries to 127.0.0.1:1027
+[1685744747875] Sending heartbeat to 127.0.0.1:1026
+[1685744747875] Sending heartbeat to 127.0.0.1:1027
+[1685744747876] Sending Append Entries to 127.0.0.1:1026
+[1685744747876] Sending Append Entries to 127.0.0.1:1027
+[1685744747928] Sending heartbeat to 127.0.0.1:1026
+[1685744747928] Sending heartbeat to 127.0.0.1:1027
+[1685744747929] Sending Append Entries to 127.0.0.1:1026
+[1685744747929] Sending Append Entries to 127.0.0.1:1027
+[1685744747982] Sending heartbeat to 127.0.0.1:1026
+[1685744747982] Sending heartbeat to 127.0.0.1:1027
+[1685744747982] Sending Append Entries to 127.0.0.1:1026
+[1685744747983] Sending Append Entries to 127.0.0.1:1027
+[1685744748035] Sending heartbeat to 127.0.0.1:1026
+[1685744748035] Sending heartbeat to 127.0.0.1:1027
+[1685744748035] Sending Append Entries to 127.0.0.1:1027
+[1685744748036] Sending Append Entries to 127.0.0.1:1026
+[1685744748090] Sending heartbeat to 127.0.0.1:1026
+[1685744748090] Sending heartbeat to 127.0.0.1:1027
+[1685744748091] Sending Append Entries to 127.0.0.1:1026
+[1685744748091] Sending Append Entries to 127.0.0.1:1027
+[1685744748143] Sending heartbeat to 127.0.0.1:1026
+[1685744748143] Sending heartbeat to 127.0.0.1:1027
+[1685744748143] Sending Append Entries to 127.0.0.1:1027
+[1685744748143] Sending Append Entries to 127.0.0.1:1026
+[1685744748194] Sending heartbeat to 127.0.0.1:1026
+[1685744748194] Sending heartbeat to 127.0.0.1:1027
+[1685744748194] Sending Append Entries to 127.0.0.1:1026
+[1685744748194] Sending Append Entries to 127.0.0.1:1027
+[1685744748247] Sending heartbeat to 127.0.0.1:1026
+[1685744748247] Sending heartbeat to 127.0.0.1:1027
+[1685744748247] Sending Append Entries to 127.0.0.1:1027
+[1685744748247] Sending Append Entries to 127.0.0.1:1026
+[1685744748305] Sending heartbeat to 127.0.0.1:1026
+[1685744748305] Sending heartbeat to 127.0.0.1:1027
+[1685744748306] Sending Append Entries to 127.0.0.1:1026
+[1685744748306] Sending Append Entries to 127.0.0.1:1027
+[1685744748361] Sending heartbeat to 127.0.0.1:1026
+[1685744748361] Sending heartbeat to 127.0.0.1:1027
+[1685744748362] Sending Append Entries to 127.0.0.1:1026
+[1685744748362] Sending Append Entries to 127.0.0.1:1027
+[1685744748418] Sending heartbeat to 127.0.0.1:1026
+[1685744748418] Sending heartbeat to 127.0.0.1:1027
+[1685744748419] Sending Append Entries to 127.0.0.1:1026
+[1685744748419] Sending Append Entries to 127.0.0.1:1027
+[1685744748472] Sending heartbeat to 127.0.0.1:1026
+[1685744748472] Sending heartbeat to 127.0.0.1:1027
+[1685744748473] Sending Append Entries to 127.0.0.1:1027
+[1685744748473] Sending Append Entries to 127.0.0.1:1026
+[1685744748527] Sending heartbeat to 127.0.0.1:1026
+[1685744748528] Sending heartbeat to 127.0.0.1:1027
+[1685744748528] Sending Append Entries to 127.0.0.1:1026
+[1685744748529] Sending Append Entries to 127.0.0.1:1027
+[1685744748584] Sending heartbeat to 127.0.0.1:1026
+[1685744748584] Sending heartbeat to 127.0.0.1:1027
+[1685744748584] Sending Append Entries to 127.0.0.1:1026
+[1685744748584] Sending Append Entries to 127.0.0.1:1027
+[1685744748638] Sending heartbeat to 127.0.0.1:1026
+[1685744748638] Sending heartbeat to 127.0.0.1:1027
+[1685744748639] Sending Append Entries to 127.0.0.1:1026
+[1685744748639] Sending Append Entries to 127.0.0.1:1027
+[1685744748694] Sending heartbeat to 127.0.0.1:1026
+[1685744748694] Sending heartbeat to 127.0.0.1:1027
+[1685744748695] Sending Append Entries to 127.0.0.1:1026
+[1685744748695] Sending Append Entries to 127.0.0.1:1027
+[1685744748750] Sending heartbeat to 127.0.0.1:1026
+[1685744748750] Sending heartbeat to 127.0.0.1:1027
+[1685744748751] Sending Append Entries to 127.0.0.1:1026
+[1685744748751] Sending Append Entries to 127.0.0.1:1027
+[1685744748805] Sending heartbeat to 127.0.0.1:1026
+[1685744748806] Sending heartbeat to 127.0.0.1:1027
+[1685744748806] Sending Append Entries to 127.0.0.1:1026
+[1685744748807] Sending Append Entries to 127.0.0.1:1027
+[1685744748861] Sending heartbeat to 127.0.0.1:1026
+[1685744748861] Sending heartbeat to 127.0.0.1:1027
+[1685744748861] Sending Append Entries to 127.0.0.1:1027
+[1685744748862] Sending Append Entries to 127.0.0.1:1026
+[1685744748918] Sending heartbeat to 127.0.0.1:1026
+[1685744748918] Sending heartbeat to 127.0.0.1:1027
+[1685744748919] Sending Append Entries to 127.0.0.1:1026
+[1685744748919] Sending Append Entries to 127.0.0.1:1027
+[1685744748974] Sending heartbeat to 127.0.0.1:1026
+[1685744748974] Sending heartbeat to 127.0.0.1:1027
+[1685744748975] Sending Append Entries to 127.0.0.1:1026
+[1685744748975] Sending Append Entries to 127.0.0.1:1027
+[1685744749031] Sending heartbeat to 127.0.0.1:1026
+[1685744749032] Sending heartbeat to 127.0.0.1:1027
+[1685744749032] Sending Append Entries to 127.0.0.1:1026
+[1685744749033] Sending Append Entries to 127.0.0.1:1027
+[1685744749085] Sending heartbeat to 127.0.0.1:1026
+[1685744749086] Sending heartbeat to 127.0.0.1:1027
+[1685744749086] Sending Append Entries to 127.0.0.1:1026
+[1685744749087] Sending Append Entries to 127.0.0.1:1027
+[1685744749139] Sending heartbeat to 127.0.0.1:1026
+[1685744749139] Sending heartbeat to 127.0.0.1:1027
+[1685744749140] Sending Append Entries to 127.0.0.1:1026
+[1685744749141] Sending Append Entries to 127.0.0.1:1027
+[1685744749193] Sending heartbeat to 127.0.0.1:1026
+[1685744749193] Sending heartbeat to 127.0.0.1:1027
+[1685744749193] Sending Append Entries to 127.0.0.1:1026
+[1685744749194] Sending Append Entries to 127.0.0.1:1027
+[1685744749246] Sending heartbeat to 127.0.0.1:1026
+[1685744749246] Sending heartbeat to 127.0.0.1:1027
+[1685744749247] Sending Append Entries to 127.0.0.1:1026
+[1685744749247] Sending Append Entries to 127.0.0.1:1027
+[1685744749299] Sending heartbeat to 127.0.0.1:1026
+[1685744749299] Sending heartbeat to 127.0.0.1:1027
+[1685744749300] Sending Append Entries to 127.0.0.1:1027
+[1685744749300] Sending Append Entries to 127.0.0.1:1026
+[1685744749357] Sending heartbeat to 127.0.0.1:1026
+[1685744749358] Sending heartbeat to 127.0.0.1:1027
+[1685744749358] Sending Append Entries to 127.0.0.1:1026
+[1685744749359] Sending Append Entries to 127.0.0.1:1027
+[1685744749411] Sending heartbeat to 127.0.0.1:1026
+[1685744749411] Sending heartbeat to 127.0.0.1:1027
+[1685744749412] Sending Append Entries to 127.0.0.1:1026
+[1685744749412] Sending Append Entries to 127.0.0.1:1027
+[1685744749467] Sending heartbeat to 127.0.0.1:1026
+[1685744749467] Sending heartbeat to 127.0.0.1:1027
+[1685744749468] Sending Append Entries to 127.0.0.1:1027
+[1685744749468] Sending Append Entries to 127.0.0.1:1026
+[1685744749523] Sending heartbeat to 127.0.0.1:1026
+[1685744749523] Sending heartbeat to 127.0.0.1:1027
+[1685744749524] Sending Append Entries to 127.0.0.1:1026
+[1685744749524] Sending Append Entries to 127.0.0.1:1027
+[1685744749577] Sending heartbeat to 127.0.0.1:1026
+[1685744749577] Sending heartbeat to 127.0.0.1:1027
+[1685744749578] Sending Append Entries to 127.0.0.1:1026
+[1685744749578] Sending Append Entries to 127.0.0.1:1027
+[1685744749633] Sending heartbeat to 127.0.0.1:1026
+[1685744749634] Sending heartbeat to 127.0.0.1:1027
+[1685744749635] Sending Append Entries to 127.0.0.1:1026
+[1685744749635] Sending Append Entries to 127.0.0.1:1027
+[1685744749688] Sending heartbeat to 127.0.0.1:1026
+[1685744749688] Sending heartbeat to 127.0.0.1:1027
+[1685744749688] Sending Append Entries to 127.0.0.1:1026
+[1685744749688] Sending Append Entries to 127.0.0.1:1027
+[1685744749741] Sending heartbeat to 127.0.0.1:1026
+[1685744749741] Sending heartbeat to 127.0.0.1:1027
+[1685744749741] Sending Append Entries to 127.0.0.1:1027
+[1685744749742] Sending Append Entries to 127.0.0.1:1026
+[1685744749794] Sending heartbeat to 127.0.0.1:1026
+[1685744749795] Sending heartbeat to 127.0.0.1:1027
+[1685744749795] Sending Append Entries to 127.0.0.1:1026
+[1685744749795] Sending Append Entries to 127.0.0.1:1027
+[1685744749849] Sending heartbeat to 127.0.0.1:1026
+[1685744749849] Sending heartbeat to 127.0.0.1:1027
+[1685744749850] Sending Append Entries to 127.0.0.1:1026
+[1685744749850] Sending Append Entries to 127.0.0.1:1027
+[1685744749906] Sending heartbeat to 127.0.0.1:1026
+[1685744749906] Sending heartbeat to 127.0.0.1:1027
+[1685744749906] Sending Append Entries to 127.0.0.1:1027
+[1685744749907] Sending Append Entries to 127.0.0.1:1026
+[1685744749961] Sending heartbeat to 127.0.0.1:1026
+[1685744749961] Sending heartbeat to 127.0.0.1:1027
+[1685744749962] Sending Append Entries to 127.0.0.1:1026
+[1685744749962] Sending Append Entries to 127.0.0.1:1027
+[1685744750018] Sending heartbeat to 127.0.0.1:1026
+[1685744750018] Sending heartbeat to 127.0.0.1:1027
+[1685744750019] Sending Append Entries to 127.0.0.1:1026
+[1685744750020] Sending Append Entries to 127.0.0.1:1027
+[1685744750072] Sending heartbeat to 127.0.0.1:1026
+[1685744750072] Sending heartbeat to 127.0.0.1:1027
+[1685744750073] Sending Append Entries to 127.0.0.1:1026
+[1685744750073] Sending Append Entries to 127.0.0.1:1027
+[1685744750128] Sending heartbeat to 127.0.0.1:1026
+[1685744750128] Sending heartbeat to 127.0.0.1:1027
+[1685744750129] Sending Append Entries to 127.0.0.1:1026
+[1685744750129] Sending Append Entries to 127.0.0.1:1027
+[1685744750181] Sending heartbeat to 127.0.0.1:1026
+[1685744750181] Sending heartbeat to 127.0.0.1:1027
+[1685744750182] Sending Append Entries to 127.0.0.1:1026
+[1685744750183] Sending Append Entries to 127.0.0.1:1027
+[1685744750235] Sending heartbeat to 127.0.0.1:1026
+[1685744750236] Sending heartbeat to 127.0.0.1:1027
+[1685744750236] Sending Append Entries to 127.0.0.1:1026
+[1685744750237] Sending Append Entries to 127.0.0.1:1027
+[1685744750289] Sending heartbeat to 127.0.0.1:1026
+[1685744750289] Sending heartbeat to 127.0.0.1:1027
+[1685744750289] Sending Append Entries to 127.0.0.1:1026
+[1685744750289] Sending Append Entries to 127.0.0.1:1027
+[1685744750344] Sending heartbeat to 127.0.0.1:1026
+[1685744750344] Sending heartbeat to 127.0.0.1:1027
+[1685744750344] Sending Append Entries to 127.0.0.1:1026
+[1685744750345] Sending Append Entries to 127.0.0.1:1027
+[1685744750400] Sending heartbeat to 127.0.0.1:1026
+[1685744750400] Sending heartbeat to 127.0.0.1:1027
+[1685744750400] Sending Append Entries to 127.0.0.1:1026
+[1685744750401] Sending Append Entries to 127.0.0.1:1027
+[1685744750457] Sending heartbeat to 127.0.0.1:1026
+[1685744750457] Sending heartbeat to 127.0.0.1:1027
+[1685744750458] Sending Append Entries to 127.0.0.1:1027
+[1685744750458] Sending Append Entries to 127.0.0.1:1026
+[1685744750515] Sending heartbeat to 127.0.0.1:1026
+[1685744750515] Sending heartbeat to 127.0.0.1:1027
+[1685744750516] Sending Append Entries to 127.0.0.1:1026
+[1685744750516] Sending Append Entries to 127.0.0.1:1027
+[1685744750568] Sending heartbeat to 127.0.0.1:1026
+[1685744750568] Sending heartbeat to 127.0.0.1:1027
+[1685744750569] Sending Append Entries to 127.0.0.1:1026
+[1685744750569] Sending Append Entries to 127.0.0.1:1027
+[1685744750622] Sending heartbeat to 127.0.0.1:1026
+[1685744750622] Sending heartbeat to 127.0.0.1:1027
+[1685744750622] Sending Append Entries to 127.0.0.1:1026
+[1685744750623] Sending Append Entries to 127.0.0.1:1027
+[1685744750676] Sending heartbeat to 127.0.0.1:1026
+[1685744750676] Sending heartbeat to 127.0.0.1:1027
+[1685744750676] Sending Append Entries to 127.0.0.1:1026
+[1685744750677] Sending Append Entries to 127.0.0.1:1027
+[1685744750730] Sending heartbeat to 127.0.0.1:1026
+[1685744750730] Sending heartbeat to 127.0.0.1:1027
+[1685744750731] Sending Append Entries to 127.0.0.1:1026
+[1685744750731] Sending Append Entries to 127.0.0.1:1027
+[1685744750786] Sending heartbeat to 127.0.0.1:1026
+[1685744750786] Sending heartbeat to 127.0.0.1:1027
+[1685744750787] Sending Append Entries to 127.0.0.1:1027
+[1685744750787] Sending Append Entries to 127.0.0.1:1026
+[1685744750841] Sending heartbeat to 127.0.0.1:1026
+[1685744750841] Sending heartbeat to 127.0.0.1:1027
+[1685744750842] Sending Append Entries to 127.0.0.1:1026
+[1685744750842] Sending Append Entries to 127.0.0.1:1027
+[1685744750894] Sending heartbeat to 127.0.0.1:1026
+[1685744750894] Sending heartbeat to 127.0.0.1:1027
+[1685744750895] Sending Append Entries to 127.0.0.1:1026
+[1685744750895] Sending Append Entries to 127.0.0.1:1027
+[1685744750947] Sending heartbeat to 127.0.0.1:1026
+[1685744750947] Sending heartbeat to 127.0.0.1:1027
+[1685744750948] Sending Append Entries to 127.0.0.1:1026
+[1685744750948] Sending Append Entries to 127.0.0.1:1027
+[1685744751003] Sending heartbeat to 127.0.0.1:1026
+[1685744751003] Sending heartbeat to 127.0.0.1:1027
+[1685744751003] Sending Append Entries to 127.0.0.1:1026
+[1685744751004] Sending Append Entries to 127.0.0.1:1027
+[1685744751059] Sending heartbeat to 127.0.0.1:1026
+[1685744751060] Sending heartbeat to 127.0.0.1:1027
+[1685744751060] Sending Append Entries to 127.0.0.1:1026
+[1685744751061] Sending Append Entries to 127.0.0.1:1027
+[1685744751113] Sending heartbeat to 127.0.0.1:1026
+[1685744751113] Sending heartbeat to 127.0.0.1:1027
+[1685744751114] Sending Append Entries to 127.0.0.1:1026
+[1685744751114] Sending Append Entries to 127.0.0.1:1027
+[1685744751169] Sending heartbeat to 127.0.0.1:1026
+[1685744751169] Sending heartbeat to 127.0.0.1:1027
+[1685744751170] Sending Append Entries to 127.0.0.1:1026
+[1685744751170] Sending Append Entries to 127.0.0.1:1027
+[1685744751225] Sending heartbeat to 127.0.0.1:1026
+[1685744751225] Sending heartbeat to 127.0.0.1:1027
+[1685744751225] Sending Append Entries to 127.0.0.1:1026
+[1685744751225] Sending Append Entries to 127.0.0.1:1027
+[1685744751277] Sending heartbeat to 127.0.0.1:1026
+[1685744751277] Sending heartbeat to 127.0.0.1:1027
+[1685744751277] Sending Append Entries to 127.0.0.1:1026
+[1685744751278] Sending Append Entries to 127.0.0.1:1027
+[1685744751332] Sending heartbeat to 127.0.0.1:1026
+[1685744751332] Sending heartbeat to 127.0.0.1:1027
+[1685744751333] Sending Append Entries to 127.0.0.1:1026
+[1685744751333] Sending Append Entries to 127.0.0.1:1027
+[1685744751390] Sending heartbeat to 127.0.0.1:1026
+[1685744751390] Sending heartbeat to 127.0.0.1:1027
+[1685744751391] Sending Append Entries to 127.0.0.1:1026
+[1685744751391] Sending Append Entries to 127.0.0.1:1027
+[1685744751443] Sending heartbeat to 127.0.0.1:1026
+[1685744751443] Sending heartbeat to 127.0.0.1:1027
+[1685744751444] Sending Append Entries to 127.0.0.1:1026
+[1685744751444] Sending Append Entries to 127.0.0.1:1027
+[1685744751499] Sending heartbeat to 127.0.0.1:1026
+[1685744751499] Sending heartbeat to 127.0.0.1:1027
+[1685744751500] Sending Append Entries to 127.0.0.1:1026
+[1685744751500] Sending Append Entries to 127.0.0.1:1027
+[1685744751552] Sending heartbeat to 127.0.0.1:1026
+[1685744751552] Sending heartbeat to 127.0.0.1:1027
+[1685744751553] Sending Append Entries to 127.0.0.1:1026
+[1685744751553] Sending Append Entries to 127.0.0.1:1027
+[1685744751609] Sending heartbeat to 127.0.0.1:1026
+[1685744751609] Sending heartbeat to 127.0.0.1:1027
+[1685744751609] Sending Append Entries to 127.0.0.1:1026
+[1685744751610] Sending Append Entries to 127.0.0.1:1027
+[1685744751662] Sending heartbeat to 127.0.0.1:1026
+[1685744751662] Sending heartbeat to 127.0.0.1:1027
+[1685744751663] Sending Append Entries to 127.0.0.1:1026
+[1685744751663] Sending Append Entries to 127.0.0.1:1027
+[1685744751720] Sending heartbeat to 127.0.0.1:1026
+[1685744751721] Sending heartbeat to 127.0.0.1:1027
+[1685744751721] Sending Append Entries to 127.0.0.1:1026
+[1685744751722] Sending Append Entries to 127.0.0.1:1027
+[1685744751774] Sending heartbeat to 127.0.0.1:1026
+[1685744751774] Sending heartbeat to 127.0.0.1:1027
+[1685744751775] Sending Append Entries to 127.0.0.1:1027
+[1685744751775] Sending Append Entries to 127.0.0.1:1026
+[1685744751832] Sending heartbeat to 127.0.0.1:1026
+[1685744751832] Sending heartbeat to 127.0.0.1:1027
+[1685744751833] Sending Append Entries to 127.0.0.1:1026
+[1685744751833] Sending Append Entries to 127.0.0.1:1027
+[1685744751885] Sending heartbeat to 127.0.0.1:1026
+[1685744751885] Sending heartbeat to 127.0.0.1:1027
+[1685744751886] Sending Append Entries to 127.0.0.1:1026
+[1685744751886] Sending Append Entries to 127.0.0.1:1027
+[1685744751939] Sending heartbeat to 127.0.0.1:1026
+[1685744751939] Sending heartbeat to 127.0.0.1:1027
+[1685744751940] Sending Append Entries to 127.0.0.1:1026
+[1685744751940] Sending Append Entries to 127.0.0.1:1027
+[1685744751998] Sending heartbeat to 127.0.0.1:1026
+[1685744751998] Sending heartbeat to 127.0.0.1:1027
+[1685744751999] Sending Append Entries to 127.0.0.1:1026
+[1685744752000] Sending Append Entries to 127.0.0.1:1027
+[1685744752052] Sending heartbeat to 127.0.0.1:1026
+[1685744752052] Sending heartbeat to 127.0.0.1:1027
+[1685744752053] Sending Append Entries to 127.0.0.1:1026
+[1685744752053] Sending Append Entries to 127.0.0.1:1027
+[1685744752078] Received a client request
+[1685744752079] Appended log entry echo "graduating! see ya!"
+[1685744752080] Sending append entries to 127.0.0.1:1026 with entries [1685744752080] echo "graduating! see ya!" [1685744752080] 
+[1685744752080] Sending append entries to 127.0.0.1:1027 with entries [1685744752080] echo "graduating! see ya!" [1685744752080] 
+[1685744752081] Sending Append Entries to 127.0.0.1:1026
+[1685744752081] Sending Append Entries to 127.0.0.1:1027
+[1685744752085] Committing changes to persistent storage. State is now: Term: 1, Commit log index: 2, Last applied log index: 1, Last voted for: self, 
+[1685744752085] Majority have this entry. Updated commit index to 2
+[1685744752090] Command applied to state machine: echo "graduating! see ya!" Output: "graduating! see ya!" 
+[1685744752092] Committing changes to persistent storage. State is now: Term: 1, Commit log index: 2, Last applied log index: 2, Last voted for: self, 
+[1685744752092] Applied log entry to state machine 2
+[1685744752110] Sending heartbeat to 127.0.0.1:1026
+[1685744752110] Sending heartbeat to 127.0.0.1:1027
+[1685744752110] Sending Append Entries to 127.0.0.1:1027
+[1685744752111] Sending Append Entries to 127.0.0.1:1026
+[1685744752164] Sending heartbeat to 127.0.0.1:1026
+[1685744752164] Sending heartbeat to 127.0.0.1:1027
+[1685744752164] Sending Append Entries to 127.0.0.1:1026
+[1685744752165] Sending Append Entries to 127.0.0.1:1027
+[1685744752220] Sending heartbeat to 127.0.0.1:1026
+[1685744752220] Sending heartbeat to 127.0.0.1:1027
+[1685744752221] Sending Append Entries to 127.0.0.1:1026
+[1685744752221] Sending Append Entries to 127.0.0.1:1027
+[1685744752274] Sending heartbeat to 127.0.0.1:1026
+[1685744752275] Sending heartbeat to 127.0.0.1:1027
+[1685744752275] Sending Append Entries to 127.0.0.1:1026
+[1685744752276] Sending Append Entries to 127.0.0.1:1027
+[1685744752328] Sending heartbeat to 127.0.0.1:1026
+[1685744752329] Sending heartbeat to 127.0.0.1:1027
+[1685744752329] Sending Append Entries to 127.0.0.1:1026
+[1685744752330] Sending Append Entries to 127.0.0.1:1027
+[1685744752386] Sending heartbeat to 127.0.0.1:1026
+[1685744752386] Sending heartbeat to 127.0.0.1:1027
+[1685744752387] Sending Append Entries to 127.0.0.1:1026
+[1685744752387] Sending Append Entries to 127.0.0.1:1027
+[1685744752442] Sending heartbeat to 127.0.0.1:1026
+[1685744752442] Sending heartbeat to 127.0.0.1:1027
+[1685744752442] Sending Append Entries to 127.0.0.1:1026
+[1685744752443] Sending Append Entries to 127.0.0.1:1027
+[1685744752494] Sending heartbeat to 127.0.0.1:1026
+[1685744752494] Sending heartbeat to 127.0.0.1:1027
+[1685744752495] Sending Append Entries to 127.0.0.1:1026
+[1685744752495] Sending Append Entries to 127.0.0.1:1027
+[1685744752550] Sending heartbeat to 127.0.0.1:1026
+[1685744752550] Sending heartbeat to 127.0.0.1:1027
+[1685744752551] Sending Append Entries to 127.0.0.1:1026
+[1685744752552] Sending Append Entries to 127.0.0.1:1027
+[1685744752606] Sending heartbeat to 127.0.0.1:1026
+[1685744752607] Sending heartbeat to 127.0.0.1:1027
+[1685744752607] Sending Append Entries to 127.0.0.1:1026
+[1685744752607] Sending Append Entries to 127.0.0.1:1027
+[1685744752659] Sending heartbeat to 127.0.0.1:1026
+[1685744752659] Sending heartbeat to 127.0.0.1:1027
+[1685744752660] Sending Append Entries to 127.0.0.1:1026
+[1685744752661] Sending Append Entries to 127.0.0.1:1027
+[1685744752717] Sending heartbeat to 127.0.0.1:1026
+[1685744752717] Sending heartbeat to 127.0.0.1:1027
+[1685744752717] Sending Append Entries to 127.0.0.1:1026
+[1685744752718] Sending Append Entries to 127.0.0.1:1027
+[1685744752771] Sending heartbeat to 127.0.0.1:1026
+[1685744752771] Sending heartbeat to 127.0.0.1:1027
+[1685744752772] Sending Append Entries to 127.0.0.1:1026
+[1685744752772] Sending Append Entries to 127.0.0.1:1027
+[1685744752825] Sending heartbeat to 127.0.0.1:1026
+[1685744752825] Sending heartbeat to 127.0.0.1:1027
+[1685744752826] Sending Append Entries to 127.0.0.1:1026
+[1685744752826] Sending Append Entries to 127.0.0.1:1027
+[1685744752878] Sending heartbeat to 127.0.0.1:1026
+[1685744752878] Sending heartbeat to 127.0.0.1:1027
+[1685744752879] Sending Append Entries to 127.0.0.1:1026
+[1685744752879] Sending Append Entries to 127.0.0.1:1027
+[1685744752931] Sending heartbeat to 127.0.0.1:1026
+[1685744752931] Sending heartbeat to 127.0.0.1:1027
+[1685744752932] Sending Append Entries to 127.0.0.1:1026
+[1685744752932] Sending Append Entries to 127.0.0.1:1027
+[1685744752985] Sending heartbeat to 127.0.0.1:1026
+[1685744752985] Sending heartbeat to 127.0.0.1:1027
+[1685744752985] Sending Append Entries to 127.0.0.1:1026
+[1685744752985] Sending Append Entries to 127.0.0.1:1027
+[1685744753037] Sending heartbeat to 127.0.0.1:1026
+[1685744753037] Sending heartbeat to 127.0.0.1:1027
+[1685744753038] Sending Append Entries to 127.0.0.1:1027
+[1685744753038] Sending Append Entries to 127.0.0.1:1026
+[1685744753091] Sending heartbeat to 127.0.0.1:1026
+[1685744753091] Sending heartbeat to 127.0.0.1:1027
+[1685744753092] Sending Append Entries to 127.0.0.1:1026
+[1685744753093] Sending Append Entries to 127.0.0.1:1027
+[1685744753145] Sending heartbeat to 127.0.0.1:1026
+[1685744753145] Sending heartbeat to 127.0.0.1:1027
+[1685744753145] Sending Append Entries to 127.0.0.1:1026
+[1685744753146] Sending Append Entries to 127.0.0.1:1027
+[1685744753202] Sending heartbeat to 127.0.0.1:1026
+[1685744753202] Sending heartbeat to 127.0.0.1:1027
+[1685744753203] Sending Append Entries to 127.0.0.1:1026
+[1685744753203] Sending Append Entries to 127.0.0.1:1027
+[1685744753255] Sending heartbeat to 127.0.0.1:1026
+[1685744753255] Sending heartbeat to 127.0.0.1:1027
+[1685744753256] Sending Append Entries to 127.0.0.1:1026
+[1685744753256] Sending Append Entries to 127.0.0.1:1027
+[1685744753309] Sending heartbeat to 127.0.0.1:1026
+[1685744753309] Sending heartbeat to 127.0.0.1:1027
+[1685744753309] Sending Append Entries to 127.0.0.1:1026
+[1685744753309] Sending Append Entries to 127.0.0.1:1027
+[1685744753365] Sending heartbeat to 127.0.0.1:1026
+[1685744753365] Sending heartbeat to 127.0.0.1:1027
+[1685744753366] Sending Append Entries to 127.0.0.1:1026
+[1685744753366] Sending Append Entries to 127.0.0.1:1027
+[1685744753422] Sending heartbeat to 127.0.0.1:1026
+[1685744753422] Sending heartbeat to 127.0.0.1:1027
+[1685744753423] Sending Append Entries to 127.0.0.1:1026
+[1685744753423] Sending Append Entries to 127.0.0.1:1027
+[1685744753478] Sending heartbeat to 127.0.0.1:1026
+[1685744753478] Sending heartbeat to 127.0.0.1:1027
+[1685744753479] Sending Append Entries to 127.0.0.1:1026
+[1685744753480] Sending Append Entries to 127.0.0.1:1027
+[1685744753533] Sending heartbeat to 127.0.0.1:1026
+[1685744753533] Sending heartbeat to 127.0.0.1:1027
+[1685744753534] Sending Append Entries to 127.0.0.1:1026
+[1685744753534] Sending Append Entries to 127.0.0.1:1027
+[1685744753587] Sending heartbeat to 127.0.0.1:1026
+[1685744753588] Sending heartbeat to 127.0.0.1:1027
+[1685744753588] Sending Append Entries to 127.0.0.1:1026
+[1685744753589] Sending Append Entries to 127.0.0.1:1027
+[1685744753644] Sending heartbeat to 127.0.0.1:1026
+[1685744753644] Sending heartbeat to 127.0.0.1:1027
+[1685744753645] Sending Append Entries to 127.0.0.1:1027
+[1685744753646] Sending Append Entries to 127.0.0.1:1026
+[1685744753702] Sending heartbeat to 127.0.0.1:1026
+[1685744753702] Sending heartbeat to 127.0.0.1:1027
+[1685744753703] Sending Append Entries to 127.0.0.1:1026
+[1685744753704] Sending Append Entries to 127.0.0.1:1027
+[1685744753757] Sending heartbeat to 127.0.0.1:1026
+[1685744753757] Sending heartbeat to 127.0.0.1:1027
+[1685744753757] Sending Append Entries to 127.0.0.1:1027
+[1685744753757] Sending Append Entries to 127.0.0.1:1026
+[1685744753810] Sending heartbeat to 127.0.0.1:1026
+[1685744753811] Sending heartbeat to 127.0.0.1:1027
+[1685744753811] Sending Append Entries to 127.0.0.1:1026
+[1685744753812] Sending Append Entries to 127.0.0.1:1027
+[1685744753864] Sending heartbeat to 127.0.0.1:1026
+[1685744753864] Sending heartbeat to 127.0.0.1:1027
+[1685744753864] Sending Append Entries to 127.0.0.1:1026
+[1685744753865] Sending Append Entries to 127.0.0.1:1027
+[1685744753918] Sending heartbeat to 127.0.0.1:1026
+[1685744753919] Sending heartbeat to 127.0.0.1:1027
+[1685744753919] Sending Append Entries to 127.0.0.1:1026
+[1685744753919] Sending Append Entries to 127.0.0.1:1027
+[1685744753971] Sending heartbeat to 127.0.0.1:1026
+[1685744753971] Sending heartbeat to 127.0.0.1:1027
+[1685744753972] Sending Append Entries to 127.0.0.1:1026
+[1685744753972] Sending Append Entries to 127.0.0.1:1027
+[1685744754025] Sending heartbeat to 127.0.0.1:1026
+[1685744754025] Sending heartbeat to 127.0.0.1:1027
+[1685744754025] Sending Append Entries to 127.0.0.1:1026
+[1685744754026] Sending Append Entries to 127.0.0.1:1027
+[1685744754082] Sending heartbeat to 127.0.0.1:1026
+[1685744754083] Sending heartbeat to 127.0.0.1:1027
+[1685744754083] Sending Append Entries to 127.0.0.1:1026
+[1685744754084] Sending Append Entries to 127.0.0.1:1027
+[1685744754137] Sending heartbeat to 127.0.0.1:1026
+[1685744754137] Sending heartbeat to 127.0.0.1:1027
+[1685744754137] Sending Append Entries to 127.0.0.1:1027
+[1685744754138] Sending Append Entries to 127.0.0.1:1026
+[1685744754138] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754138] Append Entries send_request failed.
+[1685744754189] Sending heartbeat to 127.0.0.1:1026
+[1685744754189] Sending heartbeat to 127.0.0.1:1027
+[1685744754189] Sending Append Entries to 127.0.0.1:1026
+[1685744754190] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754190] Append Entries send_request failed.
+[1685744754190] Sending Append Entries to 127.0.0.1:1027
+[1685744754243] Sending heartbeat to 127.0.0.1:1026
+[1685744754243] Sending heartbeat to 127.0.0.1:1027
+[1685744754243] Sending Append Entries to 127.0.0.1:1026
+[1685744754243] Sending Append Entries to 127.0.0.1:1027
+[1685744754244] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754244] Append Entries send_request failed.
+[1685744754295] Sending heartbeat to 127.0.0.1:1026
+[1685744754295] Sending heartbeat to 127.0.0.1:1027
+[1685744754296] Sending Append Entries to 127.0.0.1:1026
+[1685744754297] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754297] Append Entries send_request failed.
+[1685744754297] Sending Append Entries to 127.0.0.1:1027
+[1685744754350] Sending heartbeat to 127.0.0.1:1026
+[1685744754351] Sending heartbeat to 127.0.0.1:1027
+[1685744754352] Sending Append Entries to 127.0.0.1:1026
+[1685744754352] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754352] Append Entries send_request failed.
+[1685744754352] Sending Append Entries to 127.0.0.1:1027
+[1685744754408] Sending heartbeat to 127.0.0.1:1026
+[1685744754408] Sending heartbeat to 127.0.0.1:1027
+[1685744754408] Sending Append Entries to 127.0.0.1:1027
+[1685744754409] Sending Append Entries to 127.0.0.1:1026
+[1685744754409] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754409] Append Entries send_request failed.
+[1685744754462] Sending heartbeat to 127.0.0.1:1026
+[1685744754462] Sending heartbeat to 127.0.0.1:1027
+[1685744754463] Sending Append Entries to 127.0.0.1:1026
+[1685744754463] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754463] Append Entries send_request failed.
+[1685744754464] Sending Append Entries to 127.0.0.1:1027
+[1685744754519] Sending heartbeat to 127.0.0.1:1026
+[1685744754519] Sending heartbeat to 127.0.0.1:1027
+[1685744754520] Sending Append Entries to 127.0.0.1:1026
+[1685744754520] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754520] Append Entries send_request failed.
+[1685744754520] Sending Append Entries to 127.0.0.1:1027
+[1685744754575] Sending heartbeat to 127.0.0.1:1026
+[1685744754575] Sending heartbeat to 127.0.0.1:1027
+[1685744754575] Sending Append Entries to 127.0.0.1:1026
+[1685744754575] Sending Append Entries to 127.0.0.1:1027
+[1685744754575] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754575] Append Entries send_request failed.
+[1685744754627] Sending heartbeat to 127.0.0.1:1026
+[1685744754628] Sending heartbeat to 127.0.0.1:1027
+[1685744754630] Sending Append Entries to 127.0.0.1:1026
+[1685744754630] Sending Append Entries to 127.0.0.1:1027
+[1685744754630] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754630] Append Entries send_request failed.
+[1685744754685] Sending heartbeat to 127.0.0.1:1026
+[1685744754685] Sending heartbeat to 127.0.0.1:1027
+[1685744754685] Sending Append Entries to 127.0.0.1:1026
+[[1685744754686] Sending Append Entries to 127.0.0.1:1027
+1685744754686] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754686] Append Entries send_request failed.
+[1685744754739] Sending heartbeat to 127.0.0.1:1026
+[1685744754739] Sending heartbeat to 127.0.0.1:1027
+[1685744754739] Sending Append Entries to 127.0.0.1:1026
+[1685744754739] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754739] Append Entries send_request failed.
+[1685744754739] Sending Append Entries to 127.0.0.1:1027
+[1685744754792] Sending heartbeat to 127.0.0.1:1026
+[1685744754792] Sending heartbeat to 127.0.0.1:1027
+[1685744754792] Sending Append Entries to 127.0.0.1:1026
+[1685744754793] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754793] Append Entries send_request failed.
+[1685744754793] Sending Append Entries to 127.0.0.1:1027
+[1685744754845] Sending heartbeat to 127.0.0.1:1026
+[1685744754846] Sending heartbeat to 127.0.0.1:1027
+[1685744754846] Sending Append Entries to 127.0.0.1:1026
+[1685744754847] Sending Append Entries to 127.0.0.1:1027
+[1685744754847] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754847] Append Entries send_request failed.
+[1685744754902] Sending heartbeat to 127.0.0.1:1026
+[1685744754902] Sending heartbeat to 127.0.0.1:1027
+[1685744754902] Sending Append Entries to 127.0.0.1:1027
+[1685744754903] Sending Append Entries to 127.0.0.1:1026
+[1685744754903] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754903] Append Entries send_request failed.
+[1685744754958] Sending heartbeat to 127.0.0.1:1026
+[1685744754958] Sending heartbeat to 127.0.0.1:1027
+[1685744754959] Sending Append Entries to 127.0.0.1:1026
+[1685744754959] Sending Append Entries to 127.0.0.1:1027
+[1685744754959] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744754959] Append Entries send_request failed.
+[1685744755011] Sending heartbeat to 127.0.0.1:1026
+[1685744755012] Sending heartbeat to 127.0.0.1:1027
+[1685744755012] Sending Append Entries to 127.0.0.1:1026
+[1685744755013] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755013] Append Entries send_request failed.
+[1685744755013] Sending Append Entries to 127.0.0.1:1027
+[1685744755067] Sending heartbeat to 127.0.0.1:1026
+[1685744755067] Sending heartbeat to 127.0.0.1:1027
+[1685744755068] Sending Append Entries to 127.0.0.1:1026
+[1685744755068] Sending Append Entries to 127.0.0.1:1027
+[1685744755068] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755068] Append Entries send_request failed.
+[1685744755122] Sending heartbeat to 127.0.0.1:1026
+[1685744755122] Sending heartbeat to 127.0.0.1:1027
+[1685744755123] Sending Append Entries to 127.0.0.1:1026
+[[1685744755123] Error: 1685744755123] Sending Append Entries to 127.0.0.1:1027
+Unable to connect to server: 127.0.0.1:1026
+[1685744755123] Append Entries send_request failed.
+[1685744755177] Sending heartbeat to 127.0.0.1:1026
+[1685744755177] Sending heartbeat to 127.0.0.1:1027
+[1685744755178] Sending Append Entries to 127.0.0.1:1026
+[1685744755178] Sending Append Entries to 127.0.0.1:1027
+[1685744755178] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755178] Append Entries send_request failed.
+[1685744755234] Sending heartbeat to 127.0.0.1:1026
+[1685744755234] Sending heartbeat to 127.0.0.1:1027
+[1685744755235] Sending Append Entries to 127.0.0.1:1026
+[1685744755235] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755235] Append Entries send_request failed.
+[1685744755235] Sending Append Entries to 127.0.0.1:1027
+[1685744755236] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755236] Append Entries send_request failed.
+[1685744755287] Sending heartbeat to 127.0.0.1:1026
+[1685744755288] Sending heartbeat to 127.0.0.1:1027
+[1685744755288] Sending Append Entries to 127.0.0.1:1026
+[1685744755288] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755288] Append Entries send_request failed.
+[1685744755288] Sending Append Entries to 127.0.0.1:1027
+[1685744755289] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755289] Append Entries send_request failed.
+[1685744755343] Sending heartbeat to 127.0.0.1:1026
+[1685744755343] Sending heartbeat to 127.0.0.1:1027
+[1685744755343] Sending Append Entries to 127.0.0.1:1026
+[1685744755343] Sending Append Entries to 127.0.0.1:1027
+[1685744755344] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755344] Append Entries send_request failed.
+[1685744755344] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755344] Append Entries send_request failed.
+[1685744755397] Sending heartbeat to 127.0.0.1:1026
+[1685744755397] Sending heartbeat to 127.0.0.1:1027
+[1685744755397] Sending Append Entries to 127.0.0.1:1027
+[1685744755398] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755398] Append Entries send_request failed.
+[1685744755398] Sending Append Entries to 127.0.0.1:1026
+[1685744755398] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755398] Append Entries send_request failed.
+[1685744755449] Sending heartbeat to 127.0.0.1:1026
+[1685744755449] Sending heartbeat to 127.0.0.1:1027
+[1685744755449] Sending Append Entries to 127.0.0.1:1026
+[1685744755450] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755450] Append Entries send_request failed.
+[1685744755450] Sending Append Entries to 127.0.0.1:1027
+[1685744755450] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755450] Append Entries send_request failed.
+[1685744755501] Sending heartbeat to 127.0.0.1:1026
+[1685744755501] Sending heartbeat to 127.0.0.1:1027
+[1685744755502] Sending Append Entries to 127.0.0.1:1027
+[1685744755502] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755502] Sending Append Entries to 127.0.0.1:1026
+[1685744755502] Append Entries send_request failed.
+[1685744755502] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755502] Append Entries send_request failed.
+[1685744755554] Sending heartbeat to 127.0.0.1:1026
+[1685744755555] Sending heartbeat to 127.0.0.1:1027
+[1685744755555] Sending Append Entries to 127.0.0.1:1026
+[1685744755556] Sending Append Entries to 127.0.0.1:1027
+[1685744755556] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755556] Append Entries send_request failed.
+[1685744755556] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755556] Append Entries send_request failed.
+[1685744755611] Sending heartbeat to 127.0.0.1:1026
+[1685744755611] Sending heartbeat to 127.0.0.1:1027
+[1685744755612] Sending Append Entries to 127.0.0.1:1026
+[1685744755612] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755612] Append Entries send_request failed.
+[1685744755612] Sending Append Entries to 127.0.0.1:1027
+[1685744755613] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755613] Append Entries send_request failed.
+[1685744755665] Sending heartbeat to 127.0.0.1:1026
+[1685744755665] Sending heartbeat to 127.0.0.1:1027
+[1685744755667] Sending Append Entries to 127.0.0.1:1026
+[1685744755667] Sending Append Entries to 127.0.0.1:1027[
+1685744755667] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755667] Append Entries send_request failed.
+[1685744755668] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755668] Append Entries send_request failed.
+[1685744755723] Sending heartbeat to 127.0.0.1:1026
+[1685744755723] Sending heartbeat to 127.0.0.1:1027
+[1685744755724] Sending Append Entries to 127.0.0.1:1026
+[1685744755724] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755724] Sending Append Entries to 127.0.0.1:1027
+[1685744755725] Append Entries send_request failed.
+[1685744755725] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755725] Append Entries send_request failed.
+[1685744755779] Sending heartbeat to 127.0.0.1:1026
+[1685744755779] Sending heartbeat to 127.0.0.1:1027
+[1685744755780] Sending Append Entries to 127.0.0.1:1026
+[1685744755780] Sending Append Entries to 127.0.0.1:1027
+[1685744755780] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755780] Append Entries send_request failed.
+[1685744755781] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755781] Append Entries send_request failed.
+[1685744755833] Sending heartbeat to 127.0.0.1:1026
+[1685744755833] Sending heartbeat to 127.0.0.1:1027
+[1685744755834] Sending Append Entries to 127.0.0.1:1026
+[1685744755834] Error: Unable to connect to server: 127.0.0.1:1026
+[[1685744755835] Append Entries send_request failed.
+1685744755835] Sending Append Entries to 127.0.0.1:1027
+[1685744755835] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755835] Append Entries send_request failed.
+[1685744755887] Sending heartbeat to 127.0.0.1:1026
+[1685744755887] Sending heartbeat to 127.0.0.1:1027
+[1685744755887] Sending Append Entries to 127.0.0.1:1026
+[1685744755888] Sending Append Entries to 127.0.0.1:1027
+[1685744755888] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755888] Append Entries send_request failed.
+[1685744755888] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755888] Append Entries send_request failed.
+[1685744755939] Sending heartbeat to 127.0.0.1:1026
+[1685744755940] Sending heartbeat to 127.0.0.1:1027
+[1685744755940] Sending Append Entries to 127.0.0.1:1026
+[1685744755941] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755941] Append Entries send_request failed.
+[1685744755941] Sending Append Entries to 127.0.0.1:1027
+[1685744755941] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755942] Append Entries send_request failed.
+[1685744755992] Sending heartbeat to 127.0.0.1:1026
+[1685744755992] Sending heartbeat to 127.0.0.1:1027
+[1685744755992] Sending Append Entries to 127.0.0.1:1026
+[1685744755993] Sending Append Entries to 127.0.0.1:1027
+[1685744755993] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744755993] Append Entries send_request failed.
+[1685744755993] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744755993] Append Entries send_request failed.
+[1685744756046] Sending heartbeat to 127.0.0.1:1026
+[1685744756046] Sending heartbeat to 127.0.0.1:1027
+[1685744756046] Sending Append Entries to 127.0.0.1:1026
+[1685744756047] Error: [Unable to connect to server: 127.0.0.1:1026
+[1685744756047] Append Entries send_request failed.
+1685744756047] Sending Append Entries to 127.0.0.1:1027
+[1685744756047] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744756047] Append Entries send_request failed.
+[1685744756099] Sending heartbeat to 127.0.0.1:1026
+[1685744756100] Sending heartbeat to 127.0.0.1:1027
+[1685744756100] Sending Append Entries to 127.0.0.1:1026
+[[1685744756101] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744756101] Append Entries send_request failed.
+1685744756101] Sending Append Entries to 127.0.0.1:1027
+[1685744756101] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744756101] Append Entries send_request failed.
+[1685744756157] Sending heartbeat to 127.0.0.1:1026
+[1685744756157] Sending heartbeat to 127.0.0.1:1027
+[1685744756158] Sending Append Entries to 127.0.0.1:1026
+[1685744756158] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744756158] Append Entries send_request failed.
+[1685744756158] Sending Append Entries to 127.0.0.1:1027
+[1685744756159] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744756159] Append Entries send_request failed.
+[1685744756213] Sending heartbeat to 127.0.0.1:1026
+[1685744756213] Sending heartbeat to 127.0.0.1:1027
+[1685744756213] Sending Append Entries to 127.0.0.1:1026
+[1685744756213] Sending Append Entries to 127.0.0.1:1027
+[1685744756213] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744756213] Append Entries send_request failed.
+[1685744756214] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744756214] Append Entries send_request failed.
+[1685744756268] Sending heartbeat to 127.0.0.1:1026
+[1685744756268] Sending heartbeat to 127.0.0.1:1027
+[1685744756268] Sending Append Entries to 127.0.0.1:1026
+[1685744756268] Sending Append Entries to 127.0.0.1:1027
+[1685744756268] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744756268] Append Entries send_request failed.
+[1685744756269] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744756269] Append Entries send_request failed.
+[1685744756322] Sending heartbeat to 127.0.0.1:1026
+[1685744756323] Sending heartbeat to 127.0.0.1:1027
+[1685744756324] Sending Append Entries to 127.0.0.1:1027
+[1685744756324] Sending Append Entries to 127.0.0.1:1026
+[1685744756324] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744756324] Append Entries send_request failed.
+[1685744756325] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744756325] Append Entries send_request failed.
+[1685744756377] Sending heartbeat to 127.0.0.1:1026
+[1685744756377] Sending heartbeat to 127.0.0.1:1027
+[1685744756378] Sending Append Entries to 127.0.0.1:1026
+[1685744756378] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744756378] Append Entries send_request failed.
+[1685744756378] Sending Append Entries to 127.0.0.1:1027
+[1685744756378] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744756379] Append Entries send_request failed.
+[1685744756434] Sending heartbeat to 127.0.0.1:1026
+[1685744756434] Sending heartbeat to 127.0.0.1:1027
+[1685744756435] Sending Append Entries to 127.0.0.1:1026
+[1685744756435] Sending Append Entries to 127.0.0.1:1027
+[1685744756435] Error: Unable to connect to server: 127.0.0.1:1026
+[1685744756436] Append Entries send_request failed.
+[1685744756436] Error: Unable to connect to server: 127.0.0.1:1027
+[1685744756436] Append Entries send_request failed.
