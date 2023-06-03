@@ -22,7 +22,7 @@ class QueryEngine:
         query_embedding = self.embedder.embed(text)
         logs_embeddings = [log.embedding for log in list_of_log_data]
 
-        top_matches_logs = self.__get_top_k_logs(logs_embeddings, query_embedding, list_of_log_data, 10)
+        top_matches_logs = self.__get_top_k_logs(logs_embeddings, query_embedding, list_of_log_data, 50)
 
         user_prompt = "You are a log query engine. You are given a query and a list of logs. You must return an answer to the query. \nQuery: " + text + "\nLogs: \n" + "\n".join(top_matches_logs)
         print(user_prompt)
