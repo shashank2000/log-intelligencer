@@ -21,9 +21,16 @@ for k in [5, 10, 20, 50, 100]:
         print(matched_logs)
 
 
+# TODO: make a table of results, plot of accuracy 
+
+# with k = 1
+
+
+
+
 # with k = 5
-# didn't do very well on "what servers were initialized"
-# did well on "who is the leader"
+# didn't do very well on "what servers were initialized" because not enough logs retrieved
+# did well on "who is the leader"n
 
 # with k = 10
 
