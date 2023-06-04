@@ -44,8 +44,6 @@ class QueryEngine:
         # Convert number of tokens to number of tokens per dollar (based on $0.002 / 1K tokens)
         return num_tokens / 1000 * 0.002
         
-        
-
     def __chat_with_gpt3(self, user_prompt, system_prompt):
         response = openai.ChatCompletion.create(
             model='gpt-3.5-turbo',
@@ -87,10 +85,8 @@ class QueryEngine:
             
         return top_matches_logs
 
-
     def __cosine_similarity(self, query_embedding, log_embedding):
         return np.dot(query_embedding, log_embedding) / (np.linalg.norm(query_embedding) * np.linalg.norm(log_embedding))
-
 
     def __populate_relevant_logs(self, node="", timestamp=""):
         list_of_log_data = []
