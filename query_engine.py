@@ -3,6 +3,7 @@ import embedder
 import openai
 import os
 import numpy as np
+import tiktoken
 
 openai.api_key = os.environ.get('OPENAI_API_KEY')
 
@@ -26,19 +27,31 @@ class QueryEngine:
         top_matches_logs = self.__get_top_k_logs(logs_embeddings, query_embedding, list_of_log_data, self.k)
 
         user_prompt = "Query: " + text + "\nLogs: \n" + "\n".join(top_matches_logs)
-        print(user_prompt)
-        print("length of prompt: " + str(len(user_prompt)))
-        # return "check the above bri"
-        response = self.__chat_with_gpt3(user_prompt)
-        return response, top_matches_logs
+        system_prompt = "You are a log query engine. You are given a query and a list of logs. You must return an answer to the query."
+    
+        cost = self.__get_price_of_query(text, user_prompt, system_prompt)
 
+        response = self.__chat_with_gpt3(user_prompt, system_prompt)
+        return response, top_matches_logs, cost
 
-    def __chat_with_gpt3(self, prompt):
+    def __get_price_of_query(self, query, user_prompt, system_prompt):
+        prompt = system_prompt + "\n" + user_prompt
+        enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
+        encoded = enc.encode(prompt)
+        assert enc.decode(encoded) == prompt
+        num_tokens = len(encoded)
+        
+        # Convert number of tokens to number of tokens per dollar (based on $0.002 / 1K tokens)
+        return num_tokens / 1000 * 0.002
+        
+        
+
+    def __chat_with_gpt3(self, user_prompt, system_prompt):
         response = openai.ChatCompletion.create(
             model='gpt-3.5-turbo',
             messages=[
-                {"role": "system", "content": "You are a log query engine. You are given a query and a list of logs. You must return an answer to the query."},
-                {"role": "user", "content": prompt}
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
             ],
             max_tokens=100,
             temperature=0.6,

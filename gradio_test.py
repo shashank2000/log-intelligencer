@@ -12,13 +12,13 @@ qe = query_engine.QueryEngine(db)
 
 def make_query(query):
     queries.append(query)
-    resp, matched_logs = qe.query(query, "all", "")
-    return resp, matched_logs, queries[-4:]
+    resp, matched_logs, cost = qe.query(query, "all", "")
+    return resp, matched_logs, queries[-4:], cost
 
 demo = gr.Interface(
     fn=make_query, 
     inputs=gr.Textbox(label="Query"), 
-    outputs=[gr.Textbox(label="Actual response"), gr.JSON(label="Matched logs"), gr.JSON(label="Previous queries")],
+    outputs=[gr.Textbox(label="Actual response"), gr.JSON(label="Matched logs"), gr.JSON(label="Previous queries"), gr.JSON(label="Cost")],
     title="LogIntelligencer"
 )
 demo.launch(share=True)

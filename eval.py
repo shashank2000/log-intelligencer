@@ -19,10 +19,11 @@ for k in [5, 10, 20, 50, 100]:
     qe = query_engine.QueryEngine(db, k=k)
 
     for query in queries:
-        response, matched_logs = qe.query(text=query, node="all", timestamp="")
+        response, matched_logs, cost = qe.query(text=query, node="all", timestamp="")
         print(query)
         print(response)
         print(matched_logs)
+        print("$" + str(cost))
         results[query][k] = [response, matched_logs]
 
 

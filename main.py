@@ -23,6 +23,9 @@ def ingest_data():
 
 db = ingest_data()
 
-# print("done populating db. going to query")
-# qe = query_engine.QueryEngine(db)
-# print(qe.query("What servers were initialized?", "all", ""))
+print("done populating db. going to query")
+qe = query_engine.QueryEngine(db, 5)
+response, matched_logs, cost = qe.query("Who is the leader?", "all", "")
+print(response)
+print(matched_logs)
+print("$" + str(cost))
