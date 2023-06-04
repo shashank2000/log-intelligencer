@@ -2,12 +2,16 @@ import query_engine
 from main import ingest_data
 import json 
 
+
+# TODO: better embedder test
+# TODO: some type of graph
+
+
 queries = [
     "who is the leader",
     "what servers were initialized",
     "who are the current followers",
     "what server has crashed",
-    
 ]
 
 print("initializing vector database")
@@ -31,7 +35,7 @@ for k in [5, 10, 20, 50, 100]:
 
 
 # write results to file
-with open("results.json", "w") as f:
+with open("results_2.json", "w") as f:
     print("writing results to file", results)
     json.dump(results, f)
 

@@ -19,7 +19,6 @@ class LogVectorDB:
             self.ts_to_data[data.timestamp].append(data)
         else:
             self.ts_to_data[data.timestamp] = [data]
-        
         # Add to node_to_data
         if data.node and data.node in self.node_to_data:
             self.node_to_data[data.node].append(data)

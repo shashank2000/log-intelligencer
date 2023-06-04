@@ -22,6 +22,9 @@ class LogIngestor:
                         self.logs.append(obj)
         except:
             print("Error: File " + filepath + " had an error while being processed.")
+            # print the exception
+            import traceback
+            traceback.print_exc()
             return
 
     # @brief Parses line into a Data object

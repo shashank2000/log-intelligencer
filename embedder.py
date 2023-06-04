@@ -19,8 +19,8 @@ from typing import List
 
 
 class Embedder:
-    # TODO: all-mpnet-base-v2
-    def __init__(self, ckpt_path='distilbert-base-nli-stsb-mean-tokens', use_openai=False):
+    # TODO: all-mpnet-base-v2 vs distilbert-base-nli-stsb-mean-tokens
+    def __init__(self, ckpt_path='all-mpnet-base-v2', use_openai=False):
         # Load a pre-trained SBERT model
         # TODO: GPU inference and batched inference and caching and on a serverless GPU?
         self.model = SentenceTransformer(ckpt_path)
