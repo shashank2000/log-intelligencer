@@ -25,8 +25,9 @@ class QueryEngine:
 
         top_matches_logs = self.__get_top_k_logs(logs_embeddings, query_embedding, list_of_log_data, self.k)
 
-        user_prompt = "You are a log query engine. You are given a query and a list of logs. You must return an answer to the query. \nQuery: " + text + "\nLogs: \n" + "\n".join(top_matches_logs)
+        user_prompt = "Query: " + text + "\nLogs: \n" + "\n".join(top_matches_logs)
         print(user_prompt)
+        print("length of prompt: " + str(len(user_prompt)))
         # return "check the above bri"
         response = self.__chat_with_gpt3(user_prompt)
         return response, top_matches_logs
@@ -36,7 +37,7 @@ class QueryEngine:
         response = openai.ChatCompletion.create(
             model='gpt-3.5-turbo',
             messages=[
-                {"role": "system", "content": prompt},
+                {"role": "system", "content": "You are a log query engine. You are given a query and a list of logs. You must return an answer to the query."},
                 {"role": "user", "content": prompt}
             ],
             max_tokens=100,

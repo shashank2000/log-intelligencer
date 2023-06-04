@@ -1,5 +1,6 @@
 import query_engine
 from main import ingest_data
+import json 
 
 queries = [
     "who is the leader",
@@ -9,8 +10,11 @@ queries = [
 print("initializing vector database")
 db = ingest_data()
 
+from collections import defaultdict
+results = defaultdict(dict)
+
+# 5, 10, 20, 50, 100
 for k in [5, 10, 20, 50, 100]:
-    breakpoint()
     print("k = " + str(k))
     qe = query_engine.QueryEngine(db, k=k)
 
@@ -19,7 +23,13 @@ for k in [5, 10, 20, 50, 100]:
         print(query)
         print(response)
         print(matched_logs)
+        results[query][k] = [response, matched_logs]
 
+
+# write results to file
+with open("results.json", "w") as f:
+    print("writing results to file", results)
+    json.dump(results, f)
 
 # TODO: make a table of results, plot of accuracy 
 
