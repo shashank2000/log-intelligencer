@@ -101,6 +101,7 @@ class QueryEngine:
                 for key in self.db.get_keys("node"):
                     node_logs = self.db.get_by(key, "node")
                     list_of_log_data.extend(node_logs)
+                
             else:
                 list_of_log_data.extend(self.db.get_by(node, "node"))
         if (timestamp != ""):

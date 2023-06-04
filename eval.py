@@ -5,6 +5,9 @@ import json
 queries = [
     "who is the leader",
     "what servers were initialized",
+    "who are the current followers",
+    "what server has crashed",
+    
 ]
 
 print("initializing vector database")
