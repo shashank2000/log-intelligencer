@@ -66,8 +66,11 @@ class QueryEngine:
                     top_matches.remove(min_similarity)
                     top_matches.append((index, similarity, log_embedding))
 
-        # Give the query and the top matches to GPT-3 to generate a response
-        top_matches_logs = [list_of_log_data[index].text for index, similarity, log_embedding in top_matches]
+        # Return the top-k matches as a list of log text in order of timestamp
+        top_matches_logs = []
+        for match in sorted(top_matches, key=lambda x: list_of_log_data[x[0]].timestamp):
+            top_matches_logs.append(list_of_log_data[match[0]].text)
+            
         return top_matches_logs
 
 
