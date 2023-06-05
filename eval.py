@@ -12,6 +12,7 @@ queries = [
     "what servers were initialized",
     "who are the current followers",
     "what server has crashed",
+    "describe the last election"
 ]
 
 print("initializing vector database")
@@ -31,11 +32,11 @@ for k in [5, 10, 20, 50, 100]:
         print(response)
         print(matched_logs)
         print("$" + str(cost))
-        results[query][k] = [response, matched_logs]
+        results[query][k] = {"response": response, "matched_logs": matched_logs, "cost": cost}
 
 
 # write results to file
-with open("results_2.json", "w") as f:
+with open("results_3.json", "w") as f:
     print("writing results to file", results)
     json.dump(results, f)
 

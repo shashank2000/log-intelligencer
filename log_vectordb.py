@@ -32,7 +32,6 @@ class LogVectorDB:
     def get_by(self, key, type):
         if self.redisdb:
             return self.redisdb.get(key) 
-        
         if type == "timestamp":
             return self.ts_to_data[key]
         elif type == "node":
