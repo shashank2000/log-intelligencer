@@ -17,6 +17,7 @@ class QueryEngine:
     # @input Question to query by
     # @input Node id (optional). If set to "all", will query all nodes
     # @input Timestamp (optional)
+    # @return Response from GPT-3, list of top-k logs, cost of query
     def query(self, text, node="", timestamp=""):
         list_of_log_data = self.__populate_relevant_logs(node, timestamp)
 
@@ -34,6 +35,11 @@ class QueryEngine:
         response = self.__chat_with_gpt3(user_prompt, system_prompt)
         return response, top_matches_logs, cost
 
+    # @brief Returns the price of the query
+    # @input Question to query by
+    # @input User prompt
+    # @input System prompt
+    # @return Price of query
     def __get_price_of_query(self, query, user_prompt, system_prompt):
         prompt = system_prompt + "\n" + user_prompt
         enc = tiktoken.encoding_for_model("gpt-3.5-turbo")
@@ -44,8 +50,10 @@ class QueryEngine:
         # Convert number of tokens to number of tokens per dollar (based on $0.002 / 1K tokens)
         return num_tokens / 1000 * 0.002
         
-        
-
+    # @brief Asks ChatGPT-3 for the answer to the query
+    # @input User prompt
+    # @input System prompt
+    # @return Response from GPT-3
     def __chat_with_gpt3(self, user_prompt, system_prompt):
         response = openai.ChatCompletion.create(
             model='gpt-3.5-turbo',
@@ -66,6 +74,12 @@ class QueryEngine:
         else:
             return ''
 
+    # @brief Returns the top-k logs that match the query
+    # @input List of log embeddings
+    # @input Query embedding
+    # @input List of log data (i.e. text, timestamp, metadata relevant to each log n it's embedding)
+    # @input k (number of top matches to return)
+    # @return List of top-k logs
     def __get_top_k_logs(self, logs_embeddings, query_embedding, list_of_log_data, k):
         # Compare the query embedding to each log embedding. Return the top-k matches.
         top_matches = []
@@ -87,12 +101,18 @@ class QueryEngine:
             
         return top_matches_logs
 
+    # @brief Returns the cosine similarity between two vectors
+    # @input Vector 1
+    # @input Vector 2
+    # @return Cosine similarity between the two vectors
+    def __cosine_similarity(self, v1, v2):
+        return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
 
-    def __cosine_similarity(self, query_embedding, log_embedding):
-        return np.dot(query_embedding, log_embedding) / (np.linalg.norm(query_embedding) * np.linalg.norm(log_embedding))
-
-
-    def __populate_relevant_logs(self, node="", timestamp=""):
+    # @brief Returns a list of log data that match the given node and timestamp
+    # @input Node id (optional). If set to "all", will query all nodes (default)
+    # @input Timestamp (optional)
+    # @return List of log data
+    def __populate_relevant_logs(self, node="all", timestamp=""):
         list_of_log_data = []
         if (node != ""):
             # Filter based on node questions
